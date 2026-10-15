@@ -1,0 +1,90 @@
+/* Eat&Go Template 631 - Clean Crisp Header Image without blur/gradient */
+html body .elementor-631 div.elementor-element.elementor-element-c02covr,
+html body div.elementor-element.elementor-element-c02covr {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 220px !important;
+  border-top-left-radius: 24px !important;
+  border-top-right-radius: 24px !important;
+}
+
+html body .elementor-631 div.elementor-element.elementor-element-c02covr::before,
+html body div.elementor-element.elementor-element-c02covr::before {
+  display: none !important;
+  content: none !important;
+  opacity: 0 !important;
+  background: none !important;
+}
+
+html body .elementor-631 div.elementor-element.elementor-element-c02covr > *,
+html body div.elementor-element.elementor-element-c02covr > * {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+html body .e-loop-item-646 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Pollo-frito.png") !important;
+}
+html body .e-loop-item-642 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-6.png") !important;
+}
+html body .e-loop-item-640 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Costilla-de-res-guisada.png") !important;
+}
+html body .e-loop-item-635 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Arroz-con-puerco.png") !important;
+}
+html body .e-loop-item-615 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Pernil-al-horno-a-la-naranja.png") !important;
+}
+html body .e-loop-item-608 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Carne-guisada2.png") !important;
+}
+html body .e-loop-item-593 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Mondongo-a-la-culona.png") !important;
+}
+html body .e-loop-item-578 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-panameno_EatGo.png") !important;
+}
+html body .e-loop-item-573 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-con-tortillas_EatGo.png") !important;
+}
+html body .e-loop-item-527 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-con-hojaldre_EatGo.png") !important;
+}
+html body .e-loop-item-514 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Bofe-con-tortilla-y-holadre_EatGo.png") !important;
+}
+html body .e-loop-item-495 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Bofe-con-tortilla_EatGo.png") !important;
+}
+html body .e-loop-item-485 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/BOFE-CON-HOLADRE_EATGO.png") !important;
+}
+html body .e-loop-item-478 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Desayuno-EatGo.png") !important;
+}
+html body .e-loop-item-459 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Salchica-guisada-con-tortilla_EatGo.png") !important;
+}
+html body .e-loop-item-456 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Holajdre-con-salchicha_EatGo2.png") !important;
+}
+html body .e-loop-item-446 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-pata-con-rabito_EatGo.png") !important;
+}
+html body .e-loop-item-423 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Ropa-Vieja_EatGo.png") !important;
+}
+html body .e-loop-item-420 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-res-con-rabito_EatGo.png") !important;
+}
+html body .e-loop-item-154 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Costilla-BBQ_EatGo2.png") !important;
+}
+html body .e-loop-item-97 div.elementor-element.elementor-element-c02covr {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Pollo-al-Horno_EatGo.png") !important;
+}

@@ -1,0 +1,123 @@
+/* Eat&Go Background & Aesthetic Fix - Comprehensive Products Mapping */
+html body .elementor-190 div.elementor-element.elementor-element-1e4962ce,
+html body div.elementor-element.elementor-element-1e4962ce {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+html body .elementor-190 div.elementor-element.elementor-element-1e4962ce::before,
+html body div.elementor-element.elementor-element-1e4962ce::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  opacity: 1 !important;
+  background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 45%, rgba(0,0,0,0.95) 75%) !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+html body .elementor-190 div.elementor-element.elementor-element-1e4962ce > *,
+html body div.elementor-element.elementor-element-1e4962ce > * {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* All WooCommerce Products - Background Mapping */
+html body .e-loop-item-640 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Costilla-de-res-guisada.png") !important;
+}
+html body .e-loop-item-635 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Arroz-con-puerco.png") !important;
+}
+html body .e-loop-item-615 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Pernil-al-horno-a-la-naranja.png") !important;
+}
+html body .e-loop-item-608 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Carne-guisada2.png") !important;
+}
+html body .e-loop-item-593 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Mondongo-a-la-culona.png") !important;
+}
+html body .e-loop-item-578 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-panameno_EatGo.png") !important;
+}
+html body .e-loop-item-573 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-con-tortillas_EatGo.png") !important;
+}
+html body .e-loop-item-527 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Higado-encebollado-con-hojaldre_EatGo.png") !important;
+}
+html body .e-loop-item-514 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Bofe-con-tortilla-y-holadre_EatGo.png") !important;
+}
+html body .e-loop-item-495 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Bofe-con-tortilla_EatGo.png") !important;
+}
+html body .e-loop-item-485 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/BOFE-CON-HOLADRE_EATGO.png") !important;
+}
+html body .e-loop-item-478 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Desayuno-EatGo.png") !important;
+}
+html body .e-loop-item-459 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Salchica-guisada-con-tortilla_EatGo.png") !important;
+}
+html body .e-loop-item-456 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Holajdre-con-salchicha_EatGo2.png") !important;
+}
+html body .e-loop-item-446 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-pata-con-rabito_EatGo.png") !important;
+}
+html body .e-loop-item-423 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Ropa-Vieja_EatGo.png") !important;
+}
+html body .e-loop-item-420 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-res-con-rabito_EatGo.png") !important;
+}
+html body .e-loop-item-154 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Costilla-BBQ_EatGo2.png") !important;
+}
+html body .e-loop-item-97 div.elementor-element.elementor-element-1e4962ce {
+  background-image: url("https://eatgopty.com/wp-content/uploads/2026/09/Pollo-al-Horno_EatGo.png") !important;
+}
+
+/* High Contrast Titles & Descriptions */
+html body .elementor-190 .elementor-element.elementor-element-6a7b8c5 .elementor-heading-title {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6) !important;
+}
+html body .elementor-190 .elementor-element.elementor-element-7b8c9d6 {
+  color: #D4D4D8 !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7) !important;
+}
+
+/* Bottom Action Row Alignment & Garnish text */
+html body .elementor-190 .elementor-element.elementor-element-8c9d0e7 {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+
+html body .elementor-190 .elementor-element.elementor-element-8c9d0e7::before {
+  content: "Incluye guarnición criolla" !important;
+  font-family: inherit !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #E4E4E7 !important;
+  display: inline-block !important;
+  margin-right: auto !important;
+  line-height: 1.2 !important;
+}
+
+html body .elementor-190 .elementor-element.elementor-element-9d0e1f8 {
+  margin-left: auto !important;
+}

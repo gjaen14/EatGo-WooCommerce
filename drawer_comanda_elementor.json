@@ -1,0 +1,700 @@
+{
+  "version": "0.4",
+  "title": "Eat&Go - Drawer Comanda Digital",
+  "type": "popup",
+  "page_settings": {
+    "width": { "unit": "px", "size": 460 },
+    "width_mobile": { "unit": "%", "size": 100 },
+    "height_type": "fit_to_screen",
+    "custom_height": { "unit": "vh", "size": 100 },
+    "horizontal_position": "right",
+    "vertical_position": "top",
+    "content_position": "top",
+    "overlay": "yes",
+    "overlay_color": "rgba(0,0,0,0.6)",
+    "close_button": "yes",
+    "close_button_position": "inside",
+    "entrance_animation": "slideInRight",
+    "animation_duration": { "unit": "px", "size": 0.4 },
+    "a11y_navigation": "yes",
+    "prevent_scroll": "yes"
+  },
+  "content": [
+    {
+      "id": "eag0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "space-between",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "custom_css": "selector { width: 460px; max-width: 100%; height: 100vh; overflow: hidden; display: flex; flex-direction: column; font-family: 'Open Sans', sans-serif; }"
+      },
+      "elements": [
+        {
+          "id": "eag0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": { "unit": "px", "top": "16", "right": "20", "bottom": "16", "left": "20", "isLinked": false },
+            "background_background": "classic",
+            "background_color": "#1C1917"
+          },
+          "elements": [
+            {
+              "id": "eag0003",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 12 }
+              },
+              "elements": [
+                {
+                  "id": "eag0004",
+                  "elType": "container",
+                  "settings": {
+                    "width": { "unit": "px", "size": 34 },
+                    "height": { "unit": "px", "size": 34 },
+                    "background_background": "classic",
+                    "background_color": "#F59E0B",
+                    "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                    "flex_justify_content": "center",
+                    "flex_align_items": "center"
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0005",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "EG",
+                        "title_color": "#0C0A09",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": { "unit": "px", "size": 13 },
+                        "typography_font_weight": "900"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "eag0006",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 2 }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0007",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Comanda Digital",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": { "unit": "px", "size": 16 },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "eag0008",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"margin:0; font-size:11px; color:#A8A29E;\">1 plato en tu pedido</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eag0009",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 8 }
+              },
+              "elements": [
+                {
+                  "id": "eag0010",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Vaciar",
+                    "button_text_color": "#A8A29E",
+                    "background_color": "transparent",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": { "unit": "px", "size": 11 }
+                  }
+                },
+                {
+                  "id": "eag0011",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "✕",
+                    "button_text_color": "#D6D3D1",
+                    "background_color": "#292524",
+                    "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                    "typography_typography": "custom",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "700",
+                    "custom_css": "selector a { width:32px; height:32px; display:flex; align-items:center; justify-content:center; padding:0; }"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eag0012",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "size": 16 },
+            "padding": { "unit": "px", "top": "16", "right": "20", "bottom": "16", "left": "20", "isLinked": false },
+            "custom_css": "selector { flex: 1; overflow-y: auto; }"
+          },
+          "elements": [
+            {
+              "id": "eag0013",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 8 }
+              },
+              "elements": [
+                {
+                  "id": "eag0014",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "PLATOS EN LA COMANDA",
+                    "title_color": "#1C1917",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "900"
+                  }
+                },
+                {
+                  "id": "eag0015",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 10 },
+                    "background_background": "classic",
+                    "background_color": "#FAFAF9",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E7E5E4",
+                    "border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                    "padding": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0016",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "flex-start"
+                      },
+                      "elements": [
+                        {
+                          "id": "eag0017",
+                          "elType": "container",
+                          "settings": {
+                            "flex_direction": "column",
+                            "flex_gap": { "unit": "px", "size": 4 }
+                          },
+                          "elements": [
+                            {
+                              "id": "eag0018",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Pollo al Horno Especial",
+                                "title_color": "#1C1917",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Open Sans",
+                                "typography_font_size": { "unit": "px", "size": 14 },
+                                "typography_font_weight": "700"
+                              }
+                            },
+                            {
+                              "id": "eag0019",
+                              "elType": "widget",
+                              "widgetType": "text-editor",
+                              "settings": {
+                                "editor": "<p style=\"margin:0; font-size:11px; color:#78716C; line-height:1.4;\"><span style=\"color:#B45309; font-weight:600;\">• Guarnición:</span> Arroz con Guandú y Plátano Maduro<br><span style=\"color:#047857; font-weight:600;\">• Bebida:</span> Chicha de Limón Sellada</p>"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "eag0020",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "$7.50",
+                            "title_color": "#1C1917",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Open Sans",
+                            "typography_font_size": { "unit": "px", "size": 14 },
+                            "typography_font_weight": "900"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "eag0021",
+                      "elType": "widget",
+                      "widgetType": "divider",
+                      "settings": {
+                        "color": "#E7E5E4",
+                        "weight": { "unit": "px", "size": 1 }
+                      }
+                    },
+                    {
+                      "id": "eag0022",
+                      "elType": "container",
+                      "settings": {
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "eag0023",
+                          "elType": "container",
+                          "settings": {
+                            "flex_direction": "row",
+                            "flex_align_items": "center",
+                            "background_background": "classic",
+                            "background_color": "#FFFFFF",
+                            "border_border": "solid",
+                            "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                            "border_color": "#D6D3D1",
+                            "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true },
+                            "padding": { "unit": "px", "top": "2", "right": "6", "bottom": "2", "left": "6", "isLinked": false }
+                          },
+                          "elements": [
+                            {
+                              "id": "eag0024",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "-",
+                                "button_text_color": "#57534E",
+                                "background_color": "transparent",
+                                "typography_typography": "custom",
+                                "typography_font_size": { "unit": "px", "size": 14 },
+                                "typography_font_weight": "700"
+                              }
+                            },
+                            {
+                              "id": "eag0025",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "1",
+                                "title_color": "#0C0A09",
+                                "typography_typography": "custom",
+                                "typography_font_size": { "unit": "px", "size": 12 },
+                                "typography_font_weight": "900"
+                              }
+                            },
+                            {
+                              "id": "eag0026",
+                              "elType": "widget",
+                              "widgetType": "button",
+                              "settings": {
+                                "text": "+",
+                                "button_text_color": "#57534E",
+                                "background_color": "transparent",
+                                "typography_typography": "custom",
+                                "typography_font_size": { "unit": "px", "size": 14 },
+                                "typography_font_weight": "700"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "id": "eag0027",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "🗑️",
+                            "button_text_color": "#A8A29E",
+                            "background_color": "transparent",
+                            "typography_typography": "custom",
+                            "typography_font_size": { "unit": "px", "size": 14 }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eag0028",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 8 },
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+                "border_color": "#E7E5E4",
+                "padding": { "unit": "px", "top": "14", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eag0029",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MODALIDAD DE ENTREGA",
+                    "title_color": "#1C1917",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "900"
+                  }
+                },
+                {
+                  "id": "eag0030",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": { "unit": "px", "size": 8 }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0031",
+                      "elType": "container",
+                      "settings": {
+                        "width": { "unit": "%", "size": 50 },
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 2 },
+                        "background_background": "classic",
+                        "background_color": "#FFFBEB",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                        "border_color": "#F59E0B",
+                        "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                        "padding": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "eag0032",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Delivery a Oficina",
+                            "title_color": "#0C0A09",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Open Sans",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "700"
+                          }
+                        },
+                        {
+                          "id": "eag0033",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p style=\"margin:0; font-size:11px; color:#78716C;\">En 15-25 min (+$1.50)</p>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "eag0034",
+                      "elType": "container",
+                      "settings": {
+                        "width": { "unit": "%", "size": 50 },
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 2 },
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "#E7E5E4",
+                        "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                        "padding": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "eag0035",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Retiro sin Fila",
+                            "title_color": "#44403C",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Open Sans",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "700"
+                          }
+                        },
+                        {
+                          "id": "eag0036",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p style=\"margin:0; font-size:11px; color:#78716C;\">Mostrador Express (Gratis)</p>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eag0037",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 10 },
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+                "border_color": "#E7E5E4",
+                "padding": { "unit": "px", "top": "14", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eag0038",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "DATOS DE DESPACHO",
+                    "title_color": "#1C1917",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "900"
+                  }
+                },
+                {
+                  "id": "eag0039",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": { "unit": "px", "size": 8 }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0040",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0041",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Nombre</label><input type=\"text\" placeholder=\"Tu nombre\" style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; outline:none; box-sizing:border-box;\">"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "eag0042",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0043",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Teléfono / WhatsApp</label><input type=\"tel\" placeholder=\"6234-5678\" style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; outline:none; box-sizing:border-box;\">"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "eag0044",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": { "unit": "px", "size": 8 }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0045",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0046",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Edificio / Torre</label><input type=\"text\" placeholder=\"Ej: Torre Global Bank\" style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; outline:none; box-sizing:border-box;\">"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "eag0047",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0048",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Piso / Oficina</label><input type=\"text\" placeholder=\"Ej: Piso 14, Of. 1402\" style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; outline:none; box-sizing:border-box;\">"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "eag0049",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": { "unit": "px", "size": 8 }
+                  },
+                  "elements": [
+                    {
+                      "id": "eag0050",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0051",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Hora de Entrega</label><select style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; background:#fff; outline:none; box-sizing:border-box;\"><option>Inmediato (15-25 min)</option><option>11:45 AM</option><option>12:00 MD</option><option>12:30 PM</option><option>1:00 PM</option></select>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "eag0052",
+                      "elType": "container",
+                      "settings": { "width": { "unit": "%", "size": 50 } },
+                      "elements": [
+                        {
+                          "id": "eag0053",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<label style=\"display:block; font-size:11px; font-weight:700; color:#44403c; margin-bottom:4px;\">Método de Pago</label><select style=\"width:100%; padding:8px 10px; font-size:12px; border:1px solid #d6d3d1; border-radius:8px; background:#fff; outline:none; box-sizing:border-box;\"><option>Yappy Directo</option><option>Tarjeta / Clave</option><option>Efectivo Exacto</option></select>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "eag0054",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 6 },
+                "background_background": "classic",
+                "background_color": "#FAFAF9",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#E7E5E4",
+                "border_radius": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true },
+                "padding": { "unit": "px", "top": "14", "right": "14", "bottom": "14", "left": "14", "isLinked": true }
+              },
+              "elements": [
+                {
+                  "id": "eag0055",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"display:flex; justify-content:space-between; font-size:12px; color:#57534E; margin-bottom:4px;\"><span>Subtotal alimentos:</span><span style=\"font-weight:700; color:#1C1917;\">$7.50</span></div><div style=\"display:flex; justify-content:space-between; font-size:12px; color:#57534E; margin-bottom:4px;\"><span>Empaque térmico trilaminado 🛡:</span><span style=\"font-weight:700; color:#1C1917;\">$0.50</span></div><div style=\"display:flex; justify-content:space-between; font-size:12px; color:#57534E; margin-bottom:4px;\"><span>Despacho express a oficina:</span><span style=\"font-weight:700; color:#1C1917;\">$1.50</span></div><hr style=\"border:none; border-top:1px solid #E7E5E4; margin:8px 0;\"><div style=\"display:flex; justify-content:space-between; align-items:center; font-size:14px; font-weight:900; color:#0C0A09;\"><span>Total a Pagar:</span><span style=\"font-size:16px; color:#B45309;\">$9.50</span></div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eag0056",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": { "unit": "px", "size": 8 },
+            "background_background": "classic",
+            "background_color": "#F5F5F4",
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+            "border_color": "#E7E5E4",
+            "padding": { "unit": "px", "top": "16", "right": "20", "bottom": "16", "left": "20", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "eag0057",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "✈️ Despachar Comanda por WhatsApp ($9.50)",
+                "link": { "url": "https://wa.me/50762345678", "is_external": "true" },
+                "button_text_color": "#0C0A09",
+                "background_color": "#00C853",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_font_weight": "900",
+                "padding": { "unit": "px", "top": "14", "right": "16", "bottom": "14", "left": "16", "isLinked": false },
+                "custom_css": "selector a { width:100%; box-shadow:0 4px 12px rgba(0,200,83,0.35); text-align:center; }"
+              }
+            },
+            {
+              "id": "eag0058",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "📋 Copiar texto de comanda",
+                "button_text_color": "#44403C",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                "border_color": "#D6D3D1",
+                "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "padding": { "unit": "px", "top": "10", "right": "14", "bottom": "10", "left": "14", "isLinked": false },
+                "custom_css": "selector a { width:100%; text-align:center; }"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

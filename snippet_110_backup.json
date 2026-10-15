@@ -1,0 +1,86 @@
+{
+  "id": 110,
+  "date": "2026-09-20T02:14:12",
+  "date_gmt": "2026-09-20T02:14:12",
+  "guid": {
+    "rendered": "https://eatgopty.com/?elementor_snippet=eatgo-carousel-controller",
+    "raw": "https://eatgopty.com/?elementor_snippet=eatgo-carousel-controller"
+  },
+  "modified": "2026-10-03T23:05:20",
+  "modified_gmt": "2026-10-03T23:05:20",
+  "password": "",
+  "slug": "eatgo-carousel-controller",
+  "status": "publish",
+  "type": "elementor_snippet",
+  "link": "https://eatgopty.com/?elementor_snippet=eatgo-carousel-controller",
+  "title": {
+    "raw": "EatGo Platos Destacados Carousel",
+    "rendered": "EatGo Platos Destacados Carousel"
+  },
+  "author": 1,
+  "template": "",
+  "meta": {
+    "_elementor_location": "elementor_body_end",
+    "_elementor_priority": 1,
+    "_elementor_code": "<script>\n/* Eat&Go - Dynamic WPC Quick View Product ID Resolver (Bulletproof) */\njQuery(function($) {\n  function getProductIdFromElement($el) {\n    var rawId = $el.attr(\"data-id\") || $el.attr(\"data-pid\") || $el.attr(\"data-product_id\") || \"\";\n    if (rawId && !isNaN(rawId) && rawId.indexOf(\"[\") === -1) {\n      return parseInt(rawId, 10);\n    }\n    var $card = $el.closest(\".e-loop-item, [class*=\\\"post-\\\"], [class*=\\\"product-\\\"], article, .elementor-element.e-con\");\n    var classList = ($card.attr(\"class\") || \"\") + \" \" + ($el.closest(\"[class*=\\\"post-\\\"]\").attr(\"class\") || \"\");\n    var match = classList.match(/(?:post|product|e-loop-item)-(\\d+)/);\n    if (match && match[1]) {\n      return parseInt(match[1], 10);\n    }\n    return null;\n  }\n\n  function syncWoosqProductIds() {\n    $(\".woosq-btn, .elementor-element-9d0e1f8 a, .elementor-element-9d0e1f8, [class*=\\\"btn_add_\\\"]\").each(function() {\n      var $btn = $(this).is(\"a\") ? $(this) : $(this).find(\"a\").addBack().filter(\"a\").first();\n      if (!$btn.length) $btn = $(this);\n      \n      var id = getProductIdFromElement($btn);\n      if (id) {\n        $btn.attr(\"data-id\", id);\n        $btn.attr(\"data-pid\", id);\n        $btn.attr(\"data-product_id\", id);\n        $btn.addClass(\"woosq-btn\");\n      }\n    });\n  }\n\n  $(document.body).on(\"woosq_loaded\", function() {\n    var $cart = $(\".woosq-product form.cart\");\n    if ($cart.length && !$cart.find(\".eatgo-thermal-banner\").length) {\n      var bannerHtml = '<div class=\"eatgo-thermal-banner\" style=\"display:flex !important;align-items:center !important;width:100% !important;background-color:#ECFDF5 !important;border:1px solid #A7F3D0 !important;border-radius:12px !important;padding:10px 14px !important;margin-bottom:16px !important;box-sizing:border-box !important;font-family:sans-serif !important;font-size:12px !important;font-weight:700 !important;color:#065F46 !important;line-height:1.35 !important;\">\ud83d\udee1\ufe0f Despachado en empaque t\u00e9rmico compartimentado de alta retenci\u00f3n cal\u00f3rica</div>';\n      $cart.prepend(bannerHtml);\n    }\n  });\n\n  syncWoosqProductIds();\n  $(document).ajaxComplete(syncWoosqProductIds);\n  setInterval(syncWoosqProductIds, 800);\n\n  $(document).on(\"click\", \".woosq-btn, .elementor-element-9d0e1f8 a, .elementor-element-9d0e1f8, [class*=\\\"btn_add_\\\"]\", function(e) {\n    var $btn = $(this).is(\"a\") ? $(this) : $(this).find(\"a\").addBack().filter(\"a\").first();\n    if (!$btn.length) $btn = $(this);\n\n    var id = getProductIdFromElement($btn);\n    if (id) {\n      $btn.attr(\"data-id\", id);\n      $btn.attr(\"data-pid\", id);\n      $btn.attr(\"data-product_id\", id);\n      if (typeof woosq_open === \"function\") {\n        woosq_open(id);\n        e.preventDefault();\n        e.stopImmediatePropagation();\n      }\n    }\n  });\n});\n</script>\n\n<style>\n/* ========================================================\n   EAT&GO: BACKDROP SUAVE Y ELEGANTE (SIN FONDO NEGRO PESADO)\n   ======================================================== */\n\n.mfp-bg {\n  background: rgba(15, 23, 42, 0.45) !important; /* Oscurecido tenue y transl\u00facido */\n  backdrop-filter: blur(4px) !important;\n  -webkit-backdrop-filter: blur(4px) !important;\n  opacity: 1 !important;\n}\n\n/* OCULTAR FLECHAS FLOTANTES DE NAVEGACI\u00d3N ENTRE PRODUCTOS */\n.mfp-arrow,\n.mfp-arrow-left,\n.mfp-arrow-right,\n.mfp-woosq .mfp-arrow,\nbutton.mfp-arrow {\n  display: none !important;\n  visibility: hidden !important;\n  opacity: 0 !important;\n  pointer-events: none !important;\n}\n\n/* 1. CONTENEDOR PRINCIPAL DEL MODAL */\n.woosq-popup {\n  max-width: 480px !important;\n  width: 92% !important;\n  height: auto !important;\n  max-height: 90vh !important;\n  border-radius: 24px !important;\n  overflow-y: auto !important;\n  overflow-x: hidden !important;\n  background: #FFFFFF !important;\n  padding: 0 !important;\n  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;\n  margin: 20px auto !important;\n  position: relative !important;\n}\n\n.woosq-product,\n.woosq-product .product,\n.woosq-product > .product {\n  display: flex !important;\n  flex-direction: column !important;\n  height: auto !important;\n  min-height: auto !important;\n  width: 100% !important;\n  padding: 0 !important;\n  margin: 0 !important;\n  float: none !important;\n}\n\n.woosq-product > .product > div {\n  width: 100% !important;\n  float: none !important;\n}\n\n/* ========================================================\n   EAT&GO: CABECERA VISUAL GENEROSA Y GALER\u00cdA NATIVA WPC\n   ======================================================== */\n\n/* 1. CONTENEDOR DE IM\u00c1GENES (M\u00c1S ALTO Y APETITOSO) */\n.woosq-product .thumbnails,\n.woosq-product .images {\n  width: 100% !important;\n  height: 270px !important;\n  max-height: 270px !important;\n  background: #FDFBF7 !important; /* Fondo crema muy suave */\n  position: relative !important;\n  margin: 0 !important;\n  overflow: hidden !important;\n  border-radius: 24px 24px 0 0 !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  float: none !important;\n}\n\n.woosq-product .thumbnails .slick-slider,\n.woosq-product .thumbnails .slick-list,\n.woosq-product .thumbnails .slick-track,\n.woosq-product .thumbnails .slick-slide,\n.woosq-product .thumbnails .thumbnail,\n.woosq-product .images .slick-slider,\n.woosq-product .images .slick-list,\n.woosq-product .images .slick-track,\n.woosq-product .images .slick-slide {\n  height: 270px !important;\n  max-height: 270px !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n/* 2. TRATAMIENTO DE LA FOTO (GRANDE Y CENTRADA) */\n.woosq-product .thumbnails img,\n.woosq-product .images img {\n  height: 250px !important;\n  max-height: 250px !important;\n  width: auto !important;\n  max-width: 95% !important;\n  object-fit: contain !important;\n  margin: 10px auto !important;\n  display: block !important;\n  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.12)) !important; /* Sombra sutil que hace resaltar el plato */\n}\n\n/* 3. ACTIVAR NAVEGACI\u00d3N DE GALER\u00cdA (MUESTRA TODAS LAS FOTOS DEL PLATO) */\n.woosq-product .slick-arrow {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  width: 32px !important;\n  height: 32px !important;\n  background: rgba(255, 255, 255, 0.9) !important;\n  border-radius: 50% !important;\n  z-index: 5 !important;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important;\n}\n\n.woosq-product .slick-prev {\n  left: 12px !important;\n}\n\n.woosq-product .slick-next {\n  right: 12px !important;\n}\n\n/* Puntos de paginaci\u00f3n sutiles abajo de la foto */\n.woosq-product .slick-dots {\n  display: flex !important;\n  justify-content: center !important;\n  bottom: 8px !important;\n}\n\n.woosq-product .slick-dots li button:before {\n  color: #F59E0B !important; /* Puntos amarillos/\u00e1mbar */\n  font-size: 8px !important;\n}\n\n/* 4. CUERPO DE TEXTO */\n.woosq-product .summary {\n  display: flex !important;\n  flex-direction: column !important;\n  width: 100% !important;\n  max-width: 100% !important;\n  height: auto !important;\n  visibility: visible !important;\n  opacity: 1 !important;\n  padding: 20px 24px 24px 24px !important;\n  box-sizing: border-box !important;\n  float: none !important;\n  background: #FFFFFF !important;\n}\n\n.woosq-product .summary .summary-content {\n  height: auto !important;\n  overflow: visible !important;\n  padding: 0 !important;\n}\n\n.woosq-product .product_title,\n.woosq-product h1.product_title,\n.woosq-product h1.entry-title,\n.woosq-popup .product_title {\n  display: block !important;\n  visibility: visible !important;\n  opacity: 1 !important;\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 22px !important;\n  font-weight: 800 !important;\n  color: #18181B !important;\n  margin: 0 0 6px 0 !important;\n  line-height: 1.2 !important;\n}\n\n.woosq-product .price {\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 20px !important;\n  font-weight: 800 !important;\n  color: #F59E0B !important;\n  margin: 0 0 12px 0 !important;\n}\n\n.woosq-product .woocommerce-product-details__short-description {\n  color: #4B5563 !important;\n  font-size: 14px !important;\n  line-height: 1.4 !important;\n  margin-bottom: 16px !important;\n}\n\n/* Ocultar metas innecesarios */\n.woosq-product .product_meta,\n.woosq-product .sku_wrapper {\n  display: none !important;\n}\n\n/* 5. FORMULARIO DE CANTIDAD Y BOT\u00d3N NARANJA */\n.woosq-product form.cart {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin: 12px 0 0 0 !important;\n  padding-top: 16px !important;\n  border-top: 1px solid #E5E7EB !important;\n  width: 100% !important;\n}\n\n.woosq-product .quantity input.qty {\n  width: 52px !important;\n  height: 48px !important;\n  border: 1px solid #D1D5DB !important;\n  border-radius: 12px !important;\n  font-size: 16px !important;\n  font-weight: 700 !important;\n  text-align: center !important;\n  color: #18181B !important;\n  padding: 0 !important;\n}\n\n.woosq-product .single_add_to_cart_button {\n  flex: 1 !important;\n  height: 48px !important;\n  background-color: #F59E0B !important;\n  color: #18181B !important;\n  font-family: \"Open Sans\", sans-serif !important;\n  font-weight: 800 !important;\n  font-size: 15px !important;\n  border-radius: 14px !important;\n  border: none !important;\n  cursor: pointer !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.2s ease !important;\n}\n\n.woosq-product .single_add_to_cart_button:hover {\n  background-color: #D97706 !important;\n  color: #FFFFFF !important;\n}\n\n/* Bot\u00f3n cerrar [X] */\n.mfp-close,\n.woosq-close {\n  top: 12px !important;\n  right: 12px !important;\n  z-index: 99 !important;\n}\n</style>"
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/110",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/types/elementor_snippet"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://eatgopty.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/media?parent=110"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/110"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/110"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/110"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

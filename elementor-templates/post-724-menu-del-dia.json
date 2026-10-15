@@ -1,0 +1,229 @@
+{
+  "post_id": 724,
+  "elementor_data": [
+    {
+      "id": "m01hero",
+      "elType": "container",
+      "settings": {
+        "boxed_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "background_background": "classic",
+        "background_color": "#FCF9F2",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "#F5E8C7",
+        "border_radius": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "auto",
+          "bottom": "16",
+          "left": "auto",
+          "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "flex_direction_mobile": "column",
+        "flex_align_items_mobile": "flex-start",
+        "flex_gap_mobile": {
+          "unit": "px",
+          "size": 8
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 8,
+          "spread": 0,
+          "color": "rgba(245, 232, 199, 0.4)"
+        },
+        "custom_css": "selector { box-sizing: border-box; }\n@media (max-width: 767px) { selector { flex-direction: column !important; align-items: flex-start !important; gap: 12px !important; } }"
+      },
+      "elements": [
+        {
+          "id": "m02left",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_align_items": "flex-start",
+            "flex_gap": {
+              "unit": "px",
+              "size": 4
+            }
+          },
+          "elements": [
+            {
+              "id": "m03bsta",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div style=\"display:inline-flex; align-items:center; background-color:#ECFDF5; border:1px solid #A7F3D0; color:#065F46; font-size:11px; font-weight:700; border-radius:50px; padding:4px 12px; font-family:'Open Sans', sans-serif; letter-spacing:0.3px;\">🟢 COCINA DESPACHANDO EN VIVO</div>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "m04head",
+              "elType": "widget",
+              "settings": {
+                "title": "Menú de Hoy",
+                "header_size": "h1",
+                "title_color": "#18181B",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_weight": "900",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "4",
+                  "right": "0",
+                  "bottom": "2",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "m05subt",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"margin:0; font-family:'Open Sans', sans-serif; font-size:13px; color:#71717A; line-height:1.4;\">Paila criolla panameña a 75°C • Entrega en oficina sin filas.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "m06righ",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "m07bhor",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div style=\"display:inline-flex; align-items:center; background-color:#FFFFFF; border:1px solid #E5E7EB; border-radius:50px; padding:6px 14px; font-size:12px; font-weight:700; color:#374151; font-family:'Open Sans', sans-serif; white-space:nowrap; box-shadow:0 1px 3px rgba(0,0,0,0.05);\">⚡ Almuerzos 11:30 AM - 1:30 PM</div>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "m08grid",
+      "elType": "container",
+      "settings": {
+        "boxed_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "auto",
+          "bottom": "0",
+          "left": "auto",
+          "isLinked": false
+        },
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "0",
+          "bottom": "40",
+          "left": "0",
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "custom_css": "/* Override anti-fondo gris segun elementor-loopgrid-architect */\nhtml body .e-con.e-parent:not(.e-lazyloaded) div.elementor-element.elementor-element-c02covr,\nhtml body div.elementor-element.elementor-element-c02covr {\n  background-size: cover !important;\n  background-position: center center !important;\n  background-repeat: no-repeat !important;\n}\n.woosq-btn {\n  color: #000000 !important;\n  background-color: #F59E0B !important;\n  border-radius: 50px !important;\n  font-weight: 800 !important;\n  font-size: 14px !important;\n  transition: all 0.2s ease;\n}\n.woosq-btn:hover {\n  background-color: #D97706 !important;\n  transform: translateY(-1px);\n}"
+      },
+      "elements": [
+        {
+          "id": "lg01mdd",
+          "elType": "widget",
+          "settings": {
+            "template_id": 631,
+            "columns": 3,
+            "columns_tablet": 2,
+            "columns_mobile": 1,
+            "post_query_post_type": "product",
+            "post_query_source": "product",
+            "query_post_type": "product",
+            "query_source": "product",
+            "query_id": "menu_del_dia_auto",
+            "post_query_query_id": "menu_del_dia_auto",
+            "_query_id": "menu_del_dia_auto",
+            "pagination_type": "none",
+            "alternate_templates": [
+              {
+                "template_id": null,
+                "_id": "f4261a9"
+              }
+            ],
+            "pagination_page_limit": "5",
+            "pagination_prev_label": "Previous",
+            "pagination_next_label": "Next",
+            "text": "Load More",
+            "load_more_no_posts_custom_message": "No more posts to show",
+            "nothing_found_message_text": "It seems we can’t find what you’re looking for."
+          },
+          "elements": [],
+          "widgetType": "loop-grid"
+        },
+        {
+          "id": "m10scpt",
+          "elType": "widget",
+          "settings": {
+            "html": "<style id=\"eatgo-mdd-styles\">\n  /* Override anti-fondo gris segun elementor-loopgrid-architect */\n  html body .e-con.e-parent div.elementor-element.elementor-element-c02covr,\n  html body div.elementor-element.elementor-element-c02covr,\n  html body [data-id=\"c02covr\"] {\n    background-size: cover !important;\n    background-position: center center !important;\n    background-repeat: no-repeat !important;\n    min-height: 220px !important;\n    height: 220px !important;\n    opacity: 1 !important;\n  }\n\n  /* Sticky comanda bar styles */\n  .elementor-element.elementor-element-m11stkc {\n    position: fixed !important;\n    bottom: 24px !important;\n    left: 50% !important;\n    transform: translateX(-50%) !important;\n    z-index: 9999 !important;\n    max-width: 600px !important;\n    width: calc(100% - 24px) !important;\n    background-color: #18181B !important;\n    border: 1px solid rgba(255, 255, 255, 0.15) !important;\n    border-radius: 50px !important;\n    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.45) !important;\n    padding: 8px 16px !important;\n    display: flex !important;\n    flex-direction: row !important;\n    justify-content: space-between !important;\n    align-items: center !important;\n    box-sizing: border-box !important;\n    font-family: 'Open Sans', sans-serif !important;\n    transition: all 0.3s ease !important;\n  }\n\n  @media (max-width: 767px) {\n    .elementor-element.elementor-element-m11stkc {\n      bottom: 12px !important;\n      padding: 6px 10px !important;\n      width: calc(100% - 20px) !important;\n    }\n    .mdd-sticky-sub, .mdd-sticky-tag {\n      display: none !important;\n    }\n    .mdd-sticky-btn {\n      padding: 8px 14px !important;\n      font-size: 12px !important;\n    }\n    .mdd-sticky-price {\n      font-size: 15px !important;\n    }\n  }\n</style>\n<script>\njQuery(function($) {\n  var knownImages = {\n  \"154\": \"https://eatgopty.com/wp-content/uploads/2026/09/Costilla-BBQ_EatGo2.png\",\n  \"97\": \"https://eatgopty.com/wp-content/uploads/2026/09/Pollo-al-Horno_EatGo.png\",\n  \"423\": \"https://eatgopty.com/wp-content/uploads/2026/09/Ropa-Vieja_EatGo.png\",\n  \"420\": \"https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-res-con-rabito_EatGo.png\",\n  \"446\": \"https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-pata-con-rabito_EatGo.png\",\n  \"608\": \"https://eatgopty.com/wp-content/uploads/2026/09/Carne-guisada2.png\",\n  \"593\": \"https://eatgopty.com/wp-content/uploads/2026/09/Mondongo-a-la-culona.png\",\n  \"615\": \"https://eatgopty.com/wp-content/uploads/2026/09/Pernil-al-horno-a-la-naranja.png\",\n  \"635\": \"https://eatgopty.com/wp-content/uploads/2026/09/Arroz-con-puerco.png\",\n  \"642\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-6.png\",\n  \"640\": \"https://eatgopty.com/wp-content/uploads/2026/09/Costilla-de-res-guisada.png\",\n  \"646\": \"https://eatgopty.com/wp-content/uploads/2026/09/Pollo-frito.png\",\n  \"656\": \"https://eatgopty.com/wp-content/uploads/2026/09/Albondigas-con-pasta.png\",\n  \"651\": \"https://eatgopty.com/wp-content/uploads/2026/09/arroz-con-chuleta.png\",\n  \"648\": \"https://eatgopty.com/wp-content/uploads/2026/09/Albondigas-con-pasta.png\",\n  \"657\": \"https://eatgopty.com/wp-content/uploads/2026/09/rabito.png\",\n  \"690\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-15.png\",\n  \"685\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-13.png\",\n  \"688\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-14.png\",\n  \"683\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-8.png\",\n  \"670\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-10.png\",\n  \"676\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-11.png\",\n  \"669\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-7.png\",\n  \"699\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-16.png\",\n  \"668\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-8.png\",\n  \"664\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-8.png\",\n  \"666\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-9.png\",\n  \"662\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-7.png\",\n  \"707\": \"https://eatgopty.com/wp-content/uploads/2026/09/Diseno-sin-titulo-17.png\"\n};\n\n  function applyImages(map) {\n    $('[class*=\"post-\"]').each(function() {\n      var $card = $(this);\n      var m = ($card.attr('class') || '').match(/post-(\\d+)/);\n      if (m && m[1] && map[m[1]]) {\n        var $covr = $card.find('.elementor-element-c02covr, [data-id=\"c02covr\"]');\n        if ($covr.length) {\n          $covr.css({\n            'background-image': 'url(' + map[m[1]] + ')',\n            'background-size': 'cover',\n            'background-position': 'center center',\n            'background-repeat': 'no-repeat',\n            'opacity': '1'\n          }).addClass('e-lazyloaded e-no-lazyload');\n        }\n      }\n    });\n  }\n\n  // Aplicar inmediatamente\n  applyImages(knownImages);\n\n  // Fallback si falta alguna\n  $.getJSON('/wp-json/eatgo/v1/menu-semanal', function(res) {\n    if (res && res.dias) {\n      $.each(res.dias, function(dia, info) {\n        if (info.platos) {\n          $.each(info.platos, function(i, p) {\n            if (p.id && p.image_url) {\n              knownImages[p.id] = p.image_url;\n            }\n          });\n        }\n      });\n      applyImages(knownImages);\n    }\n  });\n\n  // Resolver WPC Quick View modal en botones woosq-btn\n  $(document).on('click', '.woosq-btn', function(e) {\n    var $this = $(this);\n    var pid = $this.attr('data-id');\n    if (!pid || pid.indexOf('elementor-tag') !== -1) {\n      var postClass = $this.closest('[class*=\"post-\"]').attr('class') || '';\n      var match = postClass.match(/post-(\\d+)/);\n      if (match && match[1]) pid = match[1];\n    }\n    if (pid && typeof woosq_open === 'function') {\n      e.preventDefault();\n      woosq_open(pid);\n    }\n  });\n});\n</script>"
+          },
+          "elements": [],
+          "widgetType": "html"
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Eat & Go | Menú Digital Criollo",
+  "description": "Menú digital y ecommerce pragmático para almuerzos criollos auténticos y desayunos de despacho express a oficinas sin filas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

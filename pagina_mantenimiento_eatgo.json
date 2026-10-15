@@ -1,0 +1,63 @@
+{
+  "version": "1.3",
+  "title": "Modo Mantenimiento / Próximamente (Hero Split 2 Columnas + In-Place Video Player + Native Elementor Tokens) - Eat&Go",
+  "type": "page",
+  "post_id": 1265,
+  "canonical_url": "https://eatgopty.com/mantenimiento/",
+  "page_template": "elementor_canvas",
+  "elementor_site_kit": {
+    "global_color_variables": {
+      "brand-primary": "#C81C20",
+      "color-accent": "#FFCF00",
+      "color-secondary": "#F59E0B",
+      "color-surface": "#18181B",
+      "color-canvas": "#0C0A09",
+      "color-warm-white": "#FDFBF7",
+      "color-whatsapp": "#00C853",
+      "color-border-dark": "#27272A",
+      "color-border-light": "#E5E7EB",
+      "color-text-secondary": "#71717A",
+      "color-text-muted": "#A1A1AA"
+    },
+    "global_font_variables": {
+      "font-primary": "Open Sans"
+    },
+    "default_styles": {
+      "h1": "font-family: 'Open Sans', sans-serif; font-weight: 900; line-height: 1.15;",
+      "h2": "font-family: 'Open Sans', sans-serif; font-weight: 800; line-height: 1.2;",
+      "p": "font-family: 'Open Sans', sans-serif; font-weight: 400; line-height: 1.6; color: var(--color-text-secondary, #71717A);",
+      "button": "font-family: 'Open Sans', sans-serif; font-weight: 700;",
+      "a": "font-family: 'Open Sans', sans-serif; text-decoration: none;"
+    },
+    "global_classes": [
+      "eg-card-dark",
+      "eg-badge-live",
+      "eg-badge-accent",
+      "eg-btn-whatsapp",
+      "eg-btn-instagram",
+      "eg-text-accent",
+      "eg-text-secondary"
+    ]
+  },
+  "contact_buttons": {
+    "whatsapp": {
+      "title": "Escríbenos al WhatsApp",
+      "subtitle": "+507 6990-6424 (Atención Rápida)",
+      "url": "https://api.whatsapp.com/send?phone=50769906424",
+      "color": "#00C853"
+    },
+    "instagram": {
+      "title": "Síguenos en Instagram",
+      "subtitle": "@eatandgopa (Menú Diario)",
+      "url": "https://www.instagram.com/eatandgopa/",
+      "gradient": "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+      "color": "#E1306C"
+    }
+  },
+  "video_config": {
+    "snippet_id": 1312,
+    "video_url": "https://eatgopty.com/wp-content/uploads/2026/10/POLLO-AL-HORNO.mp4",
+    "poster_url": "https://eatgopty.com/wp-content/uploads/2026/03/IMG_20260309_124037_591-scaled.webp",
+    "player_mode": "in-place"
+  }
+}

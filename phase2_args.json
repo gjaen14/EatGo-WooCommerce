@@ -1,0 +1,627 @@
+{
+  "post_id": 564,
+  "mode": "replace_children",
+  "parent_id": "document",
+  "xml_structure": "<e-flexbox configuration-id=\"menu-root-container\">\n  <e-flexbox configuration-id=\"menu-c1-banner\">\n    <e-flexbox configuration-id=\"banner-col-left\">\n      <e-paragraph configuration-id=\"banner-calendar-icon\"></e-paragraph>\n      <e-flexbox configuration-id=\"banner-text-group\">\n        <e-heading configuration-id=\"banner-title\"></e-heading>\n        <e-paragraph configuration-id=\"banner-subtitle\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-paragraph configuration-id=\"banner-badge\"></e-paragraph>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"menu-c2-header\">\n    <e-flexbox configuration-id=\"c2-left-col\">\n      <e-paragraph configuration-id=\"plan-eyebrow\"></e-paragraph>\n      <e-heading configuration-id=\"plan-h1\"></e-heading>\n      <e-paragraph configuration-id=\"plan-desc\"></e-paragraph>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"c2-right-box\">\n      <e-paragraph configuration-id=\"box-icon\"></e-paragraph>\n      <e-heading configuration-id=\"box-title\"></e-heading>\n      <e-paragraph configuration-id=\"box-desc\"></e-paragraph>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"menu-c3-days-bar\">\n    <e-paragraph configuration-id=\"btn-tab-lunes\"></e-paragraph>\n    <e-paragraph configuration-id=\"btn-tab-martes\"></e-paragraph>\n    <e-paragraph configuration-id=\"btn-tab-miercoles\"></e-paragraph>\n    <e-paragraph configuration-id=\"btn-tab-jueves\"></e-paragraph>\n    <e-paragraph configuration-id=\"btn-tab-viernes\"></e-paragraph>\n    <e-paragraph configuration-id=\"btn-tab-sabado\"></e-paragraph>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"menu-c4-day-banner\">\n    <e-flexbox configuration-id=\"day-banner-left\">\n      <e-heading configuration-id=\"dia-activo-title\"></e-heading>\n      <e-paragraph configuration-id=\"dia-activo-badge\"></e-paragraph>\n    </e-flexbox>\n    <e-paragraph configuration-id=\"dia-activo-counter\"></e-paragraph>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-lunes\">\n    <e-flexbox configuration-id=\"card-plato-lun-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-lun-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-lun-1\">\n        <e-heading configuration-id=\"title-plato-lun-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-lun-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-lun-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-lun-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-lun-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-lun-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-lun-2\">\n        <e-heading configuration-id=\"title-plato-lun-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-lun-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-lun-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-lun-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-lun-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-lun-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-lun-3\">\n        <e-heading configuration-id=\"title-plato-lun-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-lun-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-lun-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-lun-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-martes\">\n    <e-flexbox configuration-id=\"card-plato-mar-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-mar-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mar-1\">\n        <e-heading configuration-id=\"title-plato-mar-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mar-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mar-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mar-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-mar-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-mar-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mar-2\">\n        <e-heading configuration-id=\"title-plato-mar-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mar-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mar-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mar-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-mar-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-mar-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mar-3\">\n        <e-heading configuration-id=\"title-plato-mar-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mar-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mar-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mar-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-miercoles\">\n    <e-flexbox configuration-id=\"card-plato-mie-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-mie-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mie-1\">\n        <e-heading configuration-id=\"title-plato-mie-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mie-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mie-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mie-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-mie-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-mie-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mie-2\">\n        <e-heading configuration-id=\"title-plato-mie-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mie-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mie-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mie-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-mie-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-mie-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-mie-3\">\n        <e-heading configuration-id=\"title-plato-mie-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-mie-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-mie-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-mie-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-jueves\">\n    <e-flexbox configuration-id=\"card-plato-jue-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-jue-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-jue-1\">\n        <e-heading configuration-id=\"title-plato-jue-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-jue-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-jue-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-jue-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-jue-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-jue-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-jue-2\">\n        <e-heading configuration-id=\"title-plato-jue-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-jue-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-jue-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-jue-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-jue-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-jue-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-jue-3\">\n        <e-heading configuration-id=\"title-plato-jue-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-jue-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-jue-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-jue-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-viernes\">\n    <e-flexbox configuration-id=\"card-plato-vie-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-vie-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-vie-1\">\n        <e-heading configuration-id=\"title-plato-vie-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-vie-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-vie-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-vie-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-vie-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-vie-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-vie-2\">\n        <e-heading configuration-id=\"title-plato-vie-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-vie-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-vie-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-vie-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-vie-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-vie-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-vie-3\">\n        <e-heading configuration-id=\"title-plato-vie-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-vie-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-vie-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-vie-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-flexbox configuration-id=\"day-content-sabado\">\n    <e-flexbox configuration-id=\"card-plato-sab-1\">\n      <e-paragraph configuration-id=\"photo-block-plato-sab-1\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-sab-1\">\n        <e-heading configuration-id=\"title-plato-sab-1\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-sab-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-sab-1\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-sab-1\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-sab-2\">\n      <e-paragraph configuration-id=\"photo-block-plato-sab-2\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-sab-2\">\n        <e-heading configuration-id=\"title-plato-sab-2\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-sab-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-sab-2\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-sab-2\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n    <e-flexbox configuration-id=\"card-plato-sab-3\">\n      <e-paragraph configuration-id=\"photo-block-plato-sab-3\"></e-paragraph>\n      <e-flexbox configuration-id=\"body-plato-sab-3\">\n        <e-heading configuration-id=\"title-plato-sab-3\"></e-heading>\n        <e-paragraph configuration-id=\"desc-plato-sab-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"side-plato-sab-3\"></e-paragraph>\n        <e-paragraph configuration-id=\"actions-plato-sab-3\"></e-paragraph>\n      </e-flexbox>\n    </e-flexbox>\n  </e-flexbox>\n  <e-paragraph configuration-id=\"menu-interactivity-script\"></e-paragraph>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-root-footer-wrapper\">\n<e-flexbox configuration-id=\"gf-footer-inner-boxed\">\n<e-flexbox configuration-id=\"gf-footer-top-columns\">\n<e-flexbox configuration-id=\"gf-col-branding\">\n<e-flexbox configuration-id=\"gf-col-brand-header\">\n<e-image configuration-id=\"gf-col-brand-logo\"></e-image>\n<e-flexbox configuration-id=\"gf-col-brand-titles\">\n<e-paragraph configuration-id=\"gf-col-brand-badge\"></e-paragraph>\n<e-paragraph configuration-id=\"gf-col-brand-tagline\"></e-paragraph>\n</e-flexbox>\n</e-flexbox>\n<e-paragraph configuration-id=\"gf-col-brand-desc\"></e-paragraph>\n<e-heading configuration-id=\"gf-col-brand-social-title\"></e-heading>\n<e-flexbox configuration-id=\"gf-col-brand-social-row\">\n<e-paragraph configuration-id=\"gf-social-ig\"></e-paragraph>\n<e-paragraph configuration-id=\"gf-social-wa\"></e-paragraph>\n<e-paragraph configuration-id=\"gf-social-fb\"></e-paragraph>\n<e-paragraph configuration-id=\"gf-social-li\"></e-paragraph>\n</e-flexbox>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-col-nav\">\n<e-heading configuration-id=\"gf-col-nav-title\"></e-heading>\n<e-paragraph configuration-id=\"gf-col-nav-links\"></e-paragraph>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-col-empresas\">\n<e-heading configuration-id=\"gf-col-empresas-title\"></e-heading>\n<e-paragraph configuration-id=\"gf-col-empresas-links\"></e-paragraph>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-col-ubicacion\">\n<e-heading configuration-id=\"gf-col-ubicacion-title\"></e-heading>\n<e-paragraph configuration-id=\"gf-col-ubicacion-links\"></e-paragraph>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-col-horarios\">\n<e-heading configuration-id=\"gf-col-horarios-title\"></e-heading>\n<e-paragraph configuration-id=\"gf-col-horarios-links\"></e-paragraph>\n</e-flexbox>\n</e-flexbox>\n<e-flexbox configuration-id=\"gf-footer-sublegal\">\n<e-paragraph configuration-id=\"gf-footer-legal-copy\"></e-paragraph>\n<e-paragraph configuration-id=\"gf-footer-legal-terms\"></e-paragraph>\n</e-flexbox>\n</e-flexbox>\n</e-flexbox>\n",
+  "element_config": {
+    "banner-calendar-icon": {
+      "paragraph": "\ud83d\udcc5"
+    },
+    "banner-title": {
+      "title": "Programaci\u00f3n Men\u00fa Ejecutivo & Paila",
+      "tag": "h3"
+    },
+    "banner-subtitle": {
+      "paragraph": "Lunes a S\u00e1bado \u2022 Rotaci\u00f3n Semanal \u2022 Servicio Corporativo"
+    },
+    "banner-badge": {
+      "paragraph": "\u26a1 Pedidos del D\u00eda: Entrega 11:30 AM - 1:30 PM"
+    },
+    "plan-eyebrow": {
+      "paragraph": "\ud83d\udcc5 PLANIFICA TUS ALMUERZOS DE OFICINA \u2022 CERO REPETICI\u00d3N"
+    },
+    "plan-h1": {
+      "title": "Cat\u00e1logo de la Semana",
+      "tag": "h1"
+    },
+    "plan-desc": {
+      "paragraph": "Comida criolla fresca de paila paname\u00f1a lista para tus almuerzos de oficina. Elige el d\u00eda, selecciona tus platos ejecutivos y rec\u00edbelos calientes a la hora de almuerzo."
+    },
+    "box-icon": {
+      "paragraph": "\ud83d\udee1\ufe0f"
+    },
+    "box-title": {
+      "title": "Cajas Troqueladas 75\u00b0C",
+      "tag": "h4"
+    },
+    "box-desc": {
+      "paragraph": "Comida caliente garantizada, empaques individuales herm\u00e9ticos y divisi\u00f3n de acompa\u00f1amientos."
+    },
+    "btn-tab-lunes": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"lunes\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">LUNES</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Sopas</span></div>"
+    },
+    "btn-tab-martes": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"martes\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">MARTES</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Mondongo</span></div>"
+    },
+    "btn-tab-miercoles": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"miercoles\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">MI\u00c9RCOLES</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Paila Criolla</span></div>"
+    },
+    "btn-tab-jueves": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"jueves\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">JUEVES</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Pastas / Asados</span></div>"
+    },
+    "btn-tab-viernes": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"viernes\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">VIERNES</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Mariscos</span></div>"
+    },
+    "btn-tab-sabado": {
+      "paragraph": "<div class=\"btn-dia-tab\" data-target=\"sabado\" style=\"cursor: pointer; text-align: center;\"><span style=\"display: block; font-size: 13px; font-weight: 800;\">S\u00c1BADO</span><span style=\"display: block; font-size: 11px; opacity: 0.85;\">Paila Familiar</span></div>"
+    },
+    "dia-activo-title": {
+      "title": "MEN\u00da DEL D\u00cdA",
+      "tag": "h4"
+    },
+    "dia-activo-badge": {
+      "paragraph": "\ud83d\udd25 Especialidad Criolla"
+    },
+    "dia-activo-counter": {
+      "paragraph": "3 PLATILLOS DISPONIBLES"
+    },
+    "photo-block-plato-lun-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547928576-b183fd4d1d29?auto=format&fit=crop&w=800&q=80\" alt=\"Mondongo a la Culantro con Papitas\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.00\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-lun-1": {
+      "title": "Mondongo a la Culantro con Papitas",
+      "tag": "h3"
+    },
+    "desc-plato-lun-1": {
+      "paragraph": "Mondongo tierno cocinado a fuego lento con sofrito de culantro fresco, aj\u00ed chombo dulce y papas en salsa criolla espesa."
+    },
+    "side-plato-lun-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-lun-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"593\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-lun-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80\" alt=\"Pollo Guisado Criollo Campesino\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    FAVORITO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.50\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-lun-2": {
+      "title": "Pollo Guisado Criollo Campesino",
+      "tag": "h3"
+    },
+    "desc-plato-lun-2": {
+      "paragraph": "Presas de pollo marinadas en achiote del interior, or\u00e9gano silvestre, cebolla y piment\u00f3n estofado en su propio jugo."
+    },
+    "side-plato-lun-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-lun-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"97\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-lun-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80\" alt=\"Sancocho Tradicional de Gallina\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    RECONFORTANTE\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.00\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-lun-3": {
+      "title": "Sancocho Tradicional de Gallina",
+      "tag": "h3"
+    },
+    "desc-plato-lun-3": {
+      "paragraph": "Sopa t\u00edpica reconfortante con \u00f1ame baboso, gallina suave y abundante culantro reci\u00e9n cosechado de la paila."
+    },
+    "side-plato-lun-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-lun-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"420\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mar-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?auto=format&fit=crop&w=800&q=80\" alt=\"Ropa Vieja Criolla Tradicional\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.25\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mar-1": {
+      "title": "Ropa Vieja Criolla Tradicional",
+      "tag": "h3"
+    },
+    "desc-plato-mar-1": {
+      "paragraph": "Falda de res deshilachada a mano, estofada con tomates maduros, tiras de piment\u00f3n morr\u00f3n, cebollas y aj\u00ed criollo."
+    },
+    "side-plato-mar-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mar-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"423\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mar-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80\" alt=\"Chuleta Ahumada al Achiote & Pi\u00f1a\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    AHUMADO ESPECIAL\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.75\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mar-2": {
+      "title": "Chuleta Ahumada al Achiote & Pi\u00f1a",
+      "tag": "h3"
+    },
+    "desc-plato-mar-2": {
+      "paragraph": "Jugosa chuleta ahumada sellada con glaseado agridulce de pi\u00f1a criolla y reducci\u00f3n de ajo asado."
+    },
+    "side-plato-mar-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Patacones Crujientes \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mar-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"154\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mar-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80\" alt=\"Sopa Criolla de Carne con Verduras\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    SUSTANCIOSA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.25\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mar-3": {
+      "title": "Sopa Criolla de Carne con Verduras",
+      "tag": "h3"
+    },
+    "desc-plato-mar-3": {
+      "paragraph": "Caldo sustancioso de costilla de res con yuca tierna, ma\u00edz dulce en mazorca, zapallo y culantro."
+    },
+    "side-plato-mar-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mar-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"420\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mie-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80\" alt=\"Guisado Campesino de Res con Papas\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.50\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mie-1": {
+      "title": "Guisado Campesino de Res con Papas",
+      "tag": "h3"
+    },
+    "desc-plato-mie-1": {
+      "paragraph": "Trozos selectos de res cocidos hasta deshacerse en salsa criolla arom\u00e1tica con zanahorias y papas al dente."
+    },
+    "side-plato-mie-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mie-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"423\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mie-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80\" alt=\"Pollo al Ajillo Criollo con Culantro\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    MUY SOLICITADO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.75\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mie-2": {
+      "title": "Pollo al Ajillo Criollo con Culantro",
+      "tag": "h3"
+    },
+    "desc-plato-mie-2": {
+      "paragraph": "Presas doradas ba\u00f1adas en mantequilla criolla, ajo machacado y lluvia de culantro fresco."
+    },
+    "side-plato-mie-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Patacones Crujientes \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mie-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"97\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-mie-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80\" alt=\"Sancocho Criollo con \u00d1ame Baboso\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    CALIENTE 75\u00b0C\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.00\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-mie-3": {
+      "title": "Sancocho Criollo con \u00d1ame Baboso",
+      "tag": "h3"
+    },
+    "desc-plato-mie-3": {
+      "paragraph": "El cl\u00e1sico infaltable de la mitad de semana para recargar energ\u00eda en la jornada de oficina."
+    },
+    "side-plato-mie-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-mie-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"420\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-jue-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80\" alt=\"Puerco Liso Asado en Reducci\u00f3n\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.25\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-jue-1": {
+      "title": "Puerco Liso Asado en Reducci\u00f3n",
+      "tag": "h3"
+    },
+    "desc-plato-jue-1": {
+      "paragraph": "Lomo de cerdo marinado 24 horas en especias aut\u00f3ctonas, horneado lentamente con cebollas caramelizadas."
+    },
+    "side-plato-jue-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-jue-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"154\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-jue-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80\" alt=\"Bistec Picado Criollo Encebollado\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    CL\u00c1SICO DE FONDA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.00\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-jue-2": {
+      "title": "Bistec Picado Criollo Encebollado",
+      "tag": "h3"
+    },
+    "desc-plato-jue-2": {
+      "paragraph": "Tiras de res salteadas a fuego vivo con pimentones verdes, cebolla morada y salsa de tomate casera."
+    },
+    "side-plato-jue-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Tajadas de Pl\u00e1tano \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-jue-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"423\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-jue-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80\" alt=\"Pollo Guisado con Papitas en Cubos\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    CASERO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.50\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-jue-3": {
+      "title": "Pollo Guisado con Papitas en Cubos",
+      "tag": "h3"
+    },
+    "desc-plato-jue-3": {
+      "paragraph": "Pollo campesino en salsa de achiote con papitas que absorben todo el sabor del sofrito."
+    },
+    "side-plato-jue-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-jue-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"97\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-vie-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80\" alt=\"Corvina Frita al Ajillo Criollo\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $8.75\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-vie-1": {
+      "title": "Corvina Frita al Ajillo Criollo",
+      "tag": "h3"
+    },
+    "desc-plato-vie-1": {
+      "paragraph": "Filete fresco de corvina con costra dorada crocante, salsa de ajo criollo y lim\u00f3n mandarina."
+    },
+    "side-plato-vie-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Patacones Crujientes \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-vie-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"423\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-vie-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80\" alt=\"Arroz con Mariscos Paname\u00f1o\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    ESPECIAL MARINO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $8.50\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-vie-2": {
+      "title": "Arroz con Mariscos Paname\u00f1o",
+      "tag": "h3"
+    },
+    "desc-plato-vie-2": {
+      "paragraph": "Arroz perfumado en caldo de mariscos con camarones, calamares, trozos de pescado y guisado criollo."
+    },
+    "side-plato-vie-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Patacones Crujientes \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-vie-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"593\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-vie-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80\" alt=\"Sancocho de Gallina Reconfortante\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    RECONFORTANTE\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.00\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-vie-3": {
+      "title": "Sancocho de Gallina Reconfortante",
+      "tag": "h3"
+    },
+    "desc-plato-vie-3": {
+      "paragraph": "El sancocho cl\u00e1sico para cerrar la semana laboral con el calor y la saz\u00f3n aut\u00e9ntica de Panam\u00e1."
+    },
+    "side-plato-vie-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-vie-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"420\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-sab-1": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80\" alt=\"Lechona Criolla Asada al Estilo Interior\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    PLATO ESTRELLA\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $8.25\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-sab-1": {
+      "title": "Lechona Criolla Asada al Estilo Interior",
+      "tag": "h3"
+    },
+    "desc-plato-sab-1": {
+      "paragraph": "Cerdo asado lentamente al estilo de las fiestas de pueblo, jugoso por dentro con piel dorada crujiente."
+    },
+    "side-plato-sab-1": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz con Guand\u00fa \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-sab-1": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"154\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-sab-2": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80\" alt=\"Sancocho Especial de Gallina de Patio\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    GALLINA DE PATIO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $6.50\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-sab-2": {
+      "title": "Sancocho Especial de Gallina de Patio",
+      "tag": "h3"
+    },
+    "desc-plato-sab-2": {
+      "paragraph": "Nuestra versi\u00f3n festiva de fin de semana con doble presa de gallina campesina y extra \u00f1ame baboso."
+    },
+    "side-plato-sab-2": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Arroz Blanco Criollo \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-sab-2": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"420\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "photo-block-plato-sab-3": {
+      "paragraph": "<div style=\"position: relative; width: 100%; height: 220px; overflow: hidden; background-color: #F3F4F6;\">\n  <img src=\"https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80\" alt=\"Costillitas en Barbacoa de Raspadura\" style=\"width: 100%; height: 220px; object-fit: cover; display: block;\" />\n  <div style=\"position: absolute; top: 12px; left: 12px; background-color: #18181B; color: #FACC15; border: 1px solid #EAB308; border-radius: 50px; padding: 4px 12px; font-size: 11px; font-weight: 800; font-family: 'Open Sans', sans-serif; letter-spacing: 0.04em;\">\n    DULCE & AHUMADO\n  </div>\n  <div style=\"position: absolute; top: 12px; right: 12px; background-color: #FFFFFF; color: #18181B; border-radius: 50px; padding: 6px 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.12);\">\n    $7.75\n  </div>\n  <div style=\"position: absolute; bottom: 12px; right: 12px; background-color: rgba(24,24,27,0.75); color: #FFFFFF; border-radius: 8px; padding: 4px 10px; font-size: 11px; font-weight: 700; font-family: 'Open Sans', sans-serif;\">\n    \ud83d\udce6 Ver en Caja 75\u00b0C\n  </div>\n</div>"
+    },
+    "title-plato-sab-3": {
+      "title": "Costillitas en Barbacoa de Raspadura",
+      "tag": "h3"
+    },
+    "desc-plato-sab-3": {
+      "paragraph": "Costillas tiernas de cerdo ba\u00f1adas en reducci\u00f3n artesanal de miel de ca\u00f1a/raspadura y aj\u00ed chombo dulce."
+    },
+    "side-plato-sab-3": {
+      "paragraph": "<div style=\"margin-top: 4px; margin-bottom: 12px;\">\n  <div style=\"color: #374151; font-size: 12px; font-weight: 700; margin-bottom: 6px; font-family: 'Open Sans', sans-serif;\">Acompa\u00f1amiento a tu gusto:</div>\n  <div style=\"border: 1px solid #D1D5DB; border-radius: 10px; padding: 10px 14px; background-color: #FFFFFF; color: #18181B; font-size: 13px; font-weight: 600; font-family: 'Open Sans', sans-serif; display: flex; justify-content: space-between; align-items: center; cursor: pointer;\">\n    <span>Patacones Crujientes \u2335</span>\n  </div>\n</div>"
+    },
+    "actions-plato-sab-3": {
+      "paragraph": "<button type=\"button\" class=\"woosq-btn\" data-id=\"154\" style=\"width: 100%; height: 46px; background-color: #F59E0B; color: #18181B; border: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\" onmouseover=\"this.style.backgroundColor='#D97706'\" onmouseout=\"this.style.backgroundColor='#F59E0B'\">\n  \ud83d\udecd\ufe0f + Agregar al Pedido\n</button>"
+    },
+    "menu-interactivity-script": {
+      "paragraph": "<script>\njQuery(function($) {\n  var dias = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];\n  var hoyNumero = new Date().getDay();\n  var diaHoy = dias[hoyNumero] === 'domingo' ? 'lunes' : dias[hoyNumero];\n\n  var nombresDias = {\n    'lunes': 'LUNES',\n    'martes': 'MARTES',\n    'miercoles': 'MI\u00c9RCOLES',\n    'jueves': 'JUEVES',\n    'viernes': 'VIERNES',\n    'sabado': 'S\u00c1BADO'\n  };\n\n  // Mapeo de contenedores por id de Elementor\n  var diasElementorMap = {\n    'lunes': '471005a1, c55b090, 28e542b',\n    'lunes_parent': '64bdf55f',\n    'martes': '8dcd962',\n    'miercoles': '35ff130d',\n    'jueves': '2e763c16',\n    'viernes': '6e867c71',\n    'sabado': '6839d6e2'\n  };\n\n  // 1. Convertir los botones en enlaces con clase woosq-btn nativa\n  var productMap = {\n    'actions-plato-lun-1': 593,\n    'actions-plato-lun-2': 97,\n    'actions-plato-lun-3': 420,\n    'actions-plato-mar-1': 423,\n    'actions-plato-mar-2': 154,\n    'actions-plato-mar-3': 420,\n    'actions-plato-mie-1': 423,\n    'actions-plato-mie-2': 97,\n    'actions-plato-mie-3': 420,\n    'actions-plato-jue-1': 154,\n    'actions-plato-jue-2': 423,\n    'actions-plato-jue-3': 97,\n    'actions-plato-vie-1': 423,\n    'actions-plato-vie-2': 593,\n    'actions-plato-vie-3': 420,\n    'actions-plato-sab-1': 154,\n    'actions-plato-sab-2': 420,\n    'actions-plato-sab-3': 154\n  };\n\n  // Asociar IDs y listeners de woosq\n  $('.elementor-element').each(function() {\n    var $el = $(this);\n    // Identificar tarjetas de platos\n    var text = $el.text();\n    if (text.indexOf('Agregar al Pedido') !== -1 && $el.is('.e-paragraph-base, p, div')) {\n      // Buscar si ya tiene el enlace\n      if (!$el.find('.woosq-btn').length) {\n        // Encontrar plato id\n        var prodId = 593;\n        for (var key in productMap) {\n          if ($el.closest('[class*=\"' + key + '\"]').length || $el.parent().text().indexOf('Mondongo') !== -1) { prodId = 593; }\n          else if ($el.parent().text().indexOf('Ropa Vieja') !== -1) { prodId = 423; }\n          else if ($el.parent().text().indexOf('Sancocho') !== -1) { prodId = 420; }\n          else if ($el.parent().text().indexOf('Pollo') !== -1) { prodId = 97; }\n          else if ($el.parent().text().indexOf('Lechona') !== -1 || $el.parent().text().indexOf('Costillita') !== -1 || $el.parent().text().indexOf('Chuleta') !== -1 || $el.parent().text().indexOf('Puerco') !== -1) { prodId = 154; }\n          else if ($el.parent().text().indexOf('Corvina') !== -1) { prodId = 423; }\n          else if ($el.parent().text().indexOf('Mariscos') !== -1) { prodId = 593; }\n        }\n        $el.html('<a href=\"#\" class=\"woosq-btn\" data-id=\"' + prodId + '\" style=\"display: flex; align-items: center; justify-content: center; width: 100%; height: 46px; background-color: #F59E0B; color: #18181B !important; text-decoration: none; border-radius: 14px; font-size: 14px; font-weight: 800; font-family: 'Open Sans', sans-serif; cursor: pointer; transition: background-color 0.2s ease; box-shadow: 0 2px 6px rgba(245,158,11,0.25);\">\ud83d\udecd\ufe0f + Agregar al Pedido</a>');\n      }\n    }\n  });\n\n  // Identificar los contenedores de d\u00edas\n  var $dayContainers = {\n    'lunes': $('.elementor-element-c55b090').length ? $('.elementor-element-c55b090').parent() : $('.elementor-element-676ea28c > div').eq(4),\n    'martes': $('.elementor-element-8dcd962'),\n    'miercoles': $('.elementor-element-35ff130d'),\n    'jueves': $('.elementor-element-2e763c16'),\n    'viernes': $('.elementor-element-6e867c71'),\n    'sabado': $('.elementor-element-6839d6e2')\n  };\n\n  // Selector din\u00e1mico por coincidencia de platos si los IDs difieren\n  var allSectionContainers = [];\n  $('.elementor-element').each(function() {\n    var $c = $(this);\n    if ($c.children('.e-flexbox-base, .e-con').length === 3 && $c.text().indexOf('Agregar al Pedido') !== -1) {\n      if ($c.text().indexOf('Mondongo a la Culantro') !== -1) $dayContainers['lunes'] = $c;\n      else if ($c.text().indexOf('Ropa Vieja Criolla') !== -1) $dayContainers['martes'] = $c;\n      else if ($c.text().indexOf('Guisado Campesino de Res') !== -1) $dayContainers['miercoles'] = $c;\n      else if ($c.text().indexOf('Puerco Liso Asado') !== -1) $dayContainers['jueves'] = $c;\n      else if ($c.text().indexOf('Corvina Frita') !== -1) $dayContainers['viernes'] = $c;\n      else if ($c.text().indexOf('Lechona Criolla') !== -1) $dayContainers['sabado'] = $c;\n    }\n  });\n\n  // Funci\u00f3n para activar d\u00eda\n  function activarDia(dia) {\n    // 1. Estilo de pesta\u00f1as\n    $('.btn-dia-tab').each(function() {\n      var $tab = $(this);\n      var $parentPill = $tab.closest('.elementor-element');\n      if ($tab.attr('data-target') === dia) {\n        $parentPill.css({\n          'background-color': '#F59E0B',\n          'border-color': '#F59E0B',\n          'color': '#18181B'\n        });\n        $tab.addClass('is-active');\n      } else {\n        $parentPill.css({\n          'background-color': '#FFFFFF',\n          'border': '1px solid #E5E7EB',\n          'color': '#18181B'\n        });\n        $tab.removeClass('is-active');\n      }\n    });\n\n    // 2. Mostrar contenedor del d\u00eda y ocultar el resto\n    for (var d in $dayContainers) {\n      if ($dayContainers[d] && $dayContainers[d].length) {\n        if (d === dia) {\n          $dayContainers[d].css('display', 'flex').hide().fadeIn(250);\n        } else {\n          $dayContainers[d].css('display', 'none');\n        }\n      }\n    }\n\n    // 3. Actualizar texto de banner\n    var nom = nombresDias[dia] || dia.toUpperCase();\n    $('h4:contains(\"MEN\u00da DEL\")').text('MEN\u00da DEL ' + nom);\n  }\n\n  // Activar d\u00eda inicial\n  activarDia(diaHoy);\n\n  // Escuchar clics en las pesta\u00f1as\n  $(document).on('click', '.btn-dia-tab, .btn-dia-tab span, [data-target]', function(e) {\n    e.preventDefault();\n    var target = $(this).attr('data-target') || $(this).closest('[data-target]').attr('data-target');\n    if (target) {\n      activarDia(target);\n    }\n  });\n\n  // Asegurar que woosq_open sea invocado al hacer clic en los botones\n  $(document).on('click', '.woosq-btn', function(e) {\n    e.preventDefault();\n    var pid = $(this).attr('data-id');\n    if (typeof woosq_open === 'function') {\n      woosq_open(pid);\n    }\n  });\n});\n</script>"
+    },
+    "gf-col-brand-logo": {
+      "image": {
+        "src": {
+          "id": 49
+        },
+        "size": "full"
+      }
+    },
+    "gf-col-brand-badge": {
+      "paragraph": "CRIOLLO EXPRESS"
+    },
+    "gf-col-brand-tagline": {
+      "paragraph": "Sabor de Paila Aut\u00e9ntico"
+    },
+    "gf-col-brand-desc": {
+      "paragraph": "La paila aut\u00e9ntica paname\u00f1a adaptada al ritmo de oficina. Almuerzos calientes y desayunos criollos empacados en bandejas t\u00e9rmicas troqueladas a 75\u00b0C, con factura fiscal y cero filas."
+    },
+    "gf-col-brand-social-title": {
+      "tag": "h4",
+      "title": "CONECTA CON NOSOTROS:"
+    },
+    "gf-col-nav-title": {
+      "tag": "h4",
+      "title": "NAVEGACI\u00d3N"
+    },
+    "gf-col-nav-links": {
+      "paragraph": "<div><a href=\"/\">\ud83c\udfe0 Inicio &amp; Resumen</a><a href=\"#menu-semanal\">\ud83d\udcc5 Men\u00fa Semanal (Lun-S\u00e1b)</a><a href=\"#especial-navideno\">\ud83c\udf84 Especial Navide\u00f1o (15 Nov)</a><a href=\"#platos-destacados\">\ud83d\udd25 Platos del D\u00eda</a><a href=\"#desayunos\">\ud83c\udf73 Desayunos (6:30 AM)</a><a href=\"/carta/\">\ud83d\udcdc Carta Completa</a></div>"
+    },
+    "gf-col-empresas-title": {
+      "tag": "h4",
+      "title": "PARA EMPRESAS"
+    },
+    "gf-col-empresas-links": {
+      "paragraph": "<div><a href=\"/empresas/\">\ud83c\udfe2 <b>P\u00e1gina Empresa &amp; Combos</b></a><span>Bandejas para Reuniones de Oficina</span><span>Combos para 5 &amp; 10 Personas</span><span>Factura Fiscal con RUC (DGI)</span><span>Entrega Garantizada a las 12:00 MD</span></div>"
+    },
+    "gf-col-ubicacion-title": {
+      "tag": "h4",
+      "title": "UBICACI\u00d3N &amp; RETIRO"
+    },
+    "gf-col-ubicacion-links": {
+      "paragraph": "<div><span>\ud83d\udccd <b>D\u00f3nde Comer &amp; Retirar</b></span><span>Calle 50, Obarrio</span><span>Pick &amp; Go Express (10 min)</span><span>Horarios: 6:30 AM - 3:30 PM</span><a href=\"https://wa.me/50762345678\" target=\"_blank\">Enviar Consulta Directa</a></div>"
+    },
+    "gf-col-horarios-title": {
+      "tag": "h4",
+      "title": "HORARIO &amp; CALIDAD"
+    },
+    "gf-col-horarios-links": {
+      "paragraph": "<div><span>\ud83d\udd52 Desayunos: 6:30 - 11 AM</span><span>\ud83c\udf74 Almuerzos: 11:30 - 3:30 PM</span><span>\ud83d\udee1\ufe0f Garant\u00eda T\u00e9rmica (75\u00b0C) &amp; Empaques</span><span>Gastronom\u00eda Criolla Paname\u00f1a</span><a href=\"https://wa.me/50762345678\" target=\"_blank\">WhatsApp: +507 6234-5678</a></div>"
+    },
+    "gf-footer-legal-copy": {
+      "paragraph": "\u00a9 2026 Eat &amp; Go S.A. \u2014 Men\u00fa Digital Criollo Express. Todos los derechos reservados."
+    },
+    "gf-footer-legal-terms": {
+      "paragraph": "R.U.C. 1557890-1-859472 DV 45 &bull; <a href=\"/terminos/\">T\u00e9rminos de Servicio</a> &bull; <a href=\"/privacidad/\">Aviso de Privacidad</a>"
+    },
+    "gf-social-ig": {
+      "paragraph": "Instagram",
+      "tag": "p"
+    },
+    "gf-social-wa": {
+      "paragraph": "WhatsApp",
+      "tag": "p"
+    },
+    "gf-social-fb": {
+      "paragraph": "Facebook",
+      "tag": "p"
+    },
+    "gf-social-li": {
+      "paragraph": "LinkedIn",
+      "tag": "p"
+    }
+  },
+  "style": {
+    "menu-root-container": "width: 100%; max-width: 1240px; margin: 0 auto; padding: 24px 16px; font-family: 'Open Sans', sans-serif;",
+    "menu-c1-banner": "display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: #FCF9F2; border: 1px solid #F5E8C7; border-radius: 16px; padding: 16px 24px; margin-bottom: 24px; @media(--mobile) { flex-direction: column; align-items: flex-start; gap: 12px; padding: 16px; }",
+    "banner-col-left": "display: flex; flex-direction: row; align-items: center; gap: 16px;",
+    "banner-calendar-icon": "font-size: 28px; line-height: 1; margin: 0;",
+    "banner-text-group": "display: flex; flex-direction: column; gap: 4px;",
+    "banner-title": "font-size: 18px; font-weight: 800; color: #18181B; margin: 0; line-height: 1.2; font-family: 'Open Sans', sans-serif;",
+    "banner-subtitle": "font-size: 13px; color: #4B5563; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "banner-badge": "background-color: #FEF3C7; color: #92400E; font-size: 12px; font-weight: 700; border-radius: 9999px; padding: 6px 16px; border: 1px solid #FDE68A; font-family: 'Open Sans', sans-serif;",
+    "menu-c2-header": "display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; gap: 32px; margin-bottom: 24px; @media(--mobile) { flex-direction: column; }",
+    "c2-left-col": "flex: 1; display: flex; flex-direction: column; gap: 8px;",
+    "plan-eyebrow": "font-size: 12px; font-weight: 800; color: #D97706; text-transform: uppercase; letter-spacing: 0.05em; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "plan-h1": "font-size: 32px; font-weight: 800; color: #18181B; margin: 0; line-height: 1.15; font-family: 'Open Sans', sans-serif; @media(--mobile) { font-size: 26px; }",
+    "plan-desc": "font-size: 14px; color: #4B5563; line-height: 1.5; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "c2-right-box": "width: 280px; background-color: #FEF3C7; border: 1px solid #FDE68A; border-radius: 16px; padding: 16px 20px; display: flex; flex-direction: column; gap: 6px; @media(--mobile) { width: 100%; }",
+    "box-icon": "font-size: 22px; margin: 0; line-height: 1;",
+    "box-title": "font-size: 15px; font-weight: 800; color: #92400E; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "box-desc": "font-size: 12px; color: #B45309; line-height: 1.4; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "btn-tab-lunes": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "btn-tab-martes": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "btn-tab-miercoles": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "btn-tab-jueves": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "btn-tab-viernes": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "btn-tab-sabado": "flex: 1; min-width: 140px; margin: 0; padding: 12px 14px; border-radius: 12px; border: 1px solid #E5E7EB; background-color: #FFFFFF; color: #18181B; font-family: 'Open Sans', sans-serif; transition: all 0.2s ease;",
+    "menu-c3-days-bar": "display: flex; flex-direction: row; gap: 10px; margin-bottom: 24px; overflow-x: auto; padding-bottom: 6px; @media(--mobile) { flex-wrap: wrap; }",
+    "menu-c4-day-banner": "display: flex; flex-direction: row; justify-content: space-between; align-items: center; background-color: #FEF3C7; border: 1px solid #FDE68A; border-radius: 16px; padding: 14px 24px; margin-bottom: 24px; @media(--mobile) { flex-direction: column; align-items: flex-start; gap: 8px; padding: 14px 16px; }",
+    "day-banner-left": "display: flex; flex-direction: row; align-items: center; gap: 14px;",
+    "dia-activo-title": "font-size: 16px; font-weight: 800; color: #92400E; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "dia-activo-badge": "background-color: #F59E0B; color: #FFFFFF; font-size: 11px; font-weight: 700; border-radius: 9999px; padding: 4px 12px; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "dia-activo-counter": "font-size: 12px; font-weight: 800; color: #B45309; letter-spacing: 0.05em; margin: 0; font-family: 'Open Sans', sans-serif;",
+    "photo-block-plato-lun-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-lun-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-lun-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-lun-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-lun-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-lun-1": "margin: 0;",
+    "actions-plato-lun-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-lun-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-lun-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-lun-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-lun-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-lun-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-lun-2": "margin: 0;",
+    "actions-plato-lun-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-lun-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-lun-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-lun-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-lun-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-lun-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-lun-3": "margin: 0;",
+    "actions-plato-lun-3": "margin-top: 14px; width: 100%;",
+    "day-content-lunes": "display: flex; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "photo-block-plato-mar-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mar-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mar-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mar-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mar-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mar-1": "margin: 0;",
+    "actions-plato-mar-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-mar-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mar-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mar-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mar-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mar-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mar-2": "margin: 0;",
+    "actions-plato-mar-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-mar-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mar-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mar-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mar-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mar-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mar-3": "margin: 0;",
+    "actions-plato-mar-3": "margin-top: 14px; width: 100%;",
+    "day-content-martes": "display: none; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "photo-block-plato-mie-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mie-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mie-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mie-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mie-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mie-1": "margin: 0;",
+    "actions-plato-mie-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-mie-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mie-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mie-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mie-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mie-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mie-2": "margin: 0;",
+    "actions-plato-mie-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-mie-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-mie-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-mie-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-mie-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-mie-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-mie-3": "margin: 0;",
+    "actions-plato-mie-3": "margin-top: 14px; width: 100%;",
+    "day-content-miercoles": "display: none; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "photo-block-plato-jue-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-jue-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-jue-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-jue-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-jue-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-jue-1": "margin: 0;",
+    "actions-plato-jue-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-jue-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-jue-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-jue-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-jue-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-jue-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-jue-2": "margin: 0;",
+    "actions-plato-jue-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-jue-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-jue-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-jue-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-jue-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-jue-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-jue-3": "margin: 0;",
+    "actions-plato-jue-3": "margin-top: 14px; width: 100%;",
+    "day-content-jueves": "display: none; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "photo-block-plato-vie-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-vie-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-vie-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-vie-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-vie-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-vie-1": "margin: 0;",
+    "actions-plato-vie-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-vie-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-vie-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-vie-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-vie-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-vie-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-vie-2": "margin: 0;",
+    "actions-plato-vie-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-vie-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-vie-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-vie-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-vie-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-vie-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-vie-3": "margin: 0;",
+    "actions-plato-vie-3": "margin-top: 14px; width: 100%;",
+    "day-content-viernes": "display: none; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "photo-block-plato-sab-1": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-sab-1": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 2px solid #F59E0B; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-sab-1": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-sab-1": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-sab-1": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-sab-1": "margin: 0;",
+    "actions-plato-sab-1": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-sab-2": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-sab-2": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-sab-2": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-sab-2": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-sab-2": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-sab-2": "margin: 0;",
+    "actions-plato-sab-2": "margin-top: 14px; width: 100%;",
+    "photo-block-plato-sab-3": "width: 100%; margin: 0; line-height: 1;",
+    "card-plato-sab-3": "flex: 1; min-width: 280px; max-width: 380px; background-color: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; min-height: 540px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); font-family: 'Open Sans', sans-serif; @media(--mobile) { max-width: 100%; }",
+    "body-plato-sab-3": "padding: 20px 24px 20px 24px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;",
+    "title-plato-sab-3": "font-size: 19px !important; font-weight: 800 !important; color: #18181B !important; line-height: 1.25 !important; margin: 0 0 8px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "desc-plato-sab-3": "font-size: 13px !important; color: #4B5563 !important; line-height: 1.5 !important; margin: 0 0 16px 0 !important; font-family: 'Open Sans', sans-serif !important;",
+    "side-plato-sab-3": "margin: 0;",
+    "actions-plato-sab-3": "margin-top: 14px; width: 100%;",
+    "day-content-sabado": "display: none; flex-direction: row; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; width: 100%;",
+    "menu-interactivity-script": "display: none;",
+    "gf-root-footer-wrapper": "width: 100%; border-block-start-width: 1px; background-color: #F4F4F5; display: flex; justify-content: center; border-top-style: solid; border-top-color: #E4E4E7;",
+    "gf-footer-inner-boxed": "width: 100%; max-width: 1320px; padding-block-start: 60px; padding-block-end: 24px; padding-inline-start: 24px; padding-inline-end: 24px; display: flex; flex-direction: column;",
+    "gf-footer-top-columns": "width: 100%; display: flex; flex-direction: row; gap: 32px; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;",
+    "gf-col-branding": "max-width: 320px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 280px; @media(--mobile) { max-width: 100%; }",
+    "gf-col-brand-header": "display: flex; flex-direction: row; gap: 12px; align-items: center;",
+    "gf-col-brand-logo": "max-width: 120px;",
+    "gf-col-brand-titles": "display: flex; flex-direction: column; gap: 2px;",
+    "gf-col-brand-badge": "font-family: \"Open Sans\"; font-weight: 800; font-size: 11px; color: #374151; letter-spacing: 0.8px; margin: 0px;",
+    "gf-col-brand-tagline": "font-family: \"Open Sans\"; font-weight: 400; font-size: 11px; color: #6B7280; margin: 0px;",
+    "gf-col-brand-desc": "font-family: \"Open Sans\"; font-size: 13px; color: #4B5563; line-height: 1.5; margin: 0px;",
+    "gf-col-brand-social-title": "font-family: \"Open Sans\"; font-weight: 800; font-size: 11px; color: #18181B; letter-spacing: 0.8px; text-transform: uppercase; margin-block-start: 12px; margin-block-end: 0px;",
+    "gf-col-brand-social-row": "display: flex; flex-direction: row; gap: 8px; align-items: center;",
+    "gf-social-ig": "margin: 0px;",
+    "gf-social-wa": "margin: 0px;",
+    "gf-social-fb": "margin: 0px;",
+    "gf-social-li": "margin: 0px;",
+    "gf-col-nav": "display: flex; flex-direction: column; gap: 14px; flex: 1 1 180px;",
+    "gf-col-nav-title": "font-family: \"Open Sans\"; font-weight: 800; font-size: 12px; color: #18181B; letter-spacing: 1px; text-transform: uppercase; margin: 0px;",
+    "gf-col-nav-links": "font-family: \"Open Sans\"; font-size: 12.5px; line-height: 1.5; margin: 0px;",
+    "gf-col-empresas": "display: flex; flex-direction: column; gap: 14px; flex: 1 1 180px;",
+    "gf-col-empresas-title": "font-family: \"Open Sans\"; font-weight: 800; font-size: 12px; color: #18181B; letter-spacing: 1px; text-transform: uppercase; margin: 0px;",
+    "gf-col-empresas-links": "font-family: \"Open Sans\"; font-size: 12.5px; line-height: 1.5; margin: 0px;",
+    "gf-col-ubicacion": "display: flex; flex-direction: column; gap: 14px; flex: 1 1 180px;",
+    "gf-col-ubicacion-title": "font-family: \"Open Sans\"; font-weight: 800; font-size: 12px; color: #18181B; letter-spacing: 1px; text-transform: uppercase; margin: 0px;",
+    "gf-col-ubicacion-links": "font-family: \"Open Sans\"; font-size: 12.5px; line-height: 1.5; margin: 0px;",
+    "gf-col-horarios": "display: flex; flex-direction: column; gap: 14px; flex: 1 1 180px;",
+    "gf-col-horarios-title": "font-family: \"Open Sans\"; font-weight: 800; font-size: 12px; color: #18181B; letter-spacing: 1px; text-transform: uppercase; margin: 0px;",
+    "gf-col-horarios-links": "font-family: \"Open Sans\"; font-size: 12.5px; line-height: 1.5; margin: 0px;",
+    "gf-footer-sublegal": "width: 100%; padding-block-start: 24px; margin-block-start: 40px; border-block-start-width: 1px; display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.08); @media(--mobile) { text-align: center; flex-direction: column; gap: 12px; }",
+    "gf-footer-legal-copy": "font-family: \"Open Sans\"; font-size: 12px; color: #71717A; margin: 0px;",
+    "gf-footer-legal-terms": "font-family: \"Open Sans\"; font-size: 12px; color: #71717A; margin: 0px;"
+  },
+  "dry_run": false
+}

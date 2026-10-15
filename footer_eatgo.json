@@ -1,0 +1,549 @@
+{
+  "version": "0.4",
+  "title": "Footer Global Eat&Go",
+  "type": "footer",
+  "content": [
+    {
+      "id": "6235f88",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "background_background": "classic",
+        "background_color": "#F4F4F5",
+        "custom_css": "selector { width: 100%; border-top: 1px solid #E4E4E7; }\nselector a:hover { color: #C81C20 !important; }"
+      },
+      "elements": [
+        {
+          "id": "f83c761",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1320
+            },
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "60",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "dda18e8",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "flex-start",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 32
+                }
+              },
+              "elements": [
+                {
+                  "id": "e971b44",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 28
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ff98fe4",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_align_items": "center",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 12
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "de61115",
+                          "elType": "widget",
+                          "widgetType": "image",
+                          "settings": {
+                            "image": {
+                              "url": "https://eatgopty.com/wp-content/uploads/2026/09/logo_cropped.png",
+                              "id": "49"
+                            },
+                            "image_size": "full",
+                            "width": {
+                              "unit": "px",
+                              "size": 120
+                            },
+                            "link_to": "custom",
+                            "link": {
+                              "url": "https://eatgopty.com/"
+                            }
+                          }
+                        },
+                        {
+                          "id": "0243554",
+                          "elType": "container",
+                          "settings": {
+                            "content_width": "full",
+                            "flex_direction": "column",
+                            "flex_gap": {
+                              "unit": "px",
+                              "size": 2
+                            }
+                          },
+                          "elements": [
+                            {
+                              "id": "38458ac",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "CRIOLLO EXPRESS",
+                                "title_color": "#374151",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Open Sans",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 11
+                                },
+                                "typography_font_weight": "800",
+                                "typography_letter_spacing": {
+                                  "unit": "px",
+                                  "size": 0.8
+                                }
+                              }
+                            },
+                            {
+                              "id": "85f75fe",
+                              "elType": "widget",
+                              "widgetType": "heading",
+                              "settings": {
+                                "title": "Sabor de Paila Auténtico",
+                                "header_size": "span",
+                                "title_color": "#6B7280",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Open Sans",
+                                "typography_font_size": {
+                                  "unit": "px",
+                                  "size": 11
+                                },
+                                "typography_font_weight": "400"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "376141a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"color:#4B5563; font-size:13px; line-height:1.5; margin:0; font-family:'Open Sans', sans-serif;\">La paila auténtica panameña adaptada al ritmo de oficina. Almuerzos calientes y desayunos criollos empacados en bandejas térmicas troqueladas a 75°C, con factura fiscal y cero filas.</p>"
+                      }
+                    },
+                    {
+                      "id": "782cdda",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "CONECTA CON NOSOTROS:",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 11
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase",
+                        "margin": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "c4937d7",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 8
+                        },
+                        "flex_align_items": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "e348717",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<a href=\"https://instagram.com\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Instagram\" style=\"width:36px; height:36px; border-radius:8px; background-color:#E4E4E7; display:flex; align-items:center; justify-content:center; text-decoration:none; transition:all 0.2s ease;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#18181B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect width=\"20\" height=\"20\" x=\"2\" y=\"2\" rx=\"5\" ry=\"5\"/><path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"/><line x1=\"17.5\" x2=\"17.51\" y1=\"6.5\" y2=\"6.5\"/></svg></a>",
+                            "_inline_size": "auto"
+                          }
+                        },
+                        {
+                          "id": "0e915b6",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<a href=\"https://wa.me/50762345678\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"WhatsApp\" style=\"width:36px; height:36px; border-radius:8px; background-color:#E4E4E7; display:flex; align-items:center; justify-content:center; text-decoration:none; transition:all 0.2s ease;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#18181B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg></a>",
+                            "_inline_size": "auto"
+                          }
+                        },
+                        {
+                          "id": "f9ee81c",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<a href=\"https://facebook.com\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Facebook\" style=\"width:36px; height:36px; border-radius:8px; background-color:#E4E4E7; display:flex; align-items:center; justify-content:center; text-decoration:none; transition:all 0.2s ease;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#18181B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"/></svg></a>",
+                            "_inline_size": "auto"
+                          }
+                        },
+                        {
+                          "id": "63aaa80",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<a href=\"https://linkedin.com\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"LinkedIn\" style=\"width:36px; height:36px; border-radius:8px; background-color:#E4E4E7; display:flex; align-items:center; justify-content:center; text-decoration:none; transition:all 0.2s ease;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#18181B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"/><rect width=\"4\" height=\"12\" x=\"2\" y=\"9\"/><circle cx=\"4\" cy=\"4\" r=\"2\"/></svg></a>",
+                            "_inline_size": "auto"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "92ececb",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 18
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "d54422f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "NAVEGACIÓN",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.0
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "14",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "b362b96",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex; flex-direction:column; gap:10px; font-family:'Open Sans', sans-serif; font-size:12.5px; line-height:1.5;\"><a href=\"/\" style=\"color:#4B5563; text-decoration:none; transition:color 0.2s;\">🏠 Inicio &amp; Resumen</a><a href=\"#menu-semanal\" style=\"color:#4B5563; text-decoration:none; transition:color 0.2s;\">📅 Menú Semanal (Lun-Sáb)</a><a href=\"#especial-navideno\" style=\"color:#065F46; font-weight:700; text-decoration:none; transition:color 0.2s;\">🎄 Especial Navideño (15 Nov)</a><a href=\"#platos-destacados\" style=\"color:#4B5563; text-decoration:none; transition:color 0.2s;\">🔥 Platos del Día</a><a href=\"#desayunos\" style=\"color:#4B5563; text-decoration:none; transition:color 0.2s;\">🍳 Desayunos (6:30 AM)</a><a href=\"/carta/\" style=\"color:#4B5563; text-decoration:none; transition:color 0.2s;\">📜 Carta Completa</a></div>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "c54a410",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 18
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "7e2b93b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "PARA EMPRESAS",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.0
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "14",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "b783970",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex; flex-direction:column; gap:10px; font-family:'Open Sans', sans-serif; font-size:12.5px; line-height:1.5;\"><a href=\"/empresas/\" style=\"color:#18181B; font-weight:700; text-decoration:none;\">🏢 <b>Página Empresa &amp; Combos</b></a><span style=\"color:#4B5563;\">Bandejas para Reuniones de Oficina</span><span style=\"color:#4B5563;\">Combos para 5 &amp; 10 Personas</span><span style=\"color:#4B5563;\">Factura Fiscal con RUC (DGI)</span><span style=\"color:#4B5563;\">Entrega Garantizada a las 12:00 MD</span></div>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "8a68357",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 18
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "7948119",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "UBICACIÓN & RETIRO",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.0
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "14",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "7b5b3df",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex; flex-direction:column; gap:10px; font-family:'Open Sans', sans-serif; font-size:12.5px; line-height:1.5;\"><span style=\"color:#18181B; font-weight:700;\">📍 <b>Dónde Comer &amp; Retirar</b></span><span style=\"color:#4B5563;\">Calle 50, Obarrio</span><span style=\"color:#4B5563;\">Pick &amp; Go Express (10 min)</span><span style=\"color:#4B5563;\">Horarios: 6:30 AM - 3:30 PM</span><a href=\"https://wa.me/50762345678\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#C2410C; font-weight:700; text-decoration:none;\">Enviar Consulta Directa</a></div>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "487a1a9",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 18
+                    },
+                    "width_tablet": {
+                      "unit": "%",
+                      "size": 48
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column"
+                  },
+                  "elements": [
+                    {
+                      "id": "dce53b3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "HORARIO & CALIDAD",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "typography_font_weight": "800",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": 1.0
+                        },
+                        "margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "14",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      }
+                    },
+                    {
+                      "id": "86dba41",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<div style=\"display:flex; flex-direction:column; gap:10px; font-family:'Open Sans', sans-serif; font-size:12.5px; line-height:1.5;\"><span style=\"color:#4B5563;\">🕒 Desayunos: 6:30 - 11 AM</span><span style=\"color:#4B5563;\">🍴 Almuerzos: 11:30 - 3:30 PM</span><span style=\"color:#4B5563;\">🛡️ Garantía Térmica (75°C) &amp; Empaques</span><span style=\"color:#4B5563;\">Gastronomía Criolla Panameña</span><a href=\"https://wa.me/50762345678\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#059669; font-weight:800; text-decoration:none; display:block; margin-top:8px;\">WhatsApp: +507 6234-5678</a></div>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "63d9f71",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "flex_gap_mobile": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_color": "rgba(0, 0, 0, 0.08)",
+                "padding": {
+                  "unit": "px",
+                  "top": "24",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "623822b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"color:#71717A; font-size:12px; margin:0; font-family:'Open Sans', sans-serif;\">© 2026 Eat &amp; Go S.A. — Menú Digital Criollo Express. Todos los derechos reservados.</p>"
+                  }
+                },
+                {
+                  "id": "392fff4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"color:#71717A; font-size:12px; margin:0; font-family:'Open Sans', sans-serif;\">R.U.C. 1557890-1-859472 DV 45 &bull; <a href=\"/terminos/\" style=\"color:#71717A; text-decoration:none;\">Términos de Servicio</a> &bull; <a href=\"/privacidad/\" style=\"color:#71717A; text-decoration:none;\">Aviso de Privacidad</a></p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

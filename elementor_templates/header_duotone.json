@@ -1,0 +1,460 @@
+{
+  "version": "0.4",
+  "title": "Header Duo-Tone Eat&Go (Containers)",
+  "type": "header",
+  "content": [
+    {
+      "id": "eg_topbar_cnt",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1300
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E4E4E7",
+        "padding": {
+          "unit": "px",
+          "top": "14",
+          "right": "24",
+          "bottom": "14",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "eg_brand_left_cnt",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "eg_logo_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://eatgopty.com/wp-content/uploads/2026/09/logo_cropped.png",
+                  "id": "49"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 140
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "https://eatgopty.com/"
+                }
+              }
+            },
+            {
+              "id": "eg_brand_text_cnt",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 2
+                }
+              },
+              "elements": [
+                {
+                  "id": "eg_badge_pill",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CRIOLLO EXPRESS",
+                    "title_color": "#FFFFFF",
+                    "background_background": "classic",
+                    "background_color": "#C81C20",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "2",
+                      "right": "8",
+                      "bottom": "2",
+                      "left": "8",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_weight": "700",
+                    "_inline_size": "auto"
+                  }
+                },
+                {
+                  "id": "eg_tagline_lbl",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Sabor de Paila Auténtico • Despacho Sin Filas",
+                    "header_size": "span",
+                    "title_color": "#52525B",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "400"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eg_utilities_right_cnt",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
+          "elements": [
+            {
+              "id": "eg_util_map",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "view": "default",
+                "icon": {
+                  "value": "fas fa-map-marker-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Dónde Comer",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#C81C20",
+                "title_color": "#18181B",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "link": {
+                  "url": "https://eatgopty.com/#contacto"
+                }
+              }
+            },
+            {
+              "id": "eg_util_clock",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "view": "default",
+                "icon": {
+                  "value": "far fa-clock",
+                  "library": "fa-regular"
+                },
+                "title_text": "6:30 AM - 3:30 PM",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#C81C20",
+                "title_color": "#18181B",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600"
+              }
+            },
+            {
+              "id": "eg_util_phone",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "view": "default",
+                "icon": {
+                  "value": "fas fa-phone-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "+507 6234-5678",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#C81C20",
+                "title_color": "#18181B",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "link": {
+                  "url": "https://wa.me/50762345678"
+                }
+              }
+            },
+            {
+              "id": "eg_util_building",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "view": "default",
+                "icon": {
+                  "value": "fas fa-building",
+                  "library": "fa-solid"
+                },
+                "title_text": "Empresas (RUC)",
+                "description_text": "",
+                "position": "left",
+                "primary_color": "#C81C20",
+                "title_color": "#18181B",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600",
+                "link": {
+                  "url": "https://eatgopty.com/#empresa"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eg_bottomnav_cnt",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1300
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#18181B",
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "24",
+          "bottom": "10",
+          "left": "24",
+          "isLinked": false
+        },
+        "sticky": "top",
+        "sticky_on": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ]
+      },
+      "elements": [
+        {
+          "id": "eg_bottomnav_links_cnt",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
+          "elements": [
+            {
+              "id": "eg_btn_nav_inicio",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "INICIO",
+                "link": {
+                  "url": "https://eatgopty.com/"
+                },
+                "button_text_color": "#FFFFFF",
+                "background_color": "#C81C20",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "20",
+                  "bottom": "8",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "eg_btn_nav_semanal",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "MENÚ SEMANAL",
+                "link": {
+                  "url": "https://eatgopty.com/#semanal"
+                },
+                "button_text_color": "#F4F4F5",
+                "background_color": "transparent",
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "eg_btn_nav_retirar",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "DÓNDE COMER & RETIRAR",
+                "link": {
+                  "url": "https://eatgopty.com/#contacto"
+                },
+                "button_text_color": "#F4F4F5",
+                "background_color": "transparent",
+                "padding": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "12",
+                  "bottom": "8",
+                  "left": "12",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "eg_cart_cta_cnt",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "flex-end",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eg_btn_cart_cta",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "CARRITO • $0.00",
+                "icon": {
+                  "value": "fas fa-shopping-bag",
+                  "library": "fa-solid"
+                },
+                "icon_align": "left",
+                "icon_indent": {
+                  "unit": "px",
+                  "size": 8
+                },
+                "link": {
+                  "url": "https://eatgopty.com/carrito"
+                },
+                "button_text_color": "#FFFFFF",
+                "background_color": "#C81C20",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "9",
+                  "right": "24",
+                  "bottom": "9",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

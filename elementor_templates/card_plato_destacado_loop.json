@@ -1,0 +1,327 @@
+{
+  "version": "0.4",
+  "title": "Eat&Go - Card Plato Destacado Loop",
+  "type": "loop-item",
+  "page_settings": {
+    "preview_type": "single/product",
+    "preview_id": 97
+  },
+  "content": [
+    {
+      "id": "eg_card_root",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "px",
+          "size": 520
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        },
+        "overflow": "hidden",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "space-between",
+        "background_background": "classic",
+        "background_image": {
+          "url": "",
+          "id": "",
+          "__dynamic__": {
+            "url": "[elementor-tag id=\"eg_bg_feat_img\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+          }
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_repeat": "no-repeat",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.15)",
+        "background_overlay_color_b": "rgba(0,0,0,0.95)",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 180
+        },
+        "background_overlay_color_stop": {
+          "unit": "%",
+          "size": 0
+        },
+        "background_overlay_color_b_stop": {
+          "unit": "%",
+          "size": 75
+        }
+      },
+      "elements": [
+        {
+          "id": "eg_badges_row",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "eg_badge_category",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"eg-badge-tag\">PLATO ESTRELLA DE HOY</span>",
+                "text_color": "#FACC15",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_weight": "800",
+                "_background_background": "classic",
+                "_background_color": "rgba(40,30,10,0.8)",
+                "_border_border": "solid",
+                "_border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "_border_color": "#EAB308",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "14",
+                  "bottom": "6",
+                  "left": "14",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "eg_badge_price",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "$0.00",
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"eg_dyn_price\" name=\"woocommerce-product-price-tag\" settings=\"%7B%22before%22%3A%22%22%7D\"]"
+                },
+                "header_size": "div",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_font_weight": "800",
+                "_background_background": "classic",
+                "_background_color": "#FF5500",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "6",
+                  "right": "16",
+                  "bottom": "6",
+                  "left": "16",
+                  "isLinked": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "eg_info_col",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 10
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "eg_product_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nombre del Plato",
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"eg_dyn_title\" name=\"post-title\" settings=\"%7B%22fallback%22%3A%22Nombre del Plato%22%7D\"]"
+                },
+                "header_size": "h3",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                }
+              }
+            },
+            {
+              "id": "eg_product_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Delicioso plato tradicional criollo elaborado con los ingredientes más frescos del día.",
+                "__dynamic__": {
+                  "editor": "[elementor-tag id=\"eg_dyn_desc\" name=\"post-excerpt\" settings=\"%7B%22fallback%22%3A%22Delicioso plato tradicional criollo elaborado con los ingredientes m\\u00e1s frescos del d\\u00eda.%22%7D\"]"
+                },
+                "text_color": "#D4D4D8",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.4
+                }
+              }
+            },
+            {
+              "id": "eg_action_row",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "margin": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "border_color": "rgba(255,255,255,0.15)",
+                "padding": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "eg_garnish_text",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Incluye guarnición criolla",
+                    "text_color": "#A1A1AA",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    }
+                  }
+                },
+                {
+                  "id": "eg_btn_add",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "+ Agregar",
+                    "link": {
+                      "url": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQxNCIsInRvZ2dsZSI6ZmFsc2V9",
+                      "is_external": false,
+                      "nofollow": false,
+                      "__dynamic__": {
+                        "url": "[elementor-tag id=\"eg_open_popup\" name=\"popup\" settings=\"%7B%22action%22%3A%22open%22%2C%22popup%22%3A%22414%22%7D\"]"
+                      }
+                    },
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#FF5500",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_weight": "700",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "10",
+                      "right": "20",
+                      "bottom": "10",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "_css_classes": "btn-open-plato-modal",
+                    "custom_attributes": "data-product-id|[elementor-tag id=\"eg_id\" name=\"post-id\"]\ndata-product-title|[elementor-tag id=\"eg_t\" name=\"post-title\"]\ndata-product-price|[elementor-tag id=\"eg_p\" name=\"woocommerce-product-price-tag\"]\ndata-product-img|[elementor-tag id=\"eg_i\" name=\"post-featured-image\"]"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

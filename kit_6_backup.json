@@ -1,0 +1,116 @@
+{
+  "id": 6,
+  "date": "2026-09-03T07:53:01",
+  "date_gmt": "2026-09-03T07:53:01",
+  "guid": {
+    "rendered": "https://eatgopty.com/?p=6",
+    "raw": "https://eatgopty.com/?p=6"
+  },
+  "modified": "2026-10-03T12:18:37",
+  "modified_gmt": "2026-10-03T12:18:37",
+  "password": "",
+  "slug": "default-kit",
+  "status": "publish",
+  "type": "elementor_library",
+  "link": "https://eatgopty.com/?elementor_library=default-kit",
+  "title": {
+    "raw": "Default Kit",
+    "rendered": "Default Kit"
+  },
+  "author": 1,
+  "featured_media": 0,
+  "template": "",
+  "meta": {
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "kit",
+    "_elementor_data": "[]",
+    "_elementor_page_settings": {
+      "custom_css": "/* ========================================================\n   EAT&GO: REDISE\u00d1O VERTICAL WPC SMART QUICK VIEW (ESTILO APP)\n   ======================================================== */\n\n.woosq-popup {\n  max-width: 500px !important;\n  width: 90% !important;\n  border-radius: 28px !important;\n  overflow: hidden !important;\n  padding: 0 !important;\n  background: #FFFFFF !important;\n  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35) !important;\n}\n\n.woosq-product {\n  padding: 0 !important;\n}\n\n.woosq-product .product {\n  display: flex !important;\n  flex-direction: column !important;\n  margin: 0 !important;\n}\n\n.woosq-product .images {\n  width: 100% !important;\n  max-width: 100% !important;\n  height: 240px !important;\n  overflow: hidden !important;\n  margin: 0 !important;\n  position: relative !important;\n}\n\n.woosq-product .images img {\n  width: 100% !important;\n  height: 240px !important;\n  object-fit: cover !important;\n  display: block !important;\n}\n\n.woosq-product .slick-arrow {\n  display: none !important;\n}\n\n.woosq-product .summary {\n  width: 100% !important;\n  max-width: 100% !important;\n  padding: 24px 24px 20px 24px !important;\n  box-sizing: border-box !important;\n}\n\n.woosq-product .product_title {\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 24px !important;\n  font-weight: 800 !important;\n  color: #18181B !important;\n  margin: 0 0 6px 0 !important;\n  line-height: 1.2 !important;\n}\n\n.woosq-product .price {\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 20px !important;\n  font-weight: 800 !important;\n  color: #EAB308 !important;\n  margin: 0 0 16px 0 !important;\n}\n\n.woosq-product .woocommerce-product-details__short-description {\n  color: #4B5563 !important;\n  font-size: 14px !important;\n  line-height: 1.5 !important;\n  margin-bottom: 16px !important;\n}\n\n.woosq-product .woocommerce-product-details__short-description::after {\n  content: \"\ud83d\udee1\ufe0f Despachado en empaque t\u00e9rmico compartimentado de alta retenci\u00f3n cal\u00f3rica\";\n  display: flex;\n  align-items: center;\n  margin-top: 14px;\n  padding: 10px 14px;\n  background-color: #ECFDF5;\n  border: 1px solid #A7F3D0;\n  border-radius: 12px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #065F46;\n  line-height: 1.3;\n}\n\n.woosq-product .product_meta,\n.woosq-product .sku_wrapper {\n  display: none !important;\n}\n\n.woosq-product form.cart {\n  display: flex !important;\n  align-items: center !important;\n  gap: 12px !important;\n  margin: 16px 0 0 0 !important;\n  padding-top: 16px !important;\n  border-top: 1px solid #E5E7EB !important;\n}\n\n.woosq-product .quantity input.qty {\n  width: 50px !important;\n  height: 48px !important;\n  border: 1px solid #D1D5DB !important;\n  border-radius: 12px !important;\n  font-size: 15px !important;\n  font-weight: 700 !important;\n  color: #18181B !important;\n  text-align: center !important;\n}\n\n.woosq-product .single_add_to_cart_button {\n  flex-grow: 1 !important;\n  height: 48px !important;\n  background-color: #F59E0B !important;\n  color: #18181B !important;\n  font-family: \"Open Sans\", sans-serif !important;\n  font-weight: 800 !important;\n  font-size: 15px !important;\n  border-radius: 14px !important;\n  border: none !important;\n  cursor: pointer !important;\n  transition: all 0.2s ease !important;\n}\n\n.woosq-product .single_add_to_cart_button:hover {\n  background-color: #D97706 !important;\n  color: #FFFFFF !important;\n}\n\n.woosq-close {\n  top: 16px !important;\n  right: 16px !important;\n  background: rgba(0, 0, 0, 0.6) !important;\n  color: #FFFFFF !important;\n  border-radius: 50% !important;\n  width: 32px !important;\n  height: 32px !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n/* ========================================================\n   EAT&GO: BLINDAJE CARD DESAYUNO LOOP (POST 314) - CAPTURA 2\n   ======================================================== */\n\n/* 1. Contenedor de cada Tarjeta en el Loop Grid */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"],\n.elementor-314.e-loop-item {\n  box-sizing: border-box !important;\n  background: #FFFFFF !important;\n  border-radius: 20px !important;\n  padding: 0 !important;\n  overflow: hidden !important;\n  box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important;\n  height: 100% !important;\n}\n\n/* 2. Tarjeta Ra\u00edz (card-root): OBLIGATORIO flex-direction: column para que el bot\u00f3n vaya abajo */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] .elementor-element-639e6520,\n.elementor-314 .elementor-element-639e6520,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"639e6520\"],\n.elementor-314 [data-interaction-id=\"639e6520\"] {\n  display: flex !important;\n  flex-direction: column !important;\n  justify-content: space-between !important;\n  width: 100% !important;\n  height: 100% !important;\n  min-height: 200px !important;\n  padding: 20px !important;\n  box-sizing: border-box !important;\n  background-color: #FFFFFF !important;\n  border-radius: 20px !important;\n}\n\n/* 3. Fila Superior (row-top: Foto + Columna de Textos) */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] .elementor-element-6a7bb1b7,\n.elementor-314 .elementor-element-6a7bb1b7,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"6a7bb1b7\"],\n.elementor-314 [data-interaction-id=\"6a7bb1b7\"] {\n  display: flex !important;\n  flex-direction: row !important;\n  flex-wrap: nowrap !important;\n  align-items: flex-start !important;\n  gap: 16px !important;\n  width: 100% !important;\n  box-sizing: border-box !important;\n}\n\n/* 4. Foto del plato: Cuadrada redondeada a 14px como Captura 2 */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] .elementor-element-7bbf8f44,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] img[data-interaction-id=\"7bbf8f44\"],\n.elementor-314 img.e-image-base,\n.elementor-314 .e-image-base {\n  width: 80px !important;\n  min-width: 80px !important;\n  max-width: 80px !important;\n  height: 80px !important;\n  min-height: 80px !important;\n  max-height: 80px !important;\n  flex-shrink: 0 !important;\n  flex-grow: 0 !important;\n  border-radius: 14px !important;\n  object-fit: cover !important;\n  overflow: hidden !important;\n  display: block !important;\n}\n\n/* 5. Columna de Textos: Fluida a la derecha de la foto */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] .elementor-element-6224eb2f,\n.elementor-314 .elementor-element-6224eb2f,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"6224eb2f\"],\n.elementor-314 [data-interaction-id=\"6224eb2f\"] {\n  flex-grow: 1 !important;\n  flex-shrink: 1 !important;\n  min-width: 0 !important;\n  width: auto !important;\n  overflow: hidden !important;\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 4px !important;\n  box-sizing: border-box !important;\n}\n\n/* 6. T\u00edtulo del Plato */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"6b5605a0\"],\n.elementor-314 .e-heading-base,\n.elementor-314 h4 {\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 16px !important;\n  font-weight: 800 !important;\n  color: #18181B !important;\n  white-space: normal !important;\n  word-break: normal !important;\n  line-height: 1.25 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n/* 7. Precio */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"74b9acc4\"],\n.elementor-314 [data-interaction-id=\"74b9acc4\"],\n.elementor-314 [data-interaction-id=\"74b9acc4\"] * {\n  font-family: \"Open Sans\", sans-serif !important;\n  font-size: 16px !important;\n  font-weight: 800 !important;\n  color: #EA580C !important;\n  margin-top: 4px !important;\n  margin-bottom: 0 !important;\n  white-space: nowrap !important;\n}\n\n/* 8. Bot\u00f3n Inferior (+ Agregar a Comanda): 100% de ancho, abajo horizontal */\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] a.e-button-base,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] .elementor-element-106f48ee,\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] [data-interaction-id=\"106f48ee\"],\n.elementor-314 a.e-button-base,\n.elementor-314 [data-interaction-id=\"106f48ee\"] {\n  background-color: #18181B !important;\n  background: #18181B !important;\n  color: #FFFFFF !important;\n  width: 100% !important;\n  display: block !important;\n  text-align: center !important;\n  border-radius: 12px !important;\n  font-family: \"Open Sans\", sans-serif !important;\n  font-weight: 700 !important;\n  font-size: 13px !important;\n  padding: 10px 0 !important;\n  text-decoration: none !important;\n  margin-top: 16px !important;\n  margin-bottom: 0 !important;\n  box-sizing: border-box !important;\n}\n\n[data-elementor-type=\"loop-item\"][data-elementor-id=\"314\"] a.e-button-base:hover,\n.elementor-314 a.e-button-base:hover {\n  background-color: #27272A !important;\n  background: #27272A !important;\n  color: #FFFFFF !important;\n}",
+      "viewport_md": 768,
+      "viewport_lg": 1025,
+      "site_name": "Eat &amp; Go",
+      "site_description": "Tasty and Fresh"
+    },
+    "_elementor_conditions": []
+  },
+  "permalink_template": "https://eatgopty.com/?elementor_library=default-kit",
+  "generated_slug": "default-kit",
+  "class_list": [
+    "post-6",
+    "elementor_library",
+    "type-elementor_library",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/types/elementor_library"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://eatgopty.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 4,
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 546,
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6/revisions/546"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/media?parent=6"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_library/6"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "version": "0.4",
+  "title": "Menú Semanal - Eat&Go",
+  "type": "page",
+  "content": [
+    {
+      "id": "onfmtb3",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "flex_direction": "column",
+        "flex_gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        },
+        "custom_css": "selector { font-family: \"Open Sans\", sans-serif; }\nselector .pill-active { background-color: #F59E0B !important; color: #18181B !important; font-weight: 800 !important; border-color: #F59E0B !important; }\nselector .pill-inactive { background-color: #FFFFFF !important; color: #4B5563 !important; border: 1px solid #E5E7EB !important; font-weight: 600 !important; }\nselector .pill-inactive:hover { background-color: #F9FAFB !important; border-color: #D1D5DB !important; }\nselector .dish-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }\nselector .dish-card:hover { transform: translateY(-4px); box-shadow: 0 12px 24px -10px rgba(0,0,0,0.15); }\nselector .day-selector-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }\nselector .day-selector-scroll::-webkit-scrollbar { display: none; }"
+      },
+      "elements": [
+        {
+          "id": "2kdf2s7",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "background_background": "classic",
+            "background_color": "#FCF9F2",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#F5E8C7",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "24",
+              "bottom": "16",
+              "left": "24",
+              "isLinked": false
+            },
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "e5k87ls",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "uuakom0",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style=\"display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;background:#FDE68A;color:#B45309;font-size:20px;flex-shrink:0;\">📅</div>"
+                  }
+                },
+                {
+                  "id": "hjwrfll",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 2
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "cwvkx65",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Programación Menú Ejecutivo & Paila",
+                        "header_size": "h4",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_font_weight": "700"
+                      }
+                    },
+                    {
+                      "id": "879kmdf",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "4 semanas completas de rotación criolla sin repetir platos",
+                        "header_size": "p",
+                        "title_color": "#71717A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_font_weight": "400"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bt04h8t",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:inline-flex;align-items:center;background:#F59E0B;color:#18181B;padding:8px 16px;border-radius:9999px;font-size:12px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;white-space:nowrap;box-shadow:0 1px 3px rgba(245,158,11,0.3);\">Catálogo Semanal • Vista Día por Día</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "qgo7pr8",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#E5E7EB",
+            "border_radius": {
+              "unit": "px",
+              "top": "24",
+              "right": "24",
+              "bottom": "24",
+              "left": "24",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "32",
+              "right": "40",
+              "bottom": "32",
+              "left": "40",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "24",
+              "right": "20",
+              "bottom": "24",
+              "left": "20",
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 4,
+              "blur": 20,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.03)"
+            }
+          },
+          "elements": [
+            {
+              "id": "ggrre35",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:inline-flex;align-items:center;gap:8px;color:#EA580C;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;\"><span>📅</span><span>PLANIFICA TUS ALMUERZOS DE OFICINA • CERO REPETICIÓN</span></div>"
+              }
+            },
+            {
+              "id": "7ncroyi",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24
+                }
+              },
+              "elements": [
+                {
+                  "id": "s667yc9",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 65
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 8
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "z2klxz5",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Catálogo de la Semana",
+                        "header_size": "h1",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 38
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 28
+                        },
+                        "typography_font_weight": "800",
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.15
+                        }
+                      }
+                    },
+                    {
+                      "id": "q22ipkd",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"color:#52525B;font-size:15px;line-height:1.6;margin:0;\">Comida criolla fresca de paila panameña lista para tus almuerzos de oficina. Elige el día, selecciona tus platos ejecutivos y recíbelos calientes a la hora de almuerzo.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "ad967d5",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 35
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "background_background": "classic",
+                    "background_color": "#FFFBEB",
+                    "border_border": "solid",
+                    "border_width": {
+                      "unit": "px",
+                      "top": "1",
+                      "right": "1",
+                      "bottom": "1",
+                      "left": "1",
+                      "isLinked": true
+                    },
+                    "border_color": "#FDE68A",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "16",
+                      "bottom": "16",
+                      "left": "16",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "20",
+                      "bottom": "16",
+                      "left": "20",
+                      "isLinked": false
+                    },
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ox1eh8d",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"font-size:26px;flex-shrink:0;\">📦</div>"
+                      }
+                    },
+                    {
+                      "id": "rrnj9qu",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 2
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "narj7km",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Cajas Troqueladas 75°C",
+                            "header_size": "h5",
+                            "title_color": "#92400E",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Open Sans",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 14
+                            },
+                            "typography_font_weight": "800"
+                          }
+                        },
+                        {
+                          "id": "u1xr8o2",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Compartimentos separados para salsas",
+                            "header_size": "p",
+                            "title_color": "#B45309",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Open Sans",
+                            "typography_font_size": {
+                              "unit": "px",
+                              "size": 12
+                            },
+                            "typography_font_weight": "500"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tk02epc",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "margin": {
+              "unit": "px",
+              "top": "12",
+              "right": "0",
+              "bottom": "12",
+              "left": "0",
+              "isLinked": false
+            },
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12
+            },
+            "flex_align_items": "center",
+            "css_classes": "day-selector-scroll"
+          },
+          "elements": [
+            {
+              "id": "szy4ixk",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"display:flex;align-items:center;gap:12px;overflow-x:auto;padding:6px 2px;white-space:nowrap;width:100%;\">\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#F59E0B;color:#18181B;font-family:'Open Sans',sans-serif;font-weight:800;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;box-shadow:0 4px 12px rgba(245,158,11,0.35);border:1px solid #F59E0B;flex-shrink:0;\">\n    <span>LUNES</span>\n    <span style=\"font-weight:500;opacity:0.85;\">Sopas</span>\n  </div>\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;color:#4B5563;font-family:'Open Sans',sans-serif;font-weight:600;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;border:1px solid #E5E7EB;flex-shrink:0;\">\n    <span style=\"font-weight:700;color:#18181B;\">MARTES</span>\n    <span style=\"color:#6B7280;\">Mondongo</span>\n  </div>\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;color:#4B5563;font-family:'Open Sans',sans-serif;font-weight:600;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;border:1px solid #E5E7EB;flex-shrink:0;\">\n    <span style=\"font-weight:700;color:#18181B;\">MIÉRCOLES</span>\n    <span style=\"color:#6B7280;\">Paila Criolla</span>\n  </div>\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;color:#4B5563;font-family:'Open Sans',sans-serif;font-weight:600;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;border:1px solid #E5E7EB;flex-shrink:0;\">\n    <span style=\"font-weight:700;color:#18181B;\">JUEVES</span>\n    <span style=\"color:#6B7280;\">Pastas / Asados</span>\n  </div>\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;color:#4B5563;font-family:'Open Sans',sans-serif;font-weight:600;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;border:1px solid #E5E7EB;flex-shrink:0;\">\n    <span style=\"font-weight:700;color:#18181B;\">VIERNES</span>\n    <span style=\"color:#6B7280;\">Mariscos</span>\n  </div>\n  <div style=\"display:inline-flex;align-items:center;gap:6px;background-color:#FFFFFF;color:#4B5563;font-family:'Open Sans',sans-serif;font-weight:600;font-size:14px;padding:10px 22px;border-radius:50px;cursor:pointer;border:1px solid #E5E7EB;flex-shrink:0;\">\n    <span style=\"font-weight:700;color:#18181B;\">SÁBADO</span>\n    <span style=\"color:#6B7280;\">Paila Familiar</span>\n  </div>\n</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "qzv0xc6",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "background_background": "classic",
+            "background_color": "#FEFCE8",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "#FEF08A",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "24",
+              "bottom": "16",
+              "left": "24",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "12",
+              "left": "0",
+              "isLinked": false
+            },
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "59ewc5o",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 6
+                }
+              },
+              "elements": [
+                {
+                  "id": "mm2osuz",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 12
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "m8661yz",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "MENÚ DEL LUNES",
+                        "header_size": "h4",
+                        "title_color": "#18181B",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Open Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 18
+                        },
+                        "typography_font_weight": "800"
+                      }
+                    },
+                    {
+                      "id": "lnlfoqx",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<span style=\"display:inline-flex;align-items:center;background:#FEF3C7;color:#92400E;padding:4px 10px;border-radius:8px;font-size:12px;font-weight:700;\">🥣 Día de Caldos Reconfortantes</span>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "i4g90fv",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Arranca la semana laboral con energía criolla y guisos reconfortantes de olla honda.",
+                    "header_size": "p",
+                    "title_color": "#71717A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "400"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "z6rmnb3",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"font-family:'Open Sans',sans-serif;font-size:13px;font-weight:600;color:#71717A;white-space:nowrap;background:#FFFFFF;border:1px solid #E5E7EB;padding:6px 14px;border-radius:20px;\">🔥 3 especialidades preparadas hoy</div>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "z49rbnd",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "space-between",
+            "flex_gap": {
+              "unit": "px",
+              "size": 24
+            }
+          },
+          "elements": [
+            {
+              "id": "6jtyk30",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E4E4E7",
+                "overflow": "hidden",
+                "css_classes": "dish-card",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "vp3f0h6",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style=\"position:relative;width:100%;height:220px;background:url('https://eatgopty.com/wp-content/uploads/2026/09/Sopa-de-pata-con-rabito_EatGo.png') center/cover no-repeat;\">\n  <div style=\"position:absolute;inset:0;background:linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.0) 100%);\"></div>\n  <div style=\"position:absolute;top:12px;left:12px;background:#C81C20;color:#FFFFFF;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:800;letter-spacing:0.5px;text-transform:uppercase;\">Plato Estrella</div>\n  <div style=\"position:absolute;bottom:12px;left:14px;right:14px;\">\n    <h3 style=\"color:#FFFFFF;font-family:'Open Sans',sans-serif;font-size:17px;font-weight:800;margin:0 0 2px 0;line-height:1.25;text-shadow:0 2px 4px rgba(0,0,0,0.5);\">Sancocho Tradicional de Gallina de Patio</h3>\n    <p style=\"color:#D4D4D8;font-size:12px;margin:0;font-weight:500;\">Caldo denso • Ñame baboso • Culantro</p>\n  </div>\n</div>"
+                  }
+                },
+                {
+                  "id": "cf4hhr6",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "w8ouaae",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"color:#52525B;font-size:13px;line-height:1.5;margin:0;\">El rey indiscutible de Panamá: caldo espeso con ñame baboso, gallina suave y abundante culantro fresco cosechado.</p>"
+                      }
+                    },
+                    {
+                      "id": "tbq19l0",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#F4F4F5;padding:8px 12px;border-radius:8px;font-size:12px;color:#3F3F46;font-weight:600;display:flex;align-items:center;gap:6px;\"><span>🍚</span><span>Incluye: <strong>Arroz Blanco Criollo</strong></span></div>"
+                      }
+                    },
+                    {
+                      "id": "cwwv9ga",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "padding": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "nwpwkbb",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<div style=\"font-family:'Open Sans',sans-serif;font-size:22px;font-weight:800;color:#EA580C;\">$6.50</div>"
+                          }
+                        },
+                        {
+                          "id": "0bh1czz",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<button style=\"background:#C81C20;color:#FFFFFF;border:none;padding:10px 18px;border-radius:50px;font-family:'Open Sans',sans-serif;font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 6px rgba(200,28,32,0.3);transition:background 0.2s;\">+ Agregar</button>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "8o6l8s6",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E4E4E7",
+                "overflow": "hidden",
+                "css_classes": "dish-card",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "o1szadd",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style=\"position:relative;width:100%;height:220px;background:url('https://eatgopty.com/wp-content/uploads/2026/09/Bofe-con-tortilla_EatGo.png') center/cover no-repeat;\">\n  <div style=\"position:absolute;inset:0;background:linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.0) 100%);\"></div>\n  <div style=\"position:absolute;top:12px;left:12px;background:#F59E0B;color:#18181B;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:800;letter-spacing:0.5px;text-transform:uppercase;\">Especial Lunes</div>\n  <div style=\"position:absolute;bottom:12px;left:14px;right:14px;\">\n    <h3 style=\"color:#FFFFFF;font-family:'Open Sans',sans-serif;font-size:17px;font-weight:800;margin:0 0 2px 0;line-height:1.25;text-shadow:0 2px 4px rgba(0,0,0,0.5);\">Mondongo a la Culantro con Papitas</h3>\n    <p style=\"color:#D4D4D8;font-size:12px;margin:0;font-weight:500;\">Sofrito casero • Salsa criolla • Papas</p>\n  </div>\n</div>"
+                  }
+                },
+                {
+                  "id": "ixd2dos",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "thiunml",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"color:#52525B;font-size:13px;line-height:1.5;margin:0;\">Mondongo suave y limpio, estofado a fuego lento con salsa de tomate criollo, sofrito de culantro y papas en cubos.</p>"
+                      }
+                    },
+                    {
+                      "id": "m2t65m6",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#F4F4F5;padding:8px 12px;border-radius:8px;font-size:12px;color:#3F3F46;font-weight:600;display:flex;align-items:center;gap:6px;\"><span>🍚</span><span>Incluye: <strong>Arroz con Guandú</strong></span></div>"
+                      }
+                    },
+                    {
+                      "id": "xjdbkom",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "padding": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "eadv3xr",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<div style=\"font-family:'Open Sans',sans-serif;font-size:22px;font-weight:800;color:#EA580C;\">$7.00</div>"
+                          }
+                        },
+                        {
+                          "id": "nqp9dah",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<button style=\"background:#C81C20;color:#FFFFFF;border:none;padding:10px 18px;border-radius:50px;font-family:'Open Sans',sans-serif;font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 6px rgba(200,28,32,0.3);transition:background 0.2s;\">+ Agregar</button>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4lx3bbh",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "width": {
+                  "unit": "%",
+                  "size": 31.5
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "20",
+                  "bottom": "20",
+                  "left": "20",
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E4E4E7",
+                "overflow": "hidden",
+                "css_classes": "dish-card",
+                "flex_direction": "column"
+              },
+              "elements": [
+                {
+                  "id": "t4c1u3n",
+                  "elType": "widget",
+                  "widgetType": "html",
+                  "settings": {
+                    "html": "<div style=\"position:relative;width:100%;height:220px;background:url('https://eatgopty.com/wp-content/uploads/2026/09/Pollo-al-Horno_EatGo.png') center/cover no-repeat;\">\n  <div style=\"position:absolute;inset:0;background:linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.0) 100%);\"></div>\n  <div style=\"position:absolute;top:12px;left:12px;background:#18181B;color:#FFFFFF;padding:4px 10px;border-radius:6px;font-size:11px;font-weight:800;letter-spacing:0.5px;text-transform:uppercase;\">Favorito Ejecutivo</div>\n  <div style=\"position:absolute;bottom:12px;left:14px;right:14px;\">\n    <h3 style=\"color:#FFFFFF;font-family:'Open Sans',sans-serif;font-size:17px;font-weight:800;margin:0 0 2px 0;line-height:1.25;text-shadow:0 2px 4px rgba(0,0,0,0.5);\">Pollo Guisado Campesino en Achiote</h3>\n    <p style=\"color:#D4D4D8;font-size:12px;margin:0;font-weight:500;\">Achiote natural • Salsa criolla densa</p>\n  </div>\n</div>"
+                  }
+                },
+                {
+                  "id": "5rynjg0",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "18",
+                      "bottom": "18",
+                      "left": "18",
+                      "isLinked": true
+                    },
+                    "flex_direction": "column",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fo1osgs",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"color:#52525B;font-size:13px;line-height:1.5;margin:0;\">Presas de pollo marinadas con achiote natural del interior, orégano y pimentón, con salsa densa para bañar el arroz.</p>"
+                      }
+                    },
+                    {
+                      "id": "d4jkcng",
+                      "elType": "widget",
+                      "widgetType": "html",
+                      "settings": {
+                        "html": "<div style=\"background:#F4F4F5;padding:8px 12px;border-radius:8px;font-size:12px;color:#3F3F46;font-weight:600;display:flex;align-items:center;gap:6px;\"><span>🍌</span><span>Incluye: <strong>Arroz Blanco y Tajadas</strong></span></div>"
+                      }
+                    },
+                    {
+                      "id": "9qr9el3",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "row",
+                        "flex_justify_content": "space-between",
+                        "flex_align_items": "center",
+                        "padding": {
+                          "unit": "px",
+                          "top": "6",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "whw09c3",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<div style=\"font-family:'Open Sans',sans-serif;font-size:22px;font-weight:800;color:#EA580C;\">$6.00</div>"
+                          }
+                        },
+                        {
+                          "id": "uz3e9hl",
+                          "elType": "widget",
+                          "widgetType": "html",
+                          "settings": {
+                            "html": "<button style=\"background:#C81C20;color:#FFFFFF;border:none;padding:10px 18px;border-radius:50px;font-family:'Open Sans',sans-serif;font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 6px rgba(200,28,32,0.3);transition:background 0.2s;\">+ Agregar</button>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

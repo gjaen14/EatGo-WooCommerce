@@ -1,0 +1,17 @@
+# Directivas de Autonomía de Ejecución - Modo Agente
+
+## 1. Alcance de Permisos (Workspace Scope)
+- **AUTONOMÍA TOTAL DENTRO DEL PROYECTO:** Tienes autorización explícita para leer, crear, modificar y eliminar archivos dentro del directorio de trabajo actual (`./`) SIN pedir confirmación previa.
+- Ejecuta los cambios directamente y notifica al usuario únicamente con el resultado y la instrucción de prueba.
+
+## 2. Zona Restringida (Requiere Aprobación Obligatoria)
+- Solicita permiso explícito del usuario ÚNICAMENTE si:
+  1. Necesitas ejecutar comandos que afecten archivos fuera de este repositorio/directorio.
+  2. Vas a ejecutar comandos de terminal destructivos globales (ej. `rm -rf` fuera del proyecto, `git push --force`, modificaciones en `/etc/`, variables del sistema operativo raíz).
+  3. Vas a instalar dependencias globales en el sistema (`npm install -g`).
+
+## 3. Modo de Comunicación
+- Dame el plan de accion antes de hacerlo.
+- Confirmo y procedes sin volver a preguntar solo si, se cumple algo del .2 Zona resitringida.
+- Aplica los cambios primero.
+- Tu respuesta final debe ser directa, resumiendo el cambio en 1 línea y diciendo: **"Listo, pruébalo ahora."**

@@ -1,0 +1,86 @@
+{
+  "id": 660,
+  "date": "2026-09-27T06:19:35",
+  "date_gmt": "2026-09-27T06:19:35",
+  "guid": {
+    "rendered": "https://eatgopty.com/?elementor_snippet=eatgo-menu-semanal-motor-interactivo",
+    "raw": "https://eatgopty.com/?elementor_snippet=eatgo-menu-semanal-motor-interactivo"
+  },
+  "modified": "2026-09-29T04:42:15",
+  "modified_gmt": "2026-09-29T04:42:15",
+  "password": "",
+  "slug": "eatgo-menu-semanal-motor-interactivo",
+  "status": "publish",
+  "type": "elementor_snippet",
+  "link": "https://eatgopty.com/?elementor_snippet=eatgo-menu-semanal-motor-interactivo",
+  "title": {
+    "raw": "EatGo Men\u00fa Semanal Motor Interactivo Din\u00e1mico",
+    "rendered": "EatGo Men\u00fa Semanal Motor Interactivo Din\u00e1mico"
+  },
+  "author": 1,
+  "template": "",
+  "meta": {
+    "_elementor_location": "elementor_body_end",
+    "_elementor_priority": 1,
+    "_elementor_code": "<style>\n/* ========================================================\n   EAT&GO: DISE\u00d1O VISUAL OFICIAL (100% PRESERVADO)\n   ======================================================== */\n\n/* P\u00edldoras de los D\u00edas */\n.elementor-element-440f623b p,\n.btn-dia-tab,\n[class*=\"dia-tab\"] {\n  cursor: pointer !important;\n  transition: all 0.2s ease !important;\n  border-radius: 50px !important;\n  user-select: none !important;\n}\n\n/* Ocultar badge de caja 75\u00b0C en todas las tarjetas */\n[data-interaction-id*=\"bbox-\"],\ndiv[data-interaction-id=\"7a466aab\"],\ndiv[data-interaction-id=\"217a4710\"],\ndiv[data-interaction-id=\"25a756bf\"],\ndiv[data-interaction-id=\"12719368\"],\ndiv[data-interaction-id=\"44071ae2\"],\ndiv[data-interaction-id=\"250580c3\"],\ndiv[data-interaction-id=\"3fa9579f\"],\ndiv[data-interaction-id=\"a87b821\"],\ndiv[data-interaction-id=\"30d8f2ff\"],\ndiv[data-interaction-id=\"5a1b375c\"],\ndiv[data-interaction-id=\"6c6b207b\"],\ndiv[data-interaction-id=\"6baa9db1\"],\ndiv[data-interaction-id=\"45f48e79\"],\ndiv[data-interaction-id=\"2eae153b\"],\ndiv[data-interaction-id=\"5d978d53\"],\n.elementor-element-c06bgbtm {\n  display: none !important;\n}\n\n/* Bot\u00f3n + Agregar al Pedido (Fiel a la captura) */\n.woosq-btn,\n.elementor-button.woosq-btn,\n[data-interaction-id*=\"btn-plato-\"] a {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  width: 100% !important;\n  height: 48px !important;\n  background-color: #F59E0B !important;\n  color: #000000 !important; /* TEXTO NEGRO FIEL A LA CAPTURA */\n  font-family: 'Open Sans', sans-serif !important;\n  font-size: 14px !important;\n  font-weight: 800 !important;\n  text-decoration: none !important;\n  border-radius: 50px !important; /* P\u00cdLDORA 50PX */\n  border: none !important;\n  cursor: pointer !important;\n  transition: all 0.2s ease !important;\n  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.28) !important;\n  gap: 8px !important;\n  box-sizing: border-box !important;\n}\n\n.woosq-btn:hover,\n.elementor-button.woosq-btn:hover,\n[data-interaction-id*=\"btn-plato-\"] a:hover {\n  background-color: #D97706 !important;\n  color: #000000 !important;\n  transform: translateY(-1px) !important;\n  box-shadow: 0 6px 16px rgba(245, 158, 11, 0.38) !important;\n}\n\n/* Icono bag.svg en el bot\u00f3n */\n.woosq-btn img,\n.woosq-btn svg,\n[data-interaction-id*=\"btn-plato-\"] a img,\n[data-interaction-id*=\"btn-plato-\"] a svg {\n  width: 20px !important;\n  height: 20px !important;\n  stroke: #000000 !important;\n  fill: none !important;\n  display: inline-block !important;\n  vertical-align: middle !important;\n}\n\n/* Badge PLATO ESTRELLA (Superior Izquierda) */\n[data-interaction-id*=\"bcat-plato-\"] {\n  display: inline-block !important;\n  background: #18181B !important;\n  color: #FACC15 !important;\n  font-family: 'Open Sans', sans-serif !important;\n  font-size: 10px !important;\n  font-weight: 800 !important;\n  letter-spacing: 0.5px !important;\n  padding: 4px 10px !important;\n  border-radius: 50px !important;\n  text-transform: uppercase !important;\n}\n\n/* Badge PRECIO (Superior Derecha) */\n[data-interaction-id*=\"bpr-plato-\"] {\n  display: inline-block !important;\n  background: #FFFFFF !important;\n  color: #18181B !important;\n  font-family: 'Open Sans', sans-serif !important;\n  font-size: 13px !important;\n  font-weight: 800 !important;\n  padding: 4px 12px !important;\n  border-radius: 50px !important;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.12) !important;\n}\n\n/* Selector de Acompa\u00f1amiento */\n[data-interaction-id*=\"sbox-plato-\"] span {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  background: #FFFFFF !important;\n  border: 1px solid #E5E7EB !important;\n  border-radius: 12px !important;\n  padding: 9px 12px !important;\n  font-family: 'Open Sans', sans-serif !important;\n  font-size: 12px !important;\n  font-weight: 600 !important;\n  color: #18181B !important;\n}\n</style>\n\n<script>\njQuery(function($) {\n  // Asegurar que solo se ejecute en la p\u00e1gina de Men\u00fa Semanal\n  if (!$('body').hasClass('page-id-564') && window.location.pathname.indexOf('menu-semanal') === -1) {\n    return;\n  }\n\n  // 1. Diccionario de d\u00edas e informaci\u00f3n de cabecera\n  var diasInfo = {\n    'lunes': { nombre: 'LUNES', badge: '\ud83e\udd63 D\u00eda de Caldos Reconfortantes', sub: 'Arranca la semana laboral con energ\u00eda criolla y guisos reconfortantes de olla honda.' },\n    'martes': { nombre: 'MARTES', badge: '\ud83e\udd58 Tradici\u00f3n y Estofados Campesinos', sub: 'Platos tradicionales guisados a fuego lento con el saz\u00f3n del interior.' },\n    'miercoles': { nombre: 'MI\u00c9RCOLES', badge: '\ud83d\udd25 Paila Criolla & Asados', sub: 'Mitad de semana con carnes al horno, lechona y cortes jugosos.' },\n    'jueves': { nombre: 'JUEVES', badge: '\ud83c\udf57 Costillas, Aves & Sabor Ahumado', sub: 'Especialidades ahumadas y pastas criollas con salsas espesas.' },\n    'viernes': { nombre: 'VIERNES', badge: '\ud83d\udc1f Mariscos & Sabor Caribe\u00f1o', sub: 'Cierra la semana con pescado frito, mariscos y arroz con coco.' },\n    'sabado': { nombre: 'S\u00c1BADO', badge: '\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66 Paila Familiar & Fiestas Criollas', sub: 'Porciones familiares para compartir el fin de semana.' }\n  };\n\n  var diasSemana = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];\n  var fechaHoy = new Date();\n  var diaNum = fechaHoy.getDay(); // 0 es Domingo, 1 es Lunes...\n\n  // REGLA DE DOMINGO: Si hoy es domingo (cocina cerrada), activar LUNES por defecto para pedidos anticipados\n  var diaActivo = (diaNum === 0) ? 'lunes' : diasSemana[diaNum];\n\n  var pillMap = {\n    '302c53b1': 'lunes',\n    '1366f201': 'martes',\n    'db09404': 'miercoles',\n    '10dfeecc': 'jueves',\n    '258724b8': 'viernes',\n    '38fd654a': 'sabado'\n  };\n\n  var bagSvgHtml = '<img src=\"https://eatgopty.com/wp-content/uploads/2026/09/bag.svg\" width=\"20\" height=\"20\" alt=\"bag\" style=\"vertical-align: middle; stroke: #000000; fill: none; margin-right: 8px; display: inline-block;\">';\n\n  // 2. Funci\u00f3n para poblar din\u00e1micamente las tarjetas de un d\u00eda con los productos de WooCommerce\n  function renderPlatosDia(gridElement, platos) {\n    if (!platos || !platos.length) return;\n    var $cards = gridElement.children();\n    platos.slice(0, 3).forEach(function(p, idx) {\n      var $card = $cards.eq(idx);\n      if (!$card.length) return;\n\n      // Imagen\n      if (p.image_url) {\n        $card.find('img').first().attr('src', p.image_url).removeAttr('srcset');\n      }\n      // Precio\n      if (p.price) {\n        $card.find('[data-interaction-id*=\"bpr-\"]').text(p.price);\n      }\n      // T\u00edtulo\n      if (p.name) {\n        $card.find('h4, h3').first().text(p.name);\n      }\n      // Descripci\u00f3n\n      if (p.description) {\n        $card.find('[data-interaction-id*=\"dsc-\"]').text(p.description);\n      }\n      // Bot\u00f3n + Agregar al Pedido con data-id\n      if (p.id) {\n        var $btn = $card.find('.woosq-btn');\n        $btn.attr('data-id', p.id);\n      }\n    });\n  }\n\n  // 3. Consultar productos din\u00e1micos de WooCommerce seg\u00fan la semana activa\n  var dynamicMenuData = null;\n  $.ajax({\n    url: '/wp-json/eatgo/v1/menu-semanal',\n    method: 'GET',\n    dataType: 'json',\n    success: function(res) {\n      dynamicMenuData = res;\n      var semNum = res.semana_activa || '1';\n      var $counter = $('.banner-dia-counter, [data-interaction-id=\"4a66aef8\"]').first();\n      if ($counter.length) {\n        $counter.text('\ud83d\uddd3\ufe0f Semana ' + semNum + ' del Mes \u2022 3 especialidades preparadas hoy');\n      }\n\n      // Aplicar datos din\u00e1micos a las grillas\n      if (res.dias) {\n        var gridMapping = {\n          'lunes': $('[data-interaction-id=\"69a6b14f\"], .elementor-element-69a6b14f, [configuration-id=\"grid-lunes\"]'),\n          'martes': $('[data-interaction-id=\"5c59ff09\"], .elementor-element-5c59ff09, [configuration-id=\"grid-martes\"]'),\n          'miercoles': $('[data-interaction-id=\"777795ed\"], .elementor-element-777795ed, [configuration-id=\"grid-miercoles\"]'),\n          'jueves': $('[data-interaction-id=\"777c2879\"], .elementor-element-777c2879, [configuration-id=\"grid-jueves\"]'),\n          'viernes': $('[data-interaction-id=\"5b7538c7\"], .elementor-element-5b7538c7, [configuration-id=\"grid-viernes\"]'),\n          'sabado': $('[data-interaction-id=\"7ed1d723\"], .elementor-element-7ed1d723, [configuration-id=\"grid-sabado\"]')\n        };\n\n        for (var d in res.dias) {\n          if (gridMapping[d] && res.dias[d].platos) {\n            renderPlatosDia(gridMapping[d], res.dias[d].platos);\n          }\n        }\n      }\n    }\n  });\n\n  // 4. Funci\u00f3n para activar un d\u00eda visualmente (CERO RECARGA)\n  function seleccionarDia(diaSlug) {\n    if (!diasInfo[diaSlug]) diaSlug = 'lunes';\n\n    // A. Actualizar estado visual de las p\u00edldoras\n    $('.btn-dia-tab, [class*=\"dia-tab\"]').each(function() {\n      var target = $(this).attr('data-dia') || $(this).text().toLowerCase();\n      if (target.indexOf(diaSlug) !== -1) {\n        $(this).addClass('is-active').css({\n          'background-color': '#F59E0B',\n          'border-color': '#F59E0B',\n          'color': '#18181B',\n          'font-weight': '800'\n        });\n      } else {\n        $(this).removeClass('is-active').css({\n          'background-color': '#FFFFFF',\n          'border': '1px solid #E5E7EB',\n          'color': '#18181B',\n          'font-weight': '600'\n        });\n      }\n    });\n\n    for (var pid in pillMap) {\n      var $p = $('[data-interaction-id=\"' + pid + '\"]');\n      if (pillMap[pid] === diaSlug) {\n        $p.addClass('is-active').css({\n          'background-color': '#F59E0B',\n          'border-color': '#F59E0B',\n          'color': '#18181B',\n          'font-weight': '800',\n          'box-shadow': '0 2px 8px rgba(245,158,11,0.3)',\n          'cursor': 'pointer'\n        });\n        $p.find('*').css({\n          'color': '#18181B',\n          'font-weight': '800'\n        });\n      } else {\n        $p.removeClass('is-active').css({\n          'background-color': '#FFFFFF',\n          'border': '1px solid #E5E7EB',\n          'color': '#18181B',\n          'font-weight': '600',\n          'box-shadow': 'none',\n          'cursor': 'pointer'\n        });\n        $p.find('*').css({\n          'color': '#18181B',\n          'font-weight': '600'\n        });\n      }\n    }\n\n    // B. Actualizar textos del banner\n    var info = diasInfo[diaSlug];\n    var $title = $('.banner-dia-title, [data-interaction-id=\"7a072b70\"] h3, [data-interaction-id=\"7a072b70\"], .elementor-heading-title:contains(\"MEN\u00da DEL\")').first();\n    $title.text('MEN\u00da DEL ' + info.nombre);\n\n    var $badge = $('.banner-dia-badge, [data-interaction-id=\"6ff39463\"]').first();\n    $badge.text(info.badge);\n\n    var $sub = $('.banner-dia-sub, [data-interaction-id=\"4b3186ef\"]').first();\n    $sub.text(info.sub);\n\n    // C. Mostrar los platos de ese d\u00eda y ocultar los dem\u00e1s\n    var gridMap = {\n      'lunes': $('[data-interaction-id=\"69a6b14f\"], .elementor-element-69a6b14f, [configuration-id=\"grid-lunes\"]'),\n      'martes': $('[data-interaction-id=\"5c59ff09\"], .elementor-element-5c59ff09, [configuration-id=\"grid-martes\"]'),\n      'miercoles': $('[data-interaction-id=\"777795ed\"], .elementor-element-777795ed, [configuration-id=\"grid-miercoles\"]'),\n      'jueves': $('[data-interaction-id=\"777c2879\"], .elementor-element-777c2879, [configuration-id=\"grid-jueves\"]'),\n      'viernes': $('[data-interaction-id=\"5b7538c7\"], .elementor-element-5b7538c7, [configuration-id=\"grid-viernes\"]'),\n      'sabado': $('[data-interaction-id=\"7ed1d723\"], .elementor-element-7ed1d723, [configuration-id=\"grid-sabado\"]')\n    };\n\n    for (var s in gridMap) {\n      if (s === diaSlug) {\n        gridMap[s].css('display', 'flex').hide().fadeIn(180);\n      } else {\n        gridMap[s].hide().css('display', 'none');\n      }\n    }\n  }\n\n  // Ejecutar selecci\u00f3n inicial autom\u00e1tica (Lunes si es Domingo)\n  seleccionarDia(diaActivo);\n\n  // 5. Escuchar clics en las p\u00edldoras de los d\u00edas (Cero recarga)\n  $(document).on('click', '.btn-dia-tab, [class*=\"dia-tab\"], .elementor-element-440f623b p, [data-interaction-id=\"302c53b1\"], [data-interaction-id=\"1366f201\"], [data-interaction-id=\"db09404\"], [data-interaction-id=\"10dfeecc\"], [data-interaction-id=\"258724b8\"], [data-interaction-id=\"38fd654a\"], a:contains(\"LUNES\"), a:contains(\"MARTES\"), a:contains(\"MI\u00c9RCOLES\"), a:contains(\"JUEVES\"), a:contains(\"VIERNES\"), a:contains(\"S\u00c1BADO\")', function(e) {\n    e.preventDefault();\n    var iid = $(this).attr('data-interaction-id');\n    if (iid && pillMap[iid]) {\n      seleccionarDia(pillMap[iid]);\n      return;\n    }\n    var txt = $(this).text().toLowerCase();\n    for (var slug in diasInfo) {\n      if (txt.indexOf(slug) !== -1) {\n        seleccionarDia(slug);\n        break;\n      }\n    }\n  });\n\n  // 6. Conectar modales nativos QuickView (+ Agregar al Pedido)\n  $(document).on('click', '.woosq-btn', function(e) {\n    e.preventDefault();\n    e.stopPropagation();\n    var pid = $(this).attr('data-id') || $(this).attr('data-product_id');\n    if (pid && typeof woosq_open === 'function') {\n      woosq_open(pid);\n    }\n  });\n});\n</script>"
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/660",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/types/elementor_snippet"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://eatgopty.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/media?parent=660"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/660"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/660"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://eatgopty.com/wp-json/wp/v2/elementor_snippet/660"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

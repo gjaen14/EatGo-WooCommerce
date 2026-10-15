@@ -1,0 +1,1587 @@
+{
+  "elements": [
+    {
+      "id": "1193b42",
+      "elType": "e-flexbox",
+      "title": "menu-root-container",
+      "elements": [
+        {
+          "id": "38d9444c",
+          "elType": "e-flexbox",
+          "title": "eg-pills-row",
+          "elements": [
+            {
+              "id": "675a0b2b",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-lunes"
+            },
+            {
+              "id": "407669ce",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-martes"
+            },
+            {
+              "id": "2c494cb1",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-miercoles"
+            },
+            {
+              "id": "60e274d",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-jueves"
+            },
+            {
+              "id": "4fdd1a46",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-viernes"
+            },
+            {
+              "id": "da15a65",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "pill-sabado"
+            }
+          ]
+        },
+        {
+          "id": "60277592",
+          "elType": "e-flexbox",
+          "title": "eg-banner-box",
+          "elements": [
+            {
+              "id": "52ebe5ed",
+              "elType": "e-flexbox",
+              "title": "eg-banner-left",
+              "elements": [
+                {
+                  "id": "2f217f2",
+                  "elType": "e-flexbox",
+                  "title": "eg-banner-title-row",
+                  "elements": [
+                    {
+                      "id": "346b2401",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "banner-day-title"
+                    },
+                    {
+                      "id": "3b175772",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "banner-day-badge"
+                    }
+                  ]
+                },
+                {
+                  "id": "5e2b25c1",
+                  "elType": "widget",
+                  "widgetType": "e-paragraph",
+                  "title": "banner-day-desc"
+                }
+              ]
+            },
+            {
+              "id": "60fcda6e",
+              "elType": "widget",
+              "widgetType": "e-paragraph",
+              "title": "banner-day-counter"
+            }
+          ]
+        },
+        {
+          "id": "12dc898b",
+          "elType": "e-flexbox",
+          "title": "grid-lunes",
+          "elements": [
+            {
+              "id": "5c1c1deb",
+              "elType": "e-flexbox",
+              "title": "card-plato-lun-1",
+              "elements": [
+                {
+                  "id": "6ca907fe",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-lun-1",
+                  "elements": [
+                    {
+                      "id": "2877fe07",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-lun-1"
+                    },
+                    {
+                      "id": "6d02ef8f",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-lun-1"
+                    },
+                    {
+                      "id": "69b19a64",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-lun-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "40c7a8a7",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-lun-1",
+                  "elements": [
+                    {
+                      "id": "709ccaf0",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-lun-1"
+                    },
+                    {
+                      "id": "78c88c6b",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-lun-1"
+                    },
+                    {
+                      "id": "648b6152",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-lun-1"
+                    },
+                    {
+                      "id": "6132a9d9",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-lun-1"
+                    },
+                    {
+                      "id": "6b527aef",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-lun-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "61131a7e",
+              "elType": "e-flexbox",
+              "title": "card-plato-lun-2",
+              "elements": [
+                {
+                  "id": "94ff4d1",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-lun-2",
+                  "elements": [
+                    {
+                      "id": "e6c3a06",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-lun-2"
+                    },
+                    {
+                      "id": "47395275",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-lun-2"
+                    },
+                    {
+                      "id": "1691de7",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-lun-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "403c31bb",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-lun-2",
+                  "elements": [
+                    {
+                      "id": "23337894",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-lun-2"
+                    },
+                    {
+                      "id": "2ec693e5",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-lun-2"
+                    },
+                    {
+                      "id": "e5b52a1",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-lun-2"
+                    },
+                    {
+                      "id": "28edda63",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-lun-2"
+                    },
+                    {
+                      "id": "3cf462ff",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-lun-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "6b1a8ad5",
+              "elType": "e-flexbox",
+              "title": "card-plato-lun-3",
+              "elements": [
+                {
+                  "id": "3eef0c84",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-lun-3",
+                  "elements": [
+                    {
+                      "id": "20987bf8",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-lun-3"
+                    },
+                    {
+                      "id": "17212298",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-lun-3"
+                    },
+                    {
+                      "id": "1bf9fda8",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-lun-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "6d241852",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-lun-3",
+                  "elements": [
+                    {
+                      "id": "99a7973",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-lun-3"
+                    },
+                    {
+                      "id": "6bd77eb3",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-lun-3"
+                    },
+                    {
+                      "id": "3ded53ba",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-lun-3"
+                    },
+                    {
+                      "id": "7aa8c3f4",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-lun-3"
+                    },
+                    {
+                      "id": "59828afe",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-lun-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4bf72f7d",
+          "elType": "e-flexbox",
+          "title": "grid-martes",
+          "elements": [
+            {
+              "id": "20f2ea15",
+              "elType": "e-flexbox",
+              "title": "card-plato-mar-1",
+              "elements": [
+                {
+                  "id": "7544990f",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mar-1",
+                  "elements": [
+                    {
+                      "id": "23e87a7d",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mar-1"
+                    },
+                    {
+                      "id": "7ac013ee",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mar-1"
+                    },
+                    {
+                      "id": "1bd45aae",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mar-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "7e272cd7",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mar-1",
+                  "elements": [
+                    {
+                      "id": "21be858",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mar-1"
+                    },
+                    {
+                      "id": "4f9055c0",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mar-1"
+                    },
+                    {
+                      "id": "2843b9e1",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mar-1"
+                    },
+                    {
+                      "id": "6e8d0d38",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mar-1"
+                    },
+                    {
+                      "id": "403923d5",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mar-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ce3b927",
+              "elType": "e-flexbox",
+              "title": "card-plato-mar-2",
+              "elements": [
+                {
+                  "id": "14420894",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mar-2",
+                  "elements": [
+                    {
+                      "id": "5492634e",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mar-2"
+                    },
+                    {
+                      "id": "42dc41bf",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mar-2"
+                    },
+                    {
+                      "id": "7367109e",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mar-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "26bf1c51",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mar-2",
+                  "elements": [
+                    {
+                      "id": "5268e649",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mar-2"
+                    },
+                    {
+                      "id": "5dbefa5d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mar-2"
+                    },
+                    {
+                      "id": "496eaee4",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mar-2"
+                    },
+                    {
+                      "id": "ac2984",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mar-2"
+                    },
+                    {
+                      "id": "62be1f33",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mar-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "6e5a60bc",
+              "elType": "e-flexbox",
+              "title": "card-plato-mar-3",
+              "elements": [
+                {
+                  "id": "6c379938",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mar-3",
+                  "elements": [
+                    {
+                      "id": "470f652b",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mar-3"
+                    },
+                    {
+                      "id": "749f1184",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mar-3"
+                    },
+                    {
+                      "id": "55f07a75",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mar-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "be69acf",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mar-3",
+                  "elements": [
+                    {
+                      "id": "10da8cf5",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mar-3"
+                    },
+                    {
+                      "id": "29eb874d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mar-3"
+                    },
+                    {
+                      "id": "60429544",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mar-3"
+                    },
+                    {
+                      "id": "22d776c",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mar-3"
+                    },
+                    {
+                      "id": "284f1d72",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mar-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5bfd1736",
+          "elType": "e-flexbox",
+          "title": "grid-miercoles",
+          "elements": [
+            {
+              "id": "225021ac",
+              "elType": "e-flexbox",
+              "title": "card-plato-mie-1",
+              "elements": [
+                {
+                  "id": "3f9e3f90",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mie-1",
+                  "elements": [
+                    {
+                      "id": "d96c8c2",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mie-1"
+                    },
+                    {
+                      "id": "505b899e",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mie-1"
+                    },
+                    {
+                      "id": "6f2241fa",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mie-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "27dde302",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mie-1",
+                  "elements": [
+                    {
+                      "id": "48efab65",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mie-1"
+                    },
+                    {
+                      "id": "aece5b1",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mie-1"
+                    },
+                    {
+                      "id": "385ad15f",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mie-1"
+                    },
+                    {
+                      "id": "550245bd",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mie-1"
+                    },
+                    {
+                      "id": "79e1e9e3",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mie-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d094de2",
+              "elType": "e-flexbox",
+              "title": "card-plato-mie-2",
+              "elements": [
+                {
+                  "id": "7cb6b848",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mie-2",
+                  "elements": [
+                    {
+                      "id": "33bf3bf7",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mie-2"
+                    },
+                    {
+                      "id": "74e47c8e",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mie-2"
+                    },
+                    {
+                      "id": "6a8da4d7",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mie-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "2eacaf14",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mie-2",
+                  "elements": [
+                    {
+                      "id": "424531de",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mie-2"
+                    },
+                    {
+                      "id": "62bb4ca9",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mie-2"
+                    },
+                    {
+                      "id": "581620e2",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mie-2"
+                    },
+                    {
+                      "id": "1cc7d70d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mie-2"
+                    },
+                    {
+                      "id": "27e737c0",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mie-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1808248b",
+              "elType": "e-flexbox",
+              "title": "card-plato-mie-3",
+              "elements": [
+                {
+                  "id": "57a15550",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-mie-3",
+                  "elements": [
+                    {
+                      "id": "2714357d",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-mie-3"
+                    },
+                    {
+                      "id": "52692a99",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-mie-3"
+                    },
+                    {
+                      "id": "65d4306",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-mie-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "423f9fc7",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-mie-3",
+                  "elements": [
+                    {
+                      "id": "1379e681",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-mie-3"
+                    },
+                    {
+                      "id": "d84c77f",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-mie-3"
+                    },
+                    {
+                      "id": "2ae80659",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-mie-3"
+                    },
+                    {
+                      "id": "210d7fb3",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-mie-3"
+                    },
+                    {
+                      "id": "6d8cfcef",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-mie-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2fd6c6a9",
+          "elType": "e-flexbox",
+          "title": "grid-jueves",
+          "elements": [
+            {
+              "id": "3a284be4",
+              "elType": "e-flexbox",
+              "title": "card-plato-jue-1",
+              "elements": [
+                {
+                  "id": "5c2d32f5",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-jue-1",
+                  "elements": [
+                    {
+                      "id": "38c7edc",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-jue-1"
+                    },
+                    {
+                      "id": "20ee9a4a",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-jue-1"
+                    },
+                    {
+                      "id": "2e03f11d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-jue-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "445ba036",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-jue-1",
+                  "elements": [
+                    {
+                      "id": "44e6fd5f",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-jue-1"
+                    },
+                    {
+                      "id": "59e4adc3",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-jue-1"
+                    },
+                    {
+                      "id": "1f1c456",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-jue-1"
+                    },
+                    {
+                      "id": "493f33c",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-jue-1"
+                    },
+                    {
+                      "id": "3db5d807",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-jue-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "3dfa5d0f",
+              "elType": "e-flexbox",
+              "title": "card-plato-jue-2",
+              "elements": [
+                {
+                  "id": "3584a20d",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-jue-2",
+                  "elements": [
+                    {
+                      "id": "7f6db23",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-jue-2"
+                    },
+                    {
+                      "id": "31d82f",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-jue-2"
+                    },
+                    {
+                      "id": "60c667d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-jue-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "7835f2cd",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-jue-2",
+                  "elements": [
+                    {
+                      "id": "42a28102",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-jue-2"
+                    },
+                    {
+                      "id": "3f01cbe2",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-jue-2"
+                    },
+                    {
+                      "id": "7f4e59f6",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-jue-2"
+                    },
+                    {
+                      "id": "722eaadd",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-jue-2"
+                    },
+                    {
+                      "id": "397eba3c",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-jue-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "7976c0b3",
+              "elType": "e-flexbox",
+              "title": "card-plato-jue-3",
+              "elements": [
+                {
+                  "id": "2279251b",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-jue-3",
+                  "elements": [
+                    {
+                      "id": "68a72804",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-jue-3"
+                    },
+                    {
+                      "id": "5644b31f",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-jue-3"
+                    },
+                    {
+                      "id": "1fd2d1c1",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-jue-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "48cf25b5",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-jue-3",
+                  "elements": [
+                    {
+                      "id": "4abecea2",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-jue-3"
+                    },
+                    {
+                      "id": "63d42cd8",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-jue-3"
+                    },
+                    {
+                      "id": "4401a0ac",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-jue-3"
+                    },
+                    {
+                      "id": "6dfb13ee",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-jue-3"
+                    },
+                    {
+                      "id": "11927910",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-jue-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "62f9bc94",
+          "elType": "e-flexbox",
+          "title": "grid-viernes",
+          "elements": [
+            {
+              "id": "575ee7c1",
+              "elType": "e-flexbox",
+              "title": "card-plato-vie-1",
+              "elements": [
+                {
+                  "id": "14b7b6be",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-vie-1",
+                  "elements": [
+                    {
+                      "id": "77c0058c",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-vie-1"
+                    },
+                    {
+                      "id": "2c08769a",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-vie-1"
+                    },
+                    {
+                      "id": "408778fe",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-vie-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "2623d9c7",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-vie-1",
+                  "elements": [
+                    {
+                      "id": "7dae66d",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-vie-1"
+                    },
+                    {
+                      "id": "6cae9ac7",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-vie-1"
+                    },
+                    {
+                      "id": "29a83d11",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-vie-1"
+                    },
+                    {
+                      "id": "1ecd8921",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-vie-1"
+                    },
+                    {
+                      "id": "687c9cf2",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-vie-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "6cf870a1",
+              "elType": "e-flexbox",
+              "title": "card-plato-vie-2",
+              "elements": [
+                {
+                  "id": "37da23b4",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-vie-2",
+                  "elements": [
+                    {
+                      "id": "65d11093",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-vie-2"
+                    },
+                    {
+                      "id": "44f885d9",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-vie-2"
+                    },
+                    {
+                      "id": "1169e456",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-vie-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "143923f3",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-vie-2",
+                  "elements": [
+                    {
+                      "id": "153c628c",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-vie-2"
+                    },
+                    {
+                      "id": "44d76bc9",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-vie-2"
+                    },
+                    {
+                      "id": "18f4e40",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-vie-2"
+                    },
+                    {
+                      "id": "428a69ed",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-vie-2"
+                    },
+                    {
+                      "id": "3e907c34",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-vie-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "a0c4836",
+              "elType": "e-flexbox",
+              "title": "card-plato-vie-3",
+              "elements": [
+                {
+                  "id": "1d902cc6",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-vie-3",
+                  "elements": [
+                    {
+                      "id": "1fde78a5",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-vie-3"
+                    },
+                    {
+                      "id": "24acd17d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-vie-3"
+                    },
+                    {
+                      "id": "34693d83",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-vie-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "3dbfcd6c",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-vie-3",
+                  "elements": [
+                    {
+                      "id": "29aae8f4",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-vie-3"
+                    },
+                    {
+                      "id": "4041aa2d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-vie-3"
+                    },
+                    {
+                      "id": "3138ad79",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-vie-3"
+                    },
+                    {
+                      "id": "67388222",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-vie-3"
+                    },
+                    {
+                      "id": "31842f52",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-vie-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "74741324",
+          "elType": "e-flexbox",
+          "title": "grid-sabado",
+          "elements": [
+            {
+              "id": "25af20c5",
+              "elType": "e-flexbox",
+              "title": "card-plato-sab-1",
+              "elements": [
+                {
+                  "id": "73be4928",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-sab-1",
+                  "elements": [
+                    {
+                      "id": "4878265f",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-sab-1"
+                    },
+                    {
+                      "id": "29b37063",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-sab-1"
+                    },
+                    {
+                      "id": "5ed150ce",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-sab-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "7531110c",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-sab-1",
+                  "elements": [
+                    {
+                      "id": "7b49200c",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-sab-1"
+                    },
+                    {
+                      "id": "2df42227",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-sab-1"
+                    },
+                    {
+                      "id": "3a2ecffc",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-sab-1"
+                    },
+                    {
+                      "id": "3012995a",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-sab-1"
+                    },
+                    {
+                      "id": "740f3c2a",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-sab-1"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "6bbfacd6",
+              "elType": "e-flexbox",
+              "title": "card-plato-sab-2",
+              "elements": [
+                {
+                  "id": "2fc069bf",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-sab-2",
+                  "elements": [
+                    {
+                      "id": "23d9c4d8",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-sab-2"
+                    },
+                    {
+                      "id": "374c24d7",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-sab-2"
+                    },
+                    {
+                      "id": "50769bd4",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-sab-2"
+                    }
+                  ]
+                },
+                {
+                  "id": "488c2947",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-sab-2",
+                  "elements": [
+                    {
+                      "id": "7570836c",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-sab-2"
+                    },
+                    {
+                      "id": "4550bda5",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-sab-2"
+                    },
+                    {
+                      "id": "5da8786d",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-sab-2"
+                    },
+                    {
+                      "id": "21dffb",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-sab-2"
+                    },
+                    {
+                      "id": "74e952dc",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-sab-2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ec8dd0f",
+              "elType": "e-flexbox",
+              "title": "card-plato-sab-3",
+              "elements": [
+                {
+                  "id": "49dfba17",
+                  "elType": "e-flexbox",
+                  "title": "cover-plato-sab-3",
+                  "elements": [
+                    {
+                      "id": "609b0c7",
+                      "elType": "widget",
+                      "widgetType": "e-image",
+                      "title": "img-plato-sab-3"
+                    },
+                    {
+                      "id": "30028212",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bcat-plato-sab-3"
+                    },
+                    {
+                      "id": "4a8dc369",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "bpr-plato-sab-3"
+                    }
+                  ]
+                },
+                {
+                  "id": "704099",
+                  "elType": "e-flexbox",
+                  "title": "body-plato-sab-3",
+                  "elements": [
+                    {
+                      "id": "450b811",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "ttl-plato-sab-3"
+                    },
+                    {
+                      "id": "4eadf003",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "dsc-plato-sab-3"
+                    },
+                    {
+                      "id": "314b7c82",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "slbl-plato-sab-3"
+                    },
+                    {
+                      "id": "3d603d09",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "sbox-plato-sab-3"
+                    },
+                    {
+                      "id": "71dc52ff",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "btn-plato-sab-3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "307dd20b",
+          "elType": "widget",
+          "widgetType": "e-paragraph",
+          "title": "eg-interactive-script"
+        }
+      ]
+    },
+    {
+      "id": "43690d3a",
+      "elType": "e-flexbox",
+      "title": "gf-root-footer-wrapper",
+      "elements": [
+        {
+          "id": "6c4760e",
+          "elType": "e-flexbox",
+          "title": "gf-footer-inner-boxed",
+          "elements": [
+            {
+              "id": "abf594b",
+              "elType": "e-flexbox",
+              "title": "gf-footer-top-columns",
+              "elements": [
+                {
+                  "id": "766a70e3",
+                  "elType": "e-flexbox",
+                  "title": "gf-col-branding",
+                  "elements": [
+                    {
+                      "id": "13c994c7",
+                      "elType": "e-flexbox",
+                      "title": "gf-col-brand-header",
+                      "elements": [
+                        {
+                          "id": "21342f9d",
+                          "elType": "widget",
+                          "widgetType": "e-image",
+                          "title": "gf-col-brand-logo"
+                        },
+                        {
+                          "id": "47822f5",
+                          "elType": "e-flexbox",
+                          "title": "gf-col-brand-titles",
+                          "elements": [
+                            {
+                              "id": "2351280a",
+                              "elType": "widget",
+                              "widgetType": "e-paragraph",
+                              "title": "gf-col-brand-badge"
+                            },
+                            {
+                              "id": "323c8852",
+                              "elType": "widget",
+                              "widgetType": "e-paragraph",
+                              "title": "gf-col-brand-tagline"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "96dbf69",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "gf-col-brand-desc"
+                    },
+                    {
+                      "id": "355cf38a",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "gf-col-brand-social-title"
+                    },
+                    {
+                      "id": "1b9fd18c",
+                      "elType": "e-flexbox",
+                      "title": "gf-col-brand-social-row",
+                      "elements": [
+                        {
+                          "id": "7a59a562",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "gf-social-ig"
+                        },
+                        {
+                          "id": "570c0723",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "gf-social-wa"
+                        },
+                        {
+                          "id": "30a458f1",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "gf-social-fb"
+                        },
+                        {
+                          "id": "7ed4e6c",
+                          "elType": "widget",
+                          "widgetType": "e-paragraph",
+                          "title": "gf-social-li"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "6b865e26",
+                  "elType": "e-flexbox",
+                  "title": "gf-col-nav",
+                  "elements": [
+                    {
+                      "id": "8e195ee",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "gf-col-nav-title"
+                    },
+                    {
+                      "id": "2a441569",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "gf-col-nav-links"
+                    }
+                  ]
+                },
+                {
+                  "id": "8a655bc",
+                  "elType": "e-flexbox",
+                  "title": "gf-col-empresas",
+                  "elements": [
+                    {
+                      "id": "53181765",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "gf-col-empresas-title"
+                    },
+                    {
+                      "id": "517f2acc",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "gf-col-empresas-links"
+                    }
+                  ]
+                },
+                {
+                  "id": "5c6633c0",
+                  "elType": "e-flexbox",
+                  "title": "gf-col-ubicacion",
+                  "elements": [
+                    {
+                      "id": "22c0d44e",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "gf-col-ubicacion-title"
+                    },
+                    {
+                      "id": "1c7c9ec6",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "gf-col-ubicacion-links"
+                    }
+                  ]
+                },
+                {
+                  "id": "64849690",
+                  "elType": "e-flexbox",
+                  "title": "gf-col-horarios",
+                  "elements": [
+                    {
+                      "id": "e0b1d2e",
+                      "elType": "widget",
+                      "widgetType": "e-heading",
+                      "title": "gf-col-horarios-title"
+                    },
+                    {
+                      "id": "39cc2bb3",
+                      "elType": "widget",
+                      "widgetType": "e-paragraph",
+                      "title": "gf-col-horarios-links"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "710cc8a9",
+              "elType": "e-flexbox",
+              "title": "gf-footer-sublegal",
+              "elements": [
+                {
+                  "id": "6412ecc1",
+                  "elType": "widget",
+                  "widgetType": "e-paragraph",
+                  "title": "gf-footer-legal-copy"
+                },
+                {
+                  "id": "75d4f230",
+                  "elType": "widget",
+                  "widgetType": "e-paragraph",
+                  "title": "gf-footer-legal-terms"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+{
+  "version": "0.4",
+  "title": "Eat&Go - Modal Personalizar Plato",
+  "type": "popup",
+  "page_settings": {
+    "width": {
+      "unit": "px",
+      "size": 560
+    },
+    "width_mobile": {
+      "unit": "%",
+      "size": 95
+    },
+    "height_type": "fit_to_content",
+    "horizontal_position": "center",
+    "vertical_position": "center",
+    "content_position": "center",
+    "overlay": "yes",
+    "overlay_color": "rgba(0, 0, 0, 0.65)",
+    "close_button": "yes",
+    "close_button_position": "inside",
+    "entrance_animation": "fadeInUp",
+    "animation_duration": {
+      "unit": "px",
+      "size": 0.3
+    },
+    "a11y_navigation": "yes",
+    "prevent_scroll": "yes"
+  },
+  "content": [
+    {
+      "id": "mod0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "border_radius": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        },
+        "overflow": "hidden",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 25,
+          "blur": 50,
+          "spread": -12,
+          "color": "rgba(0, 0, 0, 0.25)"
+        },
+        "custom_css": "selector { max-width: 560px; width: 100%; margin: auto; border-radius: 24px; overflow: hidden; background: #FFFFFF; font-family: 'Open Sans', sans-serif; display: flex; flex-direction: column; }"
+      },
+      "elements": [
+        {
+          "id": "mod0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "min_height": {
+              "unit": "px",
+              "size": 220
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "20",
+              "bottom": "18",
+              "left": "20",
+              "isLinked": false
+            },
+            "background_background": "classic",
+            "background_image": {
+              "url": "https://eatgopty.com/wp-content/uploads/2026/09/Costilla-BBQ.png",
+              "id": 172,
+              "__dynamic__": {
+                "url": "[elementor-tag id=\"mod_bg_img\" name=\"post-featured-image\" settings=\"%7B%7D\"]"
+              }
+            },
+            "background_position": "center center",
+            "background_size": "cover",
+            "background_repeat": "no-repeat",
+            "background_overlay_background": "gradient",
+            "background_overlay_color": "rgba(0,0,0,0.25)",
+            "background_overlay_color_b": "rgba(0,0,0,0.92)",
+            "background_overlay_gradient_type": "linear",
+            "background_overlay_gradient_angle": {
+              "unit": "deg",
+              "size": 180
+            },
+            "background_overlay_color_b_stop": {
+              "unit": "%",
+              "size": 75
+            },
+            "_css_classes": "modal-plato-hero modal-plato-hero-img"
+          },
+          "elements": [
+            {
+              "id": "mod0003",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_justify_content": "space-between",
+                "flex_align_items": "center"
+              },
+              "elements": [
+                {
+                  "id": "mod0004",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<span style=\"display:inline-block; background-color:#F59E0B; color:#18181B; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:0.5px; padding:4px 10px; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.2);\">PLATO ESTRELLA DE HOY</span>"
+                  }
+                },
+                {
+                  "id": "mod0005",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "✕",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "rgba(0, 0, 0, 0.5)",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "700",
+                    "custom_css": "selector a, selector button { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; padding: 0; backdrop-filter: blur(4px); transition: background 0.2s ease; cursor: pointer; }\nselector a:hover, selector button:hover { background: rgba(0,0,0,0.8); }",
+                    "link": {
+                      "url": "#",
+                      "__dynamic__": {
+                        "url": "[elementor-tag id=\"mod_close_action\" name=\"popup\" settings=\"%7B%22action%22%3A%22close%22%7D\"]"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod0006",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 4
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0007",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<span class=\"modal-plato-title-dyn\">Plato Seleccionado</span>",
+                    "header_size": "h2",
+                    "title_color": "#FFFFFF",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 28
+                    },
+                    "typography_font_weight": "800",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "custom_css": "selector h2 { text-shadow: 0 2px 6px rgba(0,0,0,0.7); margin: 0; }",
+                    "_css_classes": "modal-plato-title modal-plato-title-dyn"
+                  }
+                },
+                {
+                  "id": "mod0008",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<span class=\"modal-plato-price-dyn\">$0.00</span>",
+                    "header_size": "div",
+                    "title_color": "#EAB308",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "800",
+                    "custom_css": "selector div { text-shadow: 0 1px 3px rgba(0,0,0,0.5); font-weight: 800; }",
+                    "_css_classes": "modal-plato-price modal-plato-price-dyn"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod0009",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "unit": "px",
+              "size": 18
+            },
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "24",
+              "bottom": "20",
+              "left": "24",
+              "isLinked": false
+            },
+            "custom_css": "selector { max-height: calc(85vh - 280px); overflow-y: auto; scrollbar-width: thin; }\nselector::-webkit-scrollbar { width: 5px; }\nselector::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 4px; }"
+          },
+          "elements": [
+            {
+              "id": "mod0010",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#4B5563; font-size:14px; line-height:1.5; margin:0;\">Tierna costilla de cerdo horneada lentamente por 6 horas bañada en nuestra salsa BBQ artesanal de la casa. Servida caliente con el acompañamiento criollo de tu preferencia.</p>",
+                "__dynamic__": {
+                  "editor": "[elementor-tag id=\"mod_dyn_desc\" name=\"post-excerpt\" settings=\"%7B%22fallback%22%3A%22Tierna costilla de cerdo horneada lentamente por 6 horas bañada en nuestra salsa BBQ artesanal de la casa. Servida caliente con el acompañamiento criollo de tu preferencia.%22%7D\"]"
+                },
+                "text_color": "#4B5563",
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              }
+            },
+            {
+              "id": "mod0011",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "background_background": "classic",
+                "background_color": "#ECFDF5",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#A7F3D0",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "14",
+                  "bottom": "10",
+                  "left": "14",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0012",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div style=\"display:flex; align-items:center; gap:8px;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#059669\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><path d=\"m9 12 2 2 4-4\"/></svg><span style=\"color:#065F46; font-size:12px; font-weight:600; line-height:1.35;\">Despachado en empaque térmico compartimentado de alta retención calórica</span></div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod0013",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0014",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1. SELECCIONA TU ACOMPAÑAMIENTO <span style=\"color:#D97706; font-size:11px; font-weight:normal; text-transform:none;\">(Obligatorio)</span>",
+                    "header_size": "div",
+                    "title_color": "#111827",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "800"
+                  }
+                },
+                {
+                  "id": "mod0015",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div class=\"eg-variations-selector space-y-2\" style=\"display:flex; flex-direction:column; gap:8px;\">\n  <label class=\"eg-side-card is-selected\" style=\"display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border:2px solid #F59E0B; background-color:#FFFBEB; border-radius:12px; cursor:pointer; transition:all 0.2s ease;\">\n    <div style=\"display:flex; align-items:center; gap:10px;\">\n      <input type=\"radio\" name=\"pa_acompanamiento\" value=\"guandu\" checked style=\"accent-color:#F59E0B; width:18px; height:18px; cursor:pointer;\">\n      <span style=\"font-size:13px; font-weight:700; color:#18181B;\">Arroz con Guandú y Coco</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#4B5563;\">Incluido</span>\n  </label>\n  <label class=\"eg-side-card\" style=\"display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border:1px solid #E5E7EB; background-color:#FFFFFF; border-radius:12px; cursor:pointer; transition:all 0.2s ease;\">\n    <div style=\"display:flex; align-items:center; gap:10px;\">\n      <input type=\"radio\" name=\"pa_acompanamiento\" value=\"blanco\" style=\"accent-color:#F59E0B; width:18px; height:18px; cursor:pointer;\">\n      <span style=\"font-size:13px; font-weight:600; color:#374151;\">Arroz Blanco Tradicional</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#4B5563;\">Incluido</span>\n  </label>\n  <label class=\"eg-side-card\" style=\"display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border:1px solid #E5E7EB; background-color:#FFFFFF; border-radius:12px; cursor:pointer; transition:all 0.2s ease;\">\n    <div style=\"display:flex; align-items:center; gap:10px;\">\n      <input type=\"radio\" name=\"pa_acompanamiento\" value=\"papas\" data-extra=\"1.00\" style=\"accent-color:#F59E0B; width:18px; height:18px; cursor:pointer;\">\n      <span style=\"font-size:13px; font-weight:600; color:#374151;\">Ensalada de Papas y Manzana</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#D97706;\">+$1.00</span>\n  </label>\n  <label class=\"eg-side-card\" style=\"display:flex; align-items:center; justify-content:space-between; padding:12px 14px; border:1px solid #E5E7EB; background-color:#FFFFFF; border-radius:12px; cursor:pointer; transition:all 0.2s ease;\">\n    <div style=\"display:flex; align-items:center; gap:10px;\">\n      <input type=\"radio\" name=\"pa_acompanamiento\" value=\"platano\" data-extra=\"1.50\" style=\"accent-color:#F59E0B; width:18px; height:18px; cursor:pointer;\">\n      <span style=\"font-size:13px; font-weight:600; color:#374151;\">Plátano en Tentación (Caramelizado)</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#D97706;\">+$1.50</span>\n  </label>\n</div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod0016",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0017",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2. ¿DESEAS AGREGAR CHICHA ARTESANAL SELLADA? <span style=\"color:#6B7280; font-size:11px; font-weight:normal; text-transform:none;\">(Botella PET 500ml)</span>",
+                    "header_size": "div",
+                    "title_color": "#111827",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Open Sans",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "800"
+                  }
+                },
+                {
+                  "id": "mod0018",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<div class=\"eg-drink-selector\" style=\"display:flex; flex-direction:column; gap:8px;\">\n  <label class=\"eg-drink-card is-selected\" style=\"display:flex; align-items:center; justify-content:space-between; padding:10px 14px; border:2px solid #F59E0B; background-color:#FFFBEB; border-radius:12px; cursor:pointer;\">\n    <div style=\"display:flex; align-items:center; gap:8px;\">\n      <input type=\"radio\" name=\"addon_drink\" value=\"none\" data-price=\"0\" checked style=\"accent-color:#F59E0B; width:16px; height:16px; cursor:pointer;\">\n      <span style=\"font-size:12px; font-weight:600; color:#18181B;\">Sin bebida adicional</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#6B7280;\">$0.00</span>\n  </label>\n  <label class=\"eg-drink-card\" style=\"display:flex; align-items:center; justify-content:space-between; padding:10px 14px; border:1px solid #E5E7EB; background-color:#FFFFFF; border-radius:12px; cursor:pointer;\">\n    <div style=\"display:flex; align-items:center; gap:8px;\">\n      <input type=\"radio\" name=\"addon_drink\" value=\"limonada\" data-price=\"2.00\" style=\"accent-color:#F59E0B; width:16px; height:16px; cursor:pointer;\">\n      <span style=\"font-size:12px; font-weight:600; color:#374151;\">Limonada con Raspadura Fría (500ml)</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#D97706;\">+$2.00</span>\n  </label>\n  <label class=\"eg-drink-card\" style=\"display:flex; align-items:center; justify-content:space-between; padding:10px 14px; border:1px solid #E5E7EB; background-color:#FFFFFF; border-radius:12px; cursor:pointer;\">\n    <div style=\"display:flex; align-items:center; gap:8px;\">\n      <input type=\"radio\" name=\"addon_drink\" value=\"maracuya\" data-price=\"2.25\" style=\"accent-color:#F59E0B; width:16px; height:16px; cursor:pointer;\">\n      <span style=\"font-size:12px; font-weight:600; color:#374151;\">Chicha de Maracuyá Natural (500ml)</span>\n    </div>\n    <span style=\"font-size:12px; font-weight:700; color:#D97706;\">+$2.25</span>\n  </label>\n</div>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod0019",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 6
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0020",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<label for=\"eg-modal-notes\" style=\"display:block; font-size:11px; font-weight:700; color:#374151; text-transform:uppercase; letter-spacing:0.5px;\">Instrucciones para la cocina (Opcional)</label>\n<input id=\"eg-modal-notes\" type=\"text\" placeholder=\"Ej: Poco arroz, salsa aparte, etc.\" style=\"width:100%; padding:10px 12px; font-size:13px; border:1px solid #D1D5DB; border-radius:10px; outline:none; box-sizing:border-box; background:#F9FAFB; transition:border 0.2s;\">"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mod0021",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 12
+            },
+            "padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "24",
+              "bottom": "16",
+              "left": "24",
+              "isLinked": true
+            },
+            "background_background": "classic",
+            "background_color": "#F9FAFB",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "border_color": "#E5E7EB",
+            "custom_css": "selector { position: relative; z-index: 10; }"
+          },
+          "elements": [
+            {
+              "id": "mod0022",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#D1D5DB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "4",
+                  "bottom": "2",
+                  "left": "4",
+                  "isLinked": false
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 1,
+                  "blur": 2,
+                  "spread": 0,
+                  "color": "rgba(0, 0, 0, 0.05)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "mod0023",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "−",
+                    "button_text_color": "#4B5563",
+                    "background_color": "transparent",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "custom_css": "selector a, selector button { width:34px; height:34px; display:flex; align-items:center; justify-content:center; padding:0; cursor:pointer; border-radius:8px; transition:background 0.15s; }\nselector a:hover, selector button:hover { background:#F3F4F6; color:#111827; }",
+                    "_css_classes": "modal-qty-minus"
+                  }
+                },
+                {
+                  "id": "mod0024",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<span id=\"eg-modal-qty\" class=\"modal-qty-num\" style=\"display:inline-block; min-width:24px; text-align:center; font-size:15px; font-weight:800; color:#111827; padding:0 6px;\">1</span>"
+                  }
+                },
+                {
+                  "id": "mod0025",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "+",
+                    "button_text_color": "#4B5563",
+                    "background_color": "transparent",
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "700",
+                    "custom_css": "selector a, selector button { width:34px; height:34px; display:flex; align-items:center; justify-content:center; padding:0; cursor:pointer; border-radius:8px; transition:background 0.15s; }\nselector a:hover, selector button:hover { background:#F3F4F6; color:#111827; }",
+                    "_css_classes": "modal-qty-plus"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod0026",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Agregar a la Comanda • $0.00",
+                "link": {
+                  "url": "#",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "button_text_color": "#18181B",
+                "background_color": "#F59E0B",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Open Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "800",
+                "padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "20",
+                  "bottom": "14",
+                  "left": "20",
+                  "isLinked": false
+                },
+                "custom_css": "selector { flex-grow: 1; }\nselector a, selector button { width: 100%; display: flex; align-items: center; justify-content: center; text-align: center; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35); transition: all 0.2s ease; cursor: pointer; }\nselector a:hover, selector button:hover { background-color: #D97706; transform: translateY(-1px); box-shadow: 0 6px 16px rgba(217, 119, 6, 0.4); }\nselector a:active, selector button:active { transform: scale(0.98); }",
+                "_css_classes": "btn-modal-add-comanda btn-add-to-comanda-action"
+              }
+            }
+          ]
+        },
+        {
+          "id": "mod0027",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<script>\njQuery(function($) {\n  var activeProductId = null;\n  var basePrice = 0;\n  var currentQty = 1;\n  var sideExtra = 0;\n  var drinkExtra = 0;\n\n  function updateModalButton() {\n    var unitPrice = basePrice + sideExtra + drinkExtra;\n    var total = (unitPrice * currentQty).toFixed(2);\n    $(\".btn-modal-add-comanda .elementor-button-text, .btn-modal-add-comanda, .btn-add-to-comanda-action\").each(function() {\n      var $el = $(this).find(\".elementor-button-text\").length ? $(this).find(\".elementor-button-text\") : $(this);\n      $el.text(\"Agregar a la Comanda • $\" + total);\n    });\n    $(\".modal-qty-num, #eg-modal-qty\").text(currentQty);\n  }\n\n  // 1. CAPTURAR DATOS DE LA TARJETA CLICKEADA\n  $(document).on(\"click\", \".btn-open-plato-modal, [href*=\\\"popup:open\\\"], [data-product-title]\", function() {\n    var $btn = $(this).closest(\".btn-open-plato-modal\").length ? $(this).closest(\".btn-open-plato-modal\") : $(this);\n    if (!$btn.is(\"a\")) {\n      var $innerA = $btn.find(\"a\");\n      if ($innerA.length) $btn = $innerA;\n    }\n    var $card = $(this).closest(\".e-loop-item, .elementor-element, .e-flexbox\");\n\n    activeProductId = $btn.attr(\"data-product-id\") || $card.find(\"[data-product-id]\").attr(\"data-product-id\") || $card.find(\"[data-id]\").attr(\"data-id\");\n    var title = $btn.attr(\"data-product-title\") || $card.find(\"h3, h4, .elementor-heading-title\").first().text().trim();\n    var priceText = $btn.attr(\"data-product-price\") || $card.find(\".woocommerce-Price-amount, .badge_price, [data-id*=\\\"price\\\"]\").first().text().trim();\n    var imgSrc = $btn.attr(\"data-product-img\") || $card.find(\"img\").first().attr(\"src\");\n\n    // Parsear precio numérico\n    var cleanNum = priceText ? priceText.replace(/[^0-9.]/g, \"\") : \"0\";\n    basePrice = parseFloat(cleanNum) || 0;\n    currentQty = 1;\n    sideExtra = 0;\n    drinkExtra = 0;\n\n    // Reset de radios al abrir\n    $(\"input[name=\\\"pa_acompanamiento\\\"]\").prop(\"checked\", false);\n    $(\"input[name=\\\"pa_acompanamiento\\\"][value=\\\"guandu\\\"]\").prop(\"checked\", true);\n    $(\".eg-side-card\").removeClass(\"is-selected\").css({\"border-color\":\"#E5E7EB\", \"background-color\":\"#FFFFFF\"});\n    $(\".eg-side-card:first\").addClass(\"is-selected\").css({\"border-color\":\"#F59E0B\", \"background-color\":\"#FFFBEB\"});\n\n    $(\"input[name=\\\"addon_drink\\\"]\").prop(\"checked\", false);\n    $(\"input[name=\\\"addon_drink\\\"][value=\\\"none\\\"]\").prop(\"checked\", true);\n    $(\".eg-drink-card\").removeClass(\"is-selected\").css({\"border-color\":\"#E5E7EB\", \"background-color\":\"#FFFFFF\"});\n    $(\".eg-drink-card:first\").addClass(\"is-selected\").css({\"border-color\":\"#F59E0B\", \"background-color\":\"#FFFBEB\"});\n\n    // Actualizar Modal\n    if (title) {\n      $(\".modal-plato-title-dyn .elementor-heading-title, .modal-plato-title-dyn, .modal-plato-title\").text(title);\n    }\n    if (priceText) {\n      $(\".modal-plato-price-dyn .elementor-heading-title, .modal-plato-price-dyn div, .modal-plato-price-dyn, .modal-plato-price\").text(\"$\" + basePrice.toFixed(2));\n    }\n    if (imgSrc && imgSrc.indexOf(\"http\") === 0) {\n      $(\".modal-plato-hero-img, .modal-plato-hero\").css({\n        \"background-image\": \"url(\" + imgSrc + \")\",\n        \"background-size\": \"cover\",\n        \"background-position\": \"center center\"\n      });\n    }\n\n    updateModalButton();\n  });\n\n  // 2. CONTROLES DE CANTIDAD\n  $(document).on(\"click\", \".modal-qty-minus, #mod0023\", function(e) {\n    e.preventDefault();\n    if (currentQty > 1) {\n      currentQty--;\n      updateModalButton();\n    }\n  });\n\n  $(document).on(\"click\", \".modal-qty-plus, #mod0025\", function(e) {\n    e.preventDefault();\n    currentQty++;\n    updateModalButton();\n  });\n\n  // Opciones de acompañamiento\n  $(document).on(\"change\", \"input[name=\\\"pa_acompanamiento\\\"]\", function() {\n    $(\".eg-side-card\").removeClass(\"is-selected\").css({\"border-color\":\"#E5E7EB\", \"background-color\":\"#FFFFFF\"});\n    var $card = $(this).closest(\".eg-side-card\");\n    $card.addClass(\"is-selected\").css({\"border-color\":\"#F59E0B\", \"background-color\":\"#FFFBEB\"});\n    sideExtra = parseFloat($(this).data(\"extra\") || 0);\n    updateModalButton();\n  });\n\n  // Opciones de bebidas\n  $(document).on(\"change\", \"input[name=\\\"addon_drink\\\"]\", function() {\n    $(\".eg-drink-card\").removeClass(\"is-selected\").css({\"border-color\":\"#E5E7EB\", \"background-color\":\"#FFFFFF\"});\n    var $card = $(this).closest(\".eg-drink-card\");\n    $card.addClass(\"is-selected\").css({\"border-color\":\"#F59E0B\", \"background-color\":\"#FFFBEB\"});\n    drinkExtra = parseFloat($(this).data(\"price\") || 0);\n    updateModalButton();\n  });\n\n  // 3. ENVIAR A WOOCOMMERCE REAL AL CLIC\n  $(document).on(\"click\", \".btn-modal-add-comanda, .btn-add-to-comanda-action, #mod0026\", function(e) {\n    e.preventDefault();\n    var pId = activeProductId || 154; // Fallback al plato estrella si falta ID\n    var $btn = $(this);\n    var originalHtml = $btn.html();\n    $btn.css(\"opacity\", \"0.6\").text(\"Agregando a la comanda...\");\n\n    $.post(\"/?wc-ajax=add_to_cart\", {\n      product_id: pId,\n      quantity: currentQty\n    }, function(res) {\n      $btn.css(\"opacity\", \"1\").html(originalHtml);\n      // Disparar evento para que la barra flotante y el carrito se actualicen\n      if (res && res.fragments) {\n        $(document.body).trigger(\"added_to_cart\", [res.fragments, res.cart_hash, $btn]);\n      } else {\n        $(document.body).trigger(\"added_to_cart\");\n      }\n\n      // Cerrar Popup\n      if (window.elementorProFrontend && elementorProFrontend.modules && elementorProFrontend.modules.popup) {\n        elementorProFrontend.modules.popup.closePopup({}, e);\n      } else {\n        $(\".elementor-popup-modal\").hide();\n      }\n    }).fail(function() {\n      $btn.css(\"opacity\", \"1\").html(originalHtml);\n      if (window.elementorProFrontend && elementorProFrontend.modules && elementorProFrontend.modules.popup) {\n        elementorProFrontend.modules.popup.closePopup({}, e);\n      }\n    });\n  });\n});\n</script>"
+          }
+        }
+      ]
+    }
+  ]
+}

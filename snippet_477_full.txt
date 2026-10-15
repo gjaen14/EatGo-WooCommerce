@@ -1,0 +1,1349 @@
+<style>
+/* ========================================================
+   SUPRESIÓN ESTRICTA: VIEW CART RESIDUAL WOOCOMMERCE (HOME & GLOBAL)
+   ======================================================== */
+.page-id-58 .added_to_cart,
+.page-id-58 a.wc-forward,
+.added_to_cart,
+a.wc-forward {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+/* ========================================================
+   EAT&GO: COMANDA DIGITAL FOODTECH (SIDE-DRAWER OFICIAL)
+   Paleta Oficial:
+   - Rojo Marca: #c81c20
+   - Amarillo Acento: #ffcf00
+   - Negro Carbón: #18181B
+   - Fondos: #FFFFFF, #F9FAFB, #FFFBEB
+   ======================================================== */
+
+/* 1. CONTENEDOR Y SIDE-DRAWER */
+.elementor-menu-cart__container .elementor-menu-cart__main {
+  width: 450px !important;
+  max-width: 100vw !important;
+  background-color: #FFFFFF !important;
+  box-shadow: -8px 0 36px rgba(0, 0, 0, 0.22) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0 !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* Ocultar el botón cerrar por defecto de Elementor ya que se incluye en la cabecera personalizada */
+.elementor-menu-cart__close-button {
+  display: none !important;
+}
+
+/* Ocultar el subtotal nativo y botones nativos de Elementor (Checkout y Ver Carrito) */
+.elementor-menu-cart__subtotal,
+.elementor-menu-cart__footer-buttons .elementor-button--view-cart,
+.elementor-menu-cart__footer-buttons .elementor-button--checkout,
+.woocommerce-mini-cart__total,
+.woocommerce-mini-cart__buttons {
+  display: none !important;
+}
+
+/* 2. CABECERA OSCURA DEL CAJÓN (#18181B) */
+.eg-comanda-header {
+  background-color: #18181B !important;
+  padding: 20px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.eg-header-left {
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+}
+
+.eg-header-badge {
+  width: 38px !important;
+  height: 38px !important;
+  background-color: #ffcf00 !important;
+  border-radius: 9px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #18181B !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  letter-spacing: -0.5px !important;
+  flex-shrink: 0 !important;
+}
+
+.eg-header-titles {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.eg-header-title {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  line-height: 1.2 !important;
+  margin: 0 !important;
+}
+
+.eg-header-count {
+  font-size: 12px !important;
+  color: #9CA3AF !important;
+  margin-top: 3px !important;
+  line-height: 1.2 !important;
+}
+
+.eg-header-right {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+.eg-btn-vaciar {
+  background: transparent !important;
+  border: none !important;
+  color: #9CA3AF !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  padding: 6px 8px !important;
+  border-radius: 6px !important;
+  transition: all 0.2s ease !important;
+}
+
+.eg-btn-vaciar:hover {
+  color: #EF4444 !important;
+  background-color: rgba(239, 68, 68, 0.1) !important;
+}
+
+.eg-btn-close {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+  color: #FFFFFF !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+}
+
+.eg-btn-close:hover {
+  background-color: rgba(255, 255, 255, 0.22) !important;
+  transform: scale(1.05) !important;
+}
+
+/* 3. CONTENIDO DEL DRAWER */
+.elementor-menu-cart__main .widget_shopping_cart_content {
+  padding: 18px 22px 28px 22px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.eg-section-header {
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.8px !important;
+  color: #18181B !important;
+  margin: 16px 0 10px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.eg-section-header:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* LISTA DE PLATOS */
+.elementor-menu-cart__products {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+}
+
+.elementor-menu-cart__product {
+  background: #FFFFFF !important;
+  border: 1px solid #E5E7EB !important;
+  border-radius: 12px !important;
+  padding: 12px 14px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  margin: 0 !important;
+  position: relative !important;
+}
+
+.eg-card-top {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+}
+
+.eg-card-info {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+  flex: 1 !important;
+}
+
+.eg-card-thumb {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 8px !important;
+  object-fit: cover !important;
+  flex-shrink: 0 !important;
+}
+
+.eg-card-texts {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.eg-card-title {
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  color: #18181B !important;
+  line-height: 1.25 !important;
+  margin: 0 !important;
+}
+
+.eg-card-subtext {
+  font-size: 11px !important;
+  color: #6B7280 !important;
+  margin-top: 3px !important;
+  line-height: 1.2 !important;
+}
+
+.eg-card-price {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #18181B !important;
+  white-space: nowrap !important;
+}
+
+.eg-card-bottom {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding-top: 8px !important;
+  border-top: 1px solid #F3F4F6 !important;
+}
+
+.eg-qty-selector {
+  display: inline-flex !important;
+  align-items: center !important;
+  background-color: #F9FAFB !important;
+  border: 1px solid #E5E7EB !important;
+  border-radius: 8px !important;
+  height: 28px !important;
+  overflow: hidden !important;
+}
+
+.eg-qty-btn {
+  width: 28px !important;
+  height: 100% !important;
+  border: none !important;
+  background: transparent !important;
+  color: #18181B !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: background-color 0.15s ease !important;
+  user-select: none !important;
+}
+
+.eg-qty-btn:hover {
+  background-color: #E5E7EB !important;
+}
+
+.eg-qty-val {
+  min-width: 24px !important;
+  text-align: center !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: #18181B !important;
+}
+
+.eg-item-delete {
+  background: transparent !important;
+  border: none !important;
+  color: #9CA3AF !important;
+  cursor: pointer !important;
+  padding: 4px 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 6px !important;
+  transition: color 0.15s ease !important;
+}
+
+.eg-item-delete:hover {
+  color: #EF4444 !important;
+  background-color: rgba(239, 68, 68, 0.08) !important;
+}
+
+/* Ocultar elementos predeterminados de la fila de producto que son reemplazados por nuestro template enriquecido */
+.elementor-menu-cart__product-image,
+.elementor-menu-cart__product-name,
+.elementor-menu-cart__product-price,
+.elementor-menu-cart__product-remove {
+  display: none !important;
+}
+
+/* 4. MODALIDAD DE ENTREGA (2 TARJETAS) */
+.eg-modalidad-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 10px !important;
+  margin-bottom: 6px !important;
+}
+
+.eg-modalidad-card {
+  border-radius: 12px !important;
+  padding: 11px 12px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid #E5E7EB !important;
+  background-color: #FFFFFF !important;
+  display: flex !important;
+  flex-direction: column !important;
+  user-select: none !important;
+}
+
+.eg-modalidad-card.is-active {
+  background-color: #FFFBEB !important;
+  border: 2px solid #ffcf00 !important;
+  box-shadow: 0 2px 8px rgba(255, 207, 0, 0.2) !important;
+}
+
+.eg-modalidad-title {
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  color: #18181B !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  line-height: 1.2 !important;
+}
+
+.eg-modalidad-sub {
+  font-size: 10.5px !important;
+  color: #6B7280 !important;
+  margin-top: 3px !important;
+  line-height: 1.2 !important;
+}
+
+.eg-modalidad-card.is-active .eg-modalidad-sub {
+  color: #92400E !important;
+  font-weight: 600 !important;
+}
+
+/* 5. FORMULARIO DE DESPACHO */
+.eg-despacho-form {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+
+.eg-form-row {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 8px !important;
+}
+
+.eg-form-input,
+.eg-form-select {
+  width: 100% !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #E5E7EB !important;
+  border-radius: 10px !important;
+  padding: 9px 12px !important;
+  font-size: 12px !important;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: #18181B !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.2s, box-shadow 0.2s !important;
+}
+
+.eg-form-input::placeholder {
+  color: #9CA3AF !important;
+}
+
+.eg-form-input:focus,
+.eg-form-select:focus {
+  outline: none !important;
+  border-color: #ffcf00 !important;
+  box-shadow: 0 0 0 2px rgba(255, 207, 0, 0.25) !important;
+}
+
+/* 6. RESUMEN DE PAGO */
+.eg-resumen-box {
+  background-color: #F9FAFB !important;
+  border: 1px solid #E5E7EB !important;
+  border-radius: 14px !important;
+  padding: 14px 18px !important;
+  margin-top: 14px !important;
+  margin-bottom: 14px !important;
+}
+
+.eg-resumen-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-size: 12.5px !important;
+  color: #4B5563 !important;
+  margin-bottom: 7px !important;
+}
+
+.eg-resumen-row.is-divider {
+  border-top: 1px dashed #D1D5DB !important;
+  margin: 10px 0 8px 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+
+.eg-resumen-row.is-total {
+  margin-bottom: 0 !important;
+}
+
+.eg-resumen-total-label {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  color: #18181B !important;
+}
+
+.eg-resumen-total-val {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #c81c20 !important;
+}
+
+/* 7. BOTONES DE ACCIÓN */
+.eg-btn-whatsapp {
+  width: 100% !important;
+  height: 48px !important;
+  background-color: #00C853 !important;
+  color: #FFFFFF !important;
+  border-radius: 14px !important;
+  border: none !important;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  box-shadow: 0 4px 14px rgba(0, 200, 83, 0.3) !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-sizing: border-box !important;
+}
+
+.eg-btn-whatsapp:hover {
+  background-color: #059669 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 18px rgba(0, 200, 83, 0.4) !important;
+}
+
+.eg-btn-copiar {
+  width: 100% !important;
+  height: 42px !important;
+  background-color: #FFFFFF !important;
+  color: #18181B !important;
+  border: 1px solid #D1D5DB !important;
+  border-radius: 14px !important;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  margin-top: 8px !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  box-sizing: border-box !important;
+}
+
+.eg-btn-copiar:hover {
+  background-color: #F9FAFB !important;
+  border-color: #9CA3AF !important;
+}
+
+/* 8. ESTADO VACÍO */
+.eg-empty-cart {
+  text-align: center !important;
+  padding: 30px 10px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.eg-empty-icon {
+  font-size: 44px !important;
+  line-height: 1 !important;
+}
+
+.eg-empty-title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #18181B !important;
+}
+
+.eg-empty-desc {
+  font-size: 12.5px !important;
+  color: #6B7280 !important;
+  max-width: 280px !important;
+  margin: 0 auto 12px auto !important;
+  line-height: 1.35 !important;
+}
+
+.eg-empty-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #c81c20 !important;
+  color: #FFFFFF !important;
+  padding: 10px 18px !important;
+  border-radius: 50px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.eg-empty-btn:hover {
+  background-color: #a01518 !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Ocultar el botón toggle rígido superior del Header */
+.elementor-menu-cart__toggle,
+#elementor-menu-cart__toggle_button,
+.elementor-menu-cart__toggle_button {
+  position: absolute !important;
+  opacity: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+  overflow: hidden !important;
+}
+
+/* Forzar despliegue garantizado del Side-Drawer cuando está activo */
+.elementor-menu-cart--shown .elementor-menu-cart__container,
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--shown .elementor-menu-cart__container {
+  transform: scale(1) !important;
+  background-color: rgba(0, 0, 0, 0.45) !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.elementor-menu-cart--shown .elementor-menu-cart__main,
+.elementor-widget-woocommerce-menu-cart.elementor-menu-cart--shown .elementor-menu-cart__main {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* Asegurar que el Side Drawer quede siempre por encima del FAB */
+.elementor-menu-cart__container {
+  z-index: 999999 !important;
+}
+
+/* ========================================================
+   EAT&GO: BOTÓN FLOTANTE INFERIOR DERECHO (FAB CART)
+   ======================================================== */
+.eatgo-fab-cart {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+  z-index: 99998 !important;
+  background-color: #c81c20 !important;
+  color: #FFFFFF !important;
+  border-radius: 50px !important;
+  padding: 10px 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  box-shadow: 0 8px 24px rgba(200, 28, 32, 0.45) !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
+  animation: fab-radar-pulse 2s infinite !important;
+  user-select: none !important;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.eatgo-fab-cart:hover {
+  background-color: #a81518 !important;
+  transform: translateY(-2px) !important;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.eatgo-fab-cart:active {
+  transform: scale(0.97) !important;
+}
+
+.eatgo-fab-cart .eatgo-fab-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1 !important;
+}
+
+.eatgo-fab-cart .eatgo-fab-icon svg {
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.eatgo-fab-cart .eatgo-fab-badge {
+  background-color: #FFFFFF !important;
+  color: #18181B !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  min-width: 22px !important;
+  height: 22px !important;
+  border-radius: 50px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 5px !important;
+  line-height: 1 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+.eatgo-fab-cart .eatgo-fab-total {
+  color: #FFFFFF !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2px !important;
+  line-height: 1 !important;
+  white-space: nowrap !important;
+}
+
+@keyframes fab-radar-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(200, 28, 32, 0.7), 0 8px 24px rgba(200, 28, 32, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(200, 28, 32, 0), 0 8px 24px rgba(200, 28, 32, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(200, 28, 32, 0), 0 8px 24px rgba(200, 28, 32, 0.4);
+  }
+}
+
+</style>
+
+<script>
+(function($) {
+  // Estado local de la Comanda Digital
+  var comandaState = {
+    deliveryMode: 'delivery', // 'delivery' (+$1.50) o 'retiro' ($0.00)
+    thermalFee: 0.50,
+    deliveryFee: 1.50,
+    nombre: '',
+    telefono: '',
+    edificio: '',
+    oficina: '',
+    hora: 'Inmediato (15-25 min)',
+    pago: 'Yappy Directo'
+  };
+
+  // Cargar datos previos si existen
+  try {
+    var savedState = localStorage.getItem('eatgo_comanda_saved');
+    if (savedState) {
+      var parsed = JSON.parse(savedState);
+      if (parsed.nombre) comandaState.nombre = parsed.nombre;
+      if (parsed.telefono) comandaState.telefono = parsed.telefono;
+      if (parsed.edificio) comandaState.edificio = parsed.edificio;
+      if (parsed.oficina) comandaState.oficina = parsed.oficina;
+      if (parsed.pago) comandaState.pago = parsed.pago;
+    }
+  } catch(e) {}
+
+  function saveComandaState() {
+    try {
+      localStorage.setItem('eatgo_comanda_saved', JSON.stringify({
+        nombre: comandaState.nombre,
+        telefono: comandaState.telefono,
+        edificio: comandaState.edificio,
+        oficina: comandaState.oficina,
+        pago: comandaState.pago
+      }));
+    } catch(e) {}
+  }
+
+  // Extraer información detallada de los platos en el carrito
+  function getCartData() {
+    var items = [];
+    var subtotalNum = 0;
+
+    $('.elementor-menu-cart__products .elementor-menu-cart__product, .woocommerce-mini-cart .woocommerce-mini-cart-item').each(function() {
+      var $item = $(this);
+      
+      // Cart item key
+      var removeBtn = $item.find('.remove_from_cart_button, .elementor_remove_from_cart_button').first();
+      var itemKey = removeBtn.attr('data-cart_item_key') || '';
+      var productId = removeBtn.attr('data-product_id') || '';
+      var removeUrl = removeBtn.attr('href') || '#';
+
+      // Nombre
+      var name = $item.find('.elementor-menu-cart__product-name a, .elementor-menu-cart__product-name, .product-name a, .product-name').first().text().trim();
+      
+      // Imagen
+      var imgUrl = $item.find('img').first().attr('src') || '';
+
+      // Cantidad
+      var rawQty = $item.find('.product-quantity, .quantity').text();
+      var qtyMatch = rawQty.match(/(\d+)/);
+      var qty = qtyMatch ? parseInt(qtyMatch[1], 10) : 1;
+
+      // Precio
+      var priceText = $item.find('.amount, .woocommerce-Price-amount').last().text().replace(/[^0-9.]/g, '').trim();
+      var unitPrice = parseFloat(priceText) || 0;
+      var itemTotal = unitPrice * qty;
+      subtotalNum += itemTotal;
+
+      if (name) {
+        items.push({
+          key: itemKey,
+          productId: productId,
+          removeUrl: removeUrl,
+          name: name,
+          imgUrl: imgUrl,
+          qty: qty,
+          unitPrice: unitPrice,
+          total: itemTotal
+        });
+      }
+    });
+
+    var deliveryCost = comandaState.deliveryMode === 'delivery' ? comandaState.deliveryFee : 0.00;
+    var totalNum = (items.length > 0) ? (subtotalNum + comandaState.thermalFee + deliveryCost) : 0;
+
+    return {
+      items: items,
+      count: items.reduce(function(acc, it) { return acc + it.qty; }, 0),
+      subtotal: subtotalNum,
+      deliveryCost: deliveryCost,
+      total: totalNum
+    };
+  }
+
+  // Generar Payload para WhatsApp
+  function buildWhatsAppPayload() {
+    var cart = getCartData();
+    var phone = '50762345678';
+
+    if (cart.items.length === 0) {
+      return 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + encodeURIComponent('¡Hola Eat&Go! 🍱 Quiero realizar un pedido.');
+    }
+
+    var cliente = comandaState.nombre.trim() || 'Cliente de Oficina';
+    var tel = comandaState.telefono.trim() || 'No indicado';
+    var modalidadText = comandaState.deliveryMode === 'delivery' 
+      ? '🛵 Delivery a Oficina (' + (comandaState.edificio || 'Edificio por confirmar') + (comandaState.oficina ? ', ' + comandaState.oficina : '') + ')'
+      : '🏪 Retiro sin Fila (Mostrador Express)';
+
+    var msg = '*NUEVA COMANDA - EAT & GO* 🍱\n';
+    msg += '------------------------------\n';
+    msg += '👤 *Cliente:* ' + cliente + '\n';
+    msg += '📱 *WhatsApp:* ' + tel + '\n';
+    msg += '🛵 *Modalidad:* ' + modalidadText + '\n';
+    msg += '⏰ *Hora:* ' + comandaState.hora + '\n';
+    msg += '💳 *Pago:* ' + comandaState.pago + '\n';
+    msg += '------------------------------\n';
+    msg += '📋 *DETALLE DEL PEDIDO:*\n';
+
+    cart.items.forEach(function(it) {
+      msg += '• ' + it.qty + 'x ' + it.name + ' ($' + it.total.toFixed(2) + ')\n';
+    });
+
+    msg += '------------------------------\n';
+    msg += 'Subtotal: $' + cart.subtotal.toFixed(2) + '\n';
+    msg += 'Empaque térmico: $' + comandaState.thermalFee.toFixed(2) + '\n';
+    msg += 'Delivery: $' + cart.deliveryCost.toFixed(2) + '\n';
+    msg += '*TOTAL A PAGAR: $' + cart.total.toFixed(2) + '*\n';
+    msg += '------------------------------\n';
+    msg += '📲 _Por favor confirmar recepción para enviar a cocina._';
+
+    return 'https://api.whatsapp.com/send?phone=' + phone + '&text=' + encodeURIComponent(msg);
+  }
+
+  // Generar texto plano para copiar comanda
+  function buildPlainTextPayload() {
+    var cart = getCartData();
+    var cliente = comandaState.nombre.trim() || 'Cliente de Oficina';
+    var tel = comandaState.telefono.trim() || 'No indicado';
+    var modalidadText = comandaState.deliveryMode === 'delivery' 
+      ? 'Delivery a Oficina (' + (comandaState.edificio || 'Edificio por confirmar') + (comandaState.oficina ? ', ' + comandaState.oficina : '') + ')'
+      : 'Retiro sin Fila (Mostrador Express)';
+
+    var msg = 'NUEVA COMANDA - EAT & GO 🍱\n';
+    msg += '------------------------------\n';
+    msg += 'Cliente: ' + cliente + '\n';
+    msg += 'WhatsApp: ' + tel + '\n';
+    msg += 'Modalidad: ' + modalidadText + '\n';
+    msg += 'Hora: ' + comandaState.hora + '\n';
+    msg += 'Pago: ' + comandaState.pago + '\n';
+    msg += '------------------------------\n';
+    msg += 'DETALLE DEL PEDIDO:\n';
+    cart.items.forEach(function(it) {
+      msg += '• ' + it.qty + 'x ' + it.name + ' ($' + it.total.toFixed(2) + ')\n';
+    });
+    msg += '------------------------------\n';
+    msg += 'Subtotal: $' + cart.subtotal.toFixed(2) + '\n';
+    msg += 'Empaque térmico: $' + comandaState.thermalFee.toFixed(2) + '\n';
+    msg += 'Delivery: $' + cart.deliveryCost.toFixed(2) + '\n';
+    msg += 'TOTAL A PAGAR: $' + cart.total.toFixed(2) + '\n';
+    msg += '------------------------------\n';
+    msg += 'Por favor confirmar recepción para enviar a cocina.';
+
+    return msg;
+  }
+
+  // Renderizar / Sincronizar UI de la Comanda
+  function renderComandaDigital() {
+    renderEatGoFabCart();
+    var $main = $('.elementor-menu-cart__main');
+    if (!$main.length) return;
+
+    var cart = getCartData();
+
+    // 1. Inyectar Cabecera Carbón si no existe
+    var $header = $main.find('.eg-comanda-header');
+    if (!$header.length) {
+      var headerHtml = '<div class="eg-comanda-header">' +
+        '<div class="eg-header-left">' +
+          '<div class="eg-header-badge">EG</div>' +
+          '<div class="eg-header-titles">' +
+            '<h3 class="eg-header-title">Comanda Digital</h3>' +
+            '<span class="eg-header-count"></span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="eg-header-right">' +
+          '<button type="button" class="eg-btn-vaciar">Vaciar</button>' +
+          '<button type="button" class="eg-btn-close">✕</button>' +
+        '</div>' +
+      '</div>';
+      $main.prepend(headerHtml);
+      $header = $main.find('.eg-comanda-header');
+    }
+
+    // Actualizar contador en cabecera
+    var countLabel = cart.count === 1 ? '1 plato en tu pedido' : (cart.count + ' platos en tu pedido');
+    $header.find('.eg-header-count').text(cart.count > 0 ? countLabel : 'Tu pedido está vacío');
+    if (cart.count === 0) {
+      $header.find('.eg-btn-vaciar').hide();
+    } else {
+      $header.find('.eg-btn-vaciar').show();
+    }
+
+    var $content = $main.find('.widget_shopping_cart_content');
+    if (!$content.length) return;
+
+    // Si el carrito está vacío:
+    if (cart.items.length === 0) {
+      $content.find('.eg-comanda-body').remove();
+      if (!$content.find('.eg-empty-cart').length) {
+        var emptyHtml = '<div class="eg-empty-cart">' +
+          '<div class="eg-empty-icon">🍱</div>' +
+          '<div class="eg-empty-title">Tu comanda está vacía</div>' +
+          '<p class="eg-empty-desc">Agrega tus platos favoritos desde el Menú Semanal o Menú del Día para despachar a tu oficina.</p>' +
+          '<a href="/menu-semanal/" class="eg-empty-btn">Ver Menú Semanal →</a>' +
+        '</div>';
+        $content.append(emptyHtml);
+      }
+      return;
+    }
+
+    // Si hay platos: remover estado vacío
+    $content.find('.eg-empty-cart').remove();
+
+    // 2. Enriquecer tarjetas de producto
+    var $productContainer = $content.find('.elementor-menu-cart__products, .woocommerce-mini-cart');
+    
+    // Inyectar título de sección encima de la lista de platos
+    if (!$productContainer.prev('.eg-section-header-platos').length) {
+      $productContainer.before('<div class="eg-section-header eg-section-header-platos">PLATOS EN LA COMANDA</div>');
+    }
+
+    // Iterar cada tarjeta de producto de Elementor
+    $productContainer.find('.elementor-menu-cart__product, .woocommerce-mini-cart-item').each(function() {
+      var $item = $(this);
+      
+      // Evitar duplicar custom cards
+      if ($item.find('.eg-custom-card').length) {
+        // Solo actualizar valores si ya fue inyectado
+        var existingKey = $item.find('.eg-qty-selector').attr('data-key');
+        var matchingItem = cart.items.find(function(it) { return it.key === existingKey; });
+        if (matchingItem) {
+          $item.find('.eg-qty-val').text(matchingItem.qty);
+          $item.find('.eg-card-price').text('$' + matchingItem.total.toFixed(2));
+        }
+        return;
+      }
+
+      var name = $item.find('.elementor-menu-cart__product-name a, .elementor-menu-cart__product-name, .product-name a, .product-name').first().text().trim();
+      var imgUrl = $item.find('img').first().attr('src') || '';
+      var removeBtn = $item.find('.remove_from_cart_button, .elementor_remove_from_cart_button').first();
+      var itemKey = removeBtn.attr('data-cart_item_key') || '';
+      var rawQty = $item.find('.product-quantity, .quantity').text();
+      var qtyMatch = rawQty.match(/(\d+)/);
+      var qty = qtyMatch ? parseInt(qtyMatch[1], 10) : 1;
+      var priceText = $item.find('.amount, .woocommerce-Price-amount').last().text().replace(/[^0-9.]/g, '').trim();
+      var unitPrice = parseFloat(priceText) || 0;
+      var totalItem = unitPrice * qty;
+
+      var cardHtml = '<div class="eg-custom-card">' +
+        '<div class="eg-card-top">' +
+          '<div class="eg-card-info">' +
+            (imgUrl ? '<img src="' + imgUrl + '" class="eg-card-thumb" alt="' + name + '" />' : '') +
+            '<div class="eg-card-texts">' +
+              '<h4 class="eg-card-title">' + name + '</h4>' +
+              '<span class="eg-card-subtext">Empaque térmico sellado incluido</span>' +
+            '</div>' +
+          '</div>' +
+          '<div class="eg-card-price">$' + totalItem.toFixed(2) + '</div>' +
+        '</div>' +
+        '<div class="eg-card-bottom">' +
+          '<div class="eg-qty-selector" data-key="' + itemKey + '" data-qty="' + qty + '">' +
+            '<button type="button" class="eg-qty-btn eg-qty-minus">−</button>' +
+            '<span class="eg-qty-val">' + qty + '</span>' +
+            '<button type="button" class="eg-qty-btn eg-qty-plus">+</button>' +
+          '</div>' +
+          '<button type="button" class="eg-item-delete" data-key="' + itemKey + '" title="Eliminar plato">' +
+            '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>' +
+          '</button>' +
+        '</div>' +
+      '</div>';
+
+      $item.append(cardHtml);
+    });
+
+    // 3. Inyectar Bloque Interactivo (Modalidad, Despacho, Resumen y Acciones)
+    var $comandaBody = $content.find('.eg-comanda-body');
+    if (!$comandaBody.length) {
+      var bodyHtml = '<div class="eg-comanda-body">' +
+        // Modalidad de entrega
+        '<div class="eg-section-header">MODALIDAD DE ENTREGA</div>' +
+        '<div class="eg-modalidad-grid">' +
+          '<div class="eg-modalidad-card eg-card-delivery is-active" data-mode="delivery">' +
+            '<div class="eg-modalidad-title">🛵 Delivery a Oficina</div>' +
+            '<div class="eg-modalidad-sub">+$1.50 • En 15-25 min</div>' +
+          '</div>' +
+          '<div class="eg-modalidad-card eg-card-retiro" data-mode="retiro">' +
+            '<div class="eg-modalidad-title">🏪 Retiro sin Fila</div>' +
+            '<div class="eg-modalidad-sub">Mostrador Express (Gratis)</div>' +
+          '</div>' +
+        '</div>' +
+
+        // Formulario de despacho
+        '<div class="eg-section-header">DATOS DE DESPACHO</div>' +
+        '<div class="eg-despacho-form">' +
+          '<div class="eg-form-row">' +
+            '<input type="text" class="eg-form-input eg-inp-nombre" placeholder="Tu nombre" value="' + comandaState.nombre + '">' +
+            '<input type="tel" class="eg-form-input eg-inp-tel" placeholder="6234-5678" value="' + comandaState.telefono + '">' +
+          '</div>' +
+          '<div class="eg-form-row">' +
+            '<input type="text" class="eg-form-input eg-inp-edificio" placeholder="Ej: Torre Global Bank" value="' + comandaState.edificio + '">' +
+            '<input type="text" class="eg-form-input eg-inp-oficina" placeholder="Ej: Piso 14, Of. 1402" value="' + comandaState.oficina + '">' +
+          '</div>' +
+          '<div class="eg-form-row">' +
+            '<select class="eg-form-select eg-sel-hora">' +
+              '<option value="Inmediato (15-25 min)">Inmediato (15-25 min)</option>' +
+              '<option value="12:00 MD">12:00 MD</option>' +
+              '<option value="12:30 MD">12:30 MD</option>' +
+              '<option value="1:00 PM">1:00 PM</option>' +
+              '<option value="1:30 PM">1:30 PM</option>' +
+            '</select>' +
+            '<select class="eg-form-select eg-sel-pago">' +
+              '<option value="Yappy Directo">Yappy Directo</option>' +
+              '<option value="Efectivo">Efectivo</option>' +
+              '<option value="Tarjeta Clave">Tarjeta Clave</option>' +
+            '</select>' +
+          '</div>' +
+        '</div>' +
+
+        // Resumen de pago
+        '<div class="eg-section-header">RESUMEN DE PAGO</div>' +
+        '<div class="eg-resumen-box">' +
+          '<div class="eg-resumen-row">' +
+            '<span>Subtotal alimentos:</span>' +
+            '<strong class="eg-val-subtotal">$' + cart.subtotal.toFixed(2) + '</strong>' +
+          '</div>' +
+          '<div class="eg-resumen-row">' +
+            '<span>Empaque térmico sellado 🛡️:</span>' +
+            '<strong>$' + comandaState.thermalFee.toFixed(2) + '</strong>' +
+          '</div>' +
+          '<div class="eg-resumen-row eg-row-delivery">' +
+            '<span>Despacho express a oficina:</span>' +
+            '<strong class="eg-val-delivery">$' + cart.deliveryCost.toFixed(2) + '</strong>' +
+          '</div>' +
+          '<div class="eg-resumen-row is-divider"></div>' +
+          '<div class="eg-resumen-row is-total">' +
+            '<span class="eg-resumen-total-label">Total a Pagar:</span>' +
+            '<span class="eg-resumen-total-val">$' + cart.total.toFixed(2) + '</span>' +
+          '</div>' +
+        '</div>' +
+
+        // Botones de acción
+        '<div class="eg-comanda-actions">' +
+          '<a href="' + buildWhatsAppPayload() + '" target="_blank" class="eg-btn-whatsapp">' +
+            '✈️ Despachar Comanda por WhatsApp ($' + cart.total.toFixed(2) + ')' +
+          '</a>' +
+          '<button type="button" class="eg-btn-copiar">' +
+            '📋 Copiar texto de comanda' +
+          '</button>' +
+        '</div>' +
+      '</div>';
+
+      $content.append(bodyHtml);
+      $comandaBody = $content.find('.eg-comanda-body');
+    }
+
+    // 4. Actualizar dinámicamente los valores del Bloque Interactivo
+    $comandaBody.find('.eg-val-subtotal').text('$' + cart.subtotal.toFixed(2));
+    $comandaBody.find('.eg-val-delivery').text('$' + cart.deliveryCost.toFixed(2));
+    $comandaBody.find('.eg-resumen-total-val').text('$' + cart.total.toFixed(2));
+    $comandaBody.find('.eg-btn-whatsapp')
+      .attr('href', buildWhatsAppPayload())
+      .html('✈️ Despachar Comanda por WhatsApp ($' + cart.total.toFixed(2) + ')');
+
+    // Estado visual de modalidad
+    $comandaBody.find('.eg-modalidad-card').removeClass('is-active');
+    $comandaBody.find('.eg-modalidad-card[data-mode="' + comandaState.deliveryMode + '"]').addClass('is-active');
+    if (comandaState.deliveryMode === 'retiro') {
+      $comandaBody.find('.eg-row-delivery').hide();
+      $comandaBody.find('.eg-inp-edificio, .eg-inp-oficina').attr('placeholder', 'Retiro en mostrador').prop('disabled', true).css('opacity', '0.6');
+    } else {
+      $comandaBody.find('.eg-row-delivery').show();
+      $comandaBody.find('.eg-inp-edificio').attr('placeholder', 'Ej: Torre Global Bank').prop('disabled', false).css('opacity', '1');
+      $comandaBody.find('.eg-inp-oficina').attr('placeholder', 'Ej: Piso 14, Of. 1402').prop('disabled', false).css('opacity', '1');
+    }
+    renderEatGoFabCart();
+  }
+
+
+  // ========================================================
+  // BOTÓN FLOTANTE INFERIOR DERECHO (FAB - EAT&GO)
+  // ========================================================
+  function renderEatGoFabCart() {
+    var $fab = $('.eatgo-fab-cart');
+    if (!$fab.length) {
+      var fabHtml = [
+        '<a href="#comanda" class="eatgo-fab-cart" role="button" aria-label="Ver Comanda y Carrito">',
+          '<span class="eatgo-fab-icon">',
+            '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">',
+              '<path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>',
+              '<line x1="3" y1="6" x2="21" y2="6"></line>',
+              '<path d="M16 10a4 4 0 0 1-8 0"></path>',
+            '</svg>',
+          '</span>',
+          '<span class="eatgo-fab-badge">0</span>',
+          '<span class="eatgo-fab-total">$0.00</span>',
+        '</a>'
+      ].join('');
+      $('body').append(fabHtml);
+      $fab = $('.eatgo-fab-cart');
+    }
+
+    var cart = (typeof getCartData === 'function') ? getCartData() : { count: 0, subtotal: 0 };
+    var count = cart.count;
+    var totalStr = '$' + (cart.subtotal || 0).toFixed(2);
+
+    if (count === 0) {
+      var elemQty = parseInt($('.elementor-button-icon-qty').attr('data-counter') || $('.elementor-button-icon-qty').text() || '0', 10);
+      var elemAmount = $('.elementor-button-text .woocommerce-Price-amount').first().text().trim();
+      if (elemQty > 0) {
+        count = elemQty;
+      }
+      if (elemAmount) {
+        totalStr = elemAmount;
+      }
+    }
+
+    var $badge = $fab.find('.eatgo-fab-badge');
+    var $total = $fab.find('.eatgo-fab-total');
+
+    if ($badge.text() !== String(count)) {
+      $badge.text(count);
+    }
+    if ($total.text() !== totalStr) {
+      $total.text(totalStr);
+    }
+  }
+
+  // Función universal para desplegar el Side Drawer de la comanda
+  function openSideComandaDrawer() {
+    if ($('.woofc-cart-toggle').length) {
+      $('.woofc-cart-toggle').trigger('click');
+    } else if (typeof xoo_wsc_cart !== 'undefined') {
+      xoo_wsc_cart.open();
+    } else if ($('.elementor-menu-cart__toggle, #elementor-menu-cart__toggle_button').length) {
+      $('.elementor-menu-cart__toggle, #elementor-menu-cart__toggle_button').first().trigger('click');
+      $('.elementor-widget-woocommerce-menu-cart, .elementor-menu-cart__container').addClass('elementor-menu-cart--shown').attr('aria-hidden', 'false');
+      if (typeof renderComandaDigital === 'function') {
+        renderComandaDigital();
+      }
+    } else if (window.elementorProFrontend && elementorProFrontend.modules && elementorProFrontend.modules.popup) {
+      elementorProFrontend.modules.popup.showPopup({ id: 326 });
+    }
+  }
+
+  // Click en FAB para abrir Side Drawer
+  $(document).on('click', '.eatgo-fab-cart, .eatgo-fab-cart *', function(e) {
+    e.preventDefault();
+    openSideComandaDrawer();
+  });
+
+  // ========================================================
+  // TAREA 1: VINCULACIÓN MODAL DE PRODUCTO (WPC QUICK VIEW)
+  // ========================================================
+  function syncCardQuickViewButtons() {
+    $('.e-loop-item.product, .e-loop-item[class*="post-"], .e-loop-item[class*="e-loop-item-"]').each(function() {
+      var $card = $(this);
+      var match = ($card.attr('class') || '').match(/\bpost-(\d+)\b/);
+      if (!match) {
+        match = ($card.attr('class') || '').match(/\be-loop-item-(\d+)\b/);
+      }
+      if (match && match[1]) {
+        var pid = match[1];
+        var $btn = $card.find('.elementor-element-w14btna a, .elementor-element-9d0e1f8 a, a.woosq-btn, a.elementor-button:has(.elementor-button-text:contains("Agregar"))');
+        $btn.addClass('woosq-btn').attr('data-id', pid).attr('href', '#');
+      }
+    });
+  }
+
+  // Delegación de clic robusta para tarjetas de productos (Modal WPC Quick View)
+  $(document).on('click', '.woosq-btn, .woosq-btn *, .elementor-element-w14btna a, .elementor-element-w14btna a *, .elementor-element-9d0e1f8 a, .elementor-element-9d0e1f8 a *, a.elementor-button:has(.elementor-button-text:contains("Agregar")), .elementor-button-text:contains("Agregar")', function(e) {
+    e.preventDefault();
+    var $el = $(this);
+    var $btn = $el.closest('a');
+    var pid = $btn.attr('data-id');
+    if (!pid || isNaN(pid)) {
+      var $card = $el.closest('.e-loop-item, [class*="post-"]');
+      var match = ($card.attr('class') || '').match(/(?:post-|e-loop-item-)(\d+)/);
+      if (match && match[1]) pid = match[1];
+    }
+    if (pid && !isNaN(pid)) {
+      $btn.attr('data-id', pid).addClass('woosq-btn').attr('href', '#');
+      if (typeof woosq_open === 'function') {
+        woosq_open(pid);
+      } else {
+        $(document.body).trigger('woosq_open', [pid]);
+      }
+    }
+  });
+
+
+  // EVENTOS INTERACTIVOS
+
+  // 1. Cerrar drawer
+  $(document).on('click', '.eg-btn-close', function(e) {
+    e.preventDefault();
+    $('.elementor-menu-cart__close-button').trigger('click');
+    $('.elementor-widget-woocommerce-menu-cart, .elementor-menu-cart__container').removeClass('elementor-menu-cart--shown').attr('aria-hidden', 'true');
+  });
+
+  // 2. Vaciar carrito
+  $(document).on('click', '.eg-btn-vaciar', function(e) {
+    e.preventDefault();
+    if (!confirm('¿Deseas vaciar todos los platos de tu comanda?')) return;
+    
+    var $btn = $(this);
+    $btn.text('Vaciando...').css('opacity', '0.5');
+
+    $.ajax({
+      url: '/wp-admin/admin-ajax.php',
+      type: 'POST',
+      data: { action: 'eatgo_cart_clear' },
+      success: function(resp) {
+        $(document.body).trigger('wc_fragment_refresh');
+        renderComandaDigital();
+      },
+      complete: function() {
+        $btn.text('Vaciar').css('opacity', '1');
+      }
+    });
+  });
+
+  // 3. Selector de cantidad (+ / -)
+  $(document).on('click', '.eg-qty-btn', function(e) {
+    e.preventDefault();
+    var $btn = $(this);
+    var $selector = $btn.closest('.eg-qty-selector');
+    var itemKey = $selector.attr('data-key');
+    var currentQty = parseInt($selector.attr('data-qty'), 10) || 1;
+    var isPlus = $btn.hasClass('eg-qty-plus');
+    var newQty = isPlus ? (currentQty + 1) : (currentQty - 1);
+
+    $selector.css('opacity', '0.5');
+
+    $.ajax({
+      url: '/wp-admin/admin-ajax.php',
+      type: 'POST',
+      data: {
+        action: 'eatgo_cart_update_qty',
+        cart_item_key: itemKey,
+        quantity: newQty
+      },
+      success: function() {
+        $(document.body).trigger('wc_fragment_refresh');
+      }
+    });
+  });
+
+  // 4. Eliminar plato individual (icono papelera)
+  $(document).on('click', '.eg-item-delete', function(e) {
+    e.preventDefault();
+    var itemKey = $(this).attr('data-key');
+    var $card = $(this).closest('.elementor-menu-cart__product, .woocommerce-mini-cart-item');
+    $card.css('opacity', '0.4');
+
+    $.ajax({
+      url: '/wp-admin/admin-ajax.php',
+      type: 'POST',
+      data: {
+        action: 'eatgo_cart_update_qty',
+        cart_item_key: itemKey,
+        quantity: 0
+      },
+      success: function() {
+        $(document.body).trigger('wc_fragment_refresh');
+      }
+    });
+  });
+
+  // 5. Conmutar modalidad de entrega
+  $(document).on('click', '.eg-modalidad-card', function() {
+    var mode = $(this).attr('data-mode');
+    comandaState.deliveryMode = mode;
+    renderComandaDigital();
+    renderEatGoFabCart();
+    syncCardQuickViewButtons();
+  });
+
+  // 6. Inputs de despacho (Nombre, Tel, Edificio, Oficina, Hora, Pago)
+  $(document).on('input change', '.eg-inp-nombre', function() {
+    comandaState.nombre = $(this).val();
+    saveComandaState();
+    renderComandaDigital();
+  });
+  $(document).on('input change', '.eg-inp-tel', function() {
+    comandaState.telefono = $(this).val();
+    saveComandaState();
+    renderComandaDigital();
+  });
+  $(document).on('input change', '.eg-inp-edificio', function() {
+    comandaState.edificio = $(this).val();
+    saveComandaState();
+    renderComandaDigital();
+  });
+  $(document).on('input change', '.eg-inp-oficina', function() {
+    comandaState.oficina = $(this).val();
+    saveComandaState();
+    renderComandaDigital();
+  });
+  $(document).on('change', '.eg-sel-hora', function() {
+    comandaState.hora = $(this).val();
+    renderComandaDigital();
+  });
+  $(document).on('change', '.eg-sel-pago', function() {
+    comandaState.pago = $(this).val();
+    saveComandaState();
+    renderComandaDigital();
+  });
+
+  // 7. Botón Copiar Comanda
+  $(document).on('click', '.eg-btn-copiar', function(e) {
+    e.preventDefault();
+    var $btn = $(this);
+    var text = buildPlainTextPayload();
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function() {
+        $btn.html('✅ ¡Comanda copiada!').css('background-color', '#ECFDF5').css('color', '#065F46');
+        setTimeout(function() {
+          $btn.html('📋 Copiar texto de comanda').css('background-color', '#FFFFFF').css('color', '#18181B');
+        }, 2000);
+      });
+    } else {
+      // Fallback
+      var $temp = $('<textarea>');
+      $('body').append($temp);
+      $temp.val(text).select();
+      document.execCommand('copy');
+      $temp.remove();
+      $btn.html('✅ ¡Comanda copiada!').css('background-color', '#ECFDF5').css('color', '#065F46');
+      setTimeout(function() {
+        $btn.html('📋 Copiar texto de comanda').css('background-color', '#FFFFFF').css('color', '#18181B');
+      }, 2000);
+    }
+  });
+
+  // 8. Botón WhatsApp: regenerar link al hacer clic para asegurar datos más frescos
+  $(document).on('click', '.eg-btn-whatsapp', function() {
+    $(this).attr('href', buildWhatsAppPayload());
+  });
+
+  // Inicialización y reactividad en eventos de WooCommerce y Elementor
+  $(document).ready(function() {
+    renderEatGoFabCart();
+    renderComandaDigital();
+    syncCardQuickViewButtons();
+  });
+
+  $(document).on('added_to_cart removed_from_cart wc_fragments_refreshed wc_fragments_loaded elementor/popup/show', function() {
+    setTimeout(function() { renderComandaDigital(); renderEatGoFabCart(); }, 40);
+  });
+
+  // MutationObserver removido para evitar bucle infinito y congelamiento del navegador
+  // Invocacion inmediata de FAB Cart
+  renderEatGoFabCart();
+  syncCardQuickViewButtons();
+
+})(jQuery);
+</script>
